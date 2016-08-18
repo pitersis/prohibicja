@@ -5,11 +5,11 @@
         "chat": {
             "admin": "FF8A00",
             "ambassador": "90FF00",
-            "bouncer": "ffe3bc",
-            "cohost": "ff4800",
-            "residentdj": "0072ff",
-            "host": "ff1200",
-            "manager": "eadf27"
+            "bouncer": "FFE3BC",
+            "cohost": "FF4800",
+            "residentdj": "0072FF",
+            "host": "FF1200",
+            "manager": "EADF27"
         },
         "footer": "",
         "header": ""
