@@ -1,15 +1,15 @@
 {
     "author": "Pitersis",
     "colors": {
-        "background": "000000",
+        "background": "#000000",
         "chat": {
-            "admin": "FF8A00",
-            "ambassador": "90FF00",
-            "bouncer": "FFE3BC",
-            "cohost": "FF4800",
-            "residentdj": "0072FF",
-            "host": "FF1200",
-            "manager": "EADF27"
+            "admin": "#FF8A00",
+            "ambassador": "#90FF00",
+            "bouncer": "#FFE3BC",
+            "cohost": "#FF4800",
+            "residentdj": "#0072FF",
+            "host": "#FF1200",
+            "manager": "#EADF27"
         },
         "footer": "",
         "header": ""
