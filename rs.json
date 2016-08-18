@@ -3,8 +3,8 @@
     "colors": {
         "background": "000000",
         "chat": {
-            "admin": "ff8a00",
-            "ambassador": "90ff00",
+            "admin": "FF8A00",
+            "ambassador": "90FF00",
             "bouncer": "ffe3bc",
             "cohost": "ff4800",
             "residentdj": "0072ff",
