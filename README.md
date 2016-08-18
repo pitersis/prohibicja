@@ -1,3 +1,3 @@
 # prohibicja
-PlugDJ Comunity PROHIBICJA ROOM Setting
+Plug DJ Community PROHIBICJA ROOM SETTING
 https://plug.dj/prohibicja
