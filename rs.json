@@ -1,15 +1,15 @@
 {
-    "author": "",
+    "author": "Pitersis",
     "colors": {
-        "background": "",
+        "background": "000000",
         "chat": {
-            "admin": "",
-            "ambassador": "",
-            "bouncer": "",
-            "cohost": "",
-            "residentdj": "",
-            "host": "",
-            "manager": ""
+            "admin": "ff8a00",
+            "ambassador": "90ff00",
+            "bouncer": "ffe3bc",
+            "cohost": "ff4800",
+            "residentdj": "0072ff",
+            "host": "ff1200",
+            "manager": "eadf27"
         },
         "footer": "",
         "header": ""
@@ -20,7 +20,7 @@
         "rule": {}
     },
     "images": {
-        "background": "http://napodhalu.pl/foto/prohibicja.png",
+        "background": "https://vgy.me/RIOzVw.png",
         "booth": "",
         "icons": {
             "admin": "",
