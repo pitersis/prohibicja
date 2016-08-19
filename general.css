@@ -1,5 +1,5 @@
 /* kolory pod nowe tło */
-#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #notification .right {
+#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right {
     background: #2b2322;
 }
 #chat .cm:nth-child(2n+1) {
