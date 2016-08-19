@@ -1,4 +1,13 @@
-/* kolory pod nowe tło */
+/* 
+- file made by pitersis and MikeWasowski -
+- room PlugDj Comiunity - 
+- plug.dj/prohibicja - 
+*/
+
+/* 
+start - color and others by pitersis
+*/
+
 #dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right {
     background: #2b2322;
 }
@@ -27,7 +36,39 @@ background:#352a29;
     background: linear-gradient(to bottom,#ff8100 0,#e23f0 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8100', endColorstr='#e23f0', GradientType=0 );
 }
-/*ikony*/
+ #vote {  
+	font-size: 90%;
+}
+#woot .top:after {
+	content: "SUPER";
+	position: relative;
+	display: inline-block;
+	top: -6px;
+}
+#grab .top:after {
+	content: "DAWAJ";
+	position: relative;
+	display: inline-block;
+	top: -6px;
+}
+#meh .top:after {
+	content: "KIEPSKIE";
+ 	position: relative;
+	display: inline-block;
+	top: -6px;
+}
+#grab .top span, #woot .top span, #meh .top span {
+	display:none !important;
+}
+#grab .bottom, #woot .bottom , #meh .bottom {
+	/* top:57px; */
+}
+/* end pitersis section */
+
+/* 
+start ikons section 
+Author: MikeWazowski 
+*/
 .icon-chat-host + span {
 	color: #FF1200 !important;
 }
@@ -52,35 +93,4 @@ background:#352a29;
 .icon-chat-dj {
 	background: url("https://vgy.me/SVrffe.png") !important;
 }
-
-
- #vote {  
-	font-size: 90%;
-}
-    
-#woot .top:after {
-	content: "SUPER";
-	position: relative;
-	display: inline-block;
-	top: -6px;
-}
-
-#grab .top:after {
-	content: "DAWAJ";
-	position: relative;
-	display: inline-block;
-	top: -6px;
-}
-
-#meh .top:after {
-	content: "KIEPSKIE";
- 	position: relative;
-	display: inline-block;
-	top: -6px;
-}
-#grab .top span, #woot .top span, #meh .top span {
-	display:none !important;
-}
-#grab .bottom, #woot .bottom , #meh .bottom {
-	/* top:57px; */
-}
+/* end ikony by MikeWazowski */
