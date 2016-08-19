@@ -1,11 +1,16 @@
 /* kolory pod nowe tło */
-#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom  {
+#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected  {
     background: #2b2322;
 }
-#chat .cm:nth-child(2n+1), #chat-inpu {
+#chat .cm:nth-child(2n+1) {
     background-color:#352a29;
 }
-
+#chat-input { 
+background: #2b2322;
+}
+.media-list.history .row.selected {
+    background: rgba(43,35,34,.9);
+}
 /*ikony*/
 .icon-chat-host + span {
 	color: #FF1200 !important;
