@@ -1,43 +1,45 @@
 {
-    "room":"Prohibicja",
+    "room": "Prohibicja",
     "author": "pitersis",
-    "colors": {
-        "background": "#000000",
-        "chat": {
-            "admin": "#FF8A00",
-            "ambassador": "#90FF00",
-            "bouncer": "#FFE3BC",
-            "cohost": "#FF4800",
-            "residentdj": "#0072FF",
-            "host": "#FF1200",
-            "manager": "#EADF27"
-        },
-        "footer": "",
-        "header": ""
+    "icon": null,
+    "css": null,
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": true,
+        "allowAutograb": true,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": true,
+        "forceSmartVote": false
     },
-    "css": {
-        "font": [],
-        "import": [],
-        "rule": {}
+    "ccc": {
+        "admin": "#FF8A00",
+        "ambassador": "#90FF00",
+        "host": "#FF1200",
+        "cohost": "#FF4800",
+        "manager": "#EADF27",
+        "bouncer": "#FFE3BC",
+        "rdj": "#0072FF",
+        "subscriber": null,
+        "silversubscriber": null,
+        "friend": null,
+        "user": null
     },
     "images": {
         "background": "https://vgy.me/RIOzVw.png",
-        "booth": "",
-        "icons": {
-            "admin": "",
-            "ambassador": "",
-            "bouncer": "",
-            "cohost": "",
-            "residentdj": "",
-            "host": "",
-            "manager": ""
-        },
-        "playback": ""
+        "playback": null,
+        "admin": null,
+        "ambassador": null,
+        "host": null,
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
+        "silversubscriber": null,
     },
-    "rules": {
-        "allowAutojoin": "true",
-        "allowAutorespond": "true",
-        "allowAutowoot": "true",
-       "allowEmotes": "true"
+    "emotes": {
+        "emote_name": null
     }
 }
