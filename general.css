@@ -6,10 +6,26 @@
     background-color:#352a29;
 }
 #chat-input { 
-background: #2b2322;
+background:#352a29;
 }
 .media-list.history .row.selected {
     background: rgba(43,35,34,.9);
+}
+#chat .welcome {
+    color: #8cb141;
+}
+.badge-box {
+    background:#483a20;
+}
+#playlist-button {
+    background: #ff8100;
+    background: -moz-linear-gradient(top,#ff8100 0,#e23f0 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ff8100),color-stop(100%,#e23f0));
+    background: -webkit-linear-gradient(top,#ff8100 0,#e23f0 100%);
+    background: -o-linear-gradient(top,#ff8100 0,#e23f0 100%);
+    background: -ms-linear-gradient(top,#ff8100 0,#e23f0 100%);
+    background: linear-gradient(to bottom,#ff8100 0,#e23f0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8100', endColorstr='#e23f0', GradientType=0 );
 }
 /*ikony*/
 .icon-chat-host + span {
