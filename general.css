@@ -52,28 +52,28 @@
 }
 
 #woot .top:after {
-content: "super";
- position: relative;
-display: inline-block;
-top: -6px;
+	content: "super";
+	position: relative;
+	display: inline-block;
+	top: -6px;
 }
 
-#grab  .top:after {
-content: "dawaj";
-position: relative;
-display: inline-block;
-top: -6px;
+#grab .top:after {
+	content: "dawaj";
+	position: relative;
+	display: inline-block;
+	top: -6px;
 }
 
 #meh .top:after {
-content: "kiepskie";
- position: relative;
-display: inline-block;
-top: -6px;
+	content: "kiepskie";
+ 	position: relative;
+	display: inline-block;
+	top: -6px;
 }
 #grab .top span, #woot .top span, #meh .top span {
-display:none !important;
+	display:none !important;
 }
 #grab .bottom, #woot .bottom , #meh .bottom {
-   /* top:57px; */
+	/* top:57px; */
 }
