@@ -5,7 +5,7 @@
 */
 
 /* 
-start - color and others by pitersis
+start section - color and others by pitersis
 */
 
 #dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right {
@@ -63,10 +63,10 @@ background:#352a29;
 #grab .bottom, #woot .bottom , #meh .bottom {
 	/* top:57px; */
 }
-/* end pitersis section */
+/* end section by pitersis */
 
 /* 
-start ikons section 
+start section ikons
 Author: MikeWazowski 
 */
 .icon-chat-host + span {
@@ -93,4 +93,4 @@ Author: MikeWazowski
 .icon-chat-dj {
 	background: url("https://vgy.me/SVrffe.png") !important;
 }
-/* end ikony by MikeWazowski */
+/* end section ikony by MikeWazowski */
