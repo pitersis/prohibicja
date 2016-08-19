@@ -8,13 +8,13 @@
 start section - color and others by pitersis
 */
 
-#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right {
+#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right, #waitlist .list .user, .friends {
     background: #2b2322;
 }
-#chat .cm:nth-child(2n+1) {
+#chat .cm:nth-child(2n+1), .header-panel-button.selected, #chat-header, #user-lists .header, #waitlist .header {
     background-color:#352a29;
 }
-#chat-input, #toast-notifications .notification .left { 
+#user-lists .list.staff .group, #chat-input, .input-background, .app-right .friends .list-header .input-background, #user-lists .list-header .input-background,  #toast-notifications .notification .left { 
 background:#352a29;
 }
 .media-list.history .row.selected {
