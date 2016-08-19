@@ -5,7 +5,7 @@
 #chat .cm:nth-child(2n+1) {
     background-color:#352a29;
 }
-#chat-input { 
+#chat-input, #toast-notifications .notification .left { 
 background:#352a29;
 }
 .media-list.history .row.selected {
