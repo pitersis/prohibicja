@@ -50,3 +50,26 @@
 .icon-chat-dj {
 	background: url("https://vgy.me/SVrffe.png") !important;
 }
+
+#vote  .top:after, #woot .top:after, #meh .top:after {
+    position: relative;
+    display: inline-block;
+    top: -6px;
+}
+#woot .top:after {
+content: "super";
+}
+
+#vote  .top:after {
+content: "dawaj";
+}
+
+#meh .top:after {
+content: "kiepskie";
+}
+#vote .top span, #woot .top span, #meh .top span {
+display:none;
+}
+#vote .bottom, #woot .bottom , #meh .bottom {
+    top:57px;
+}
