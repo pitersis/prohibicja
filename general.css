@@ -58,7 +58,7 @@ display: inline-block;
 top: -6px;
 }
 
-#vote  .top:after {
+#grab  .top:after {
 content: "dawaj";
 position: relative;
 display: inline-block;
@@ -71,9 +71,9 @@ content: "kiepskie";
 display: inline-block;
 top: -6px;
 }
-#vote .top span, #woot .top span, #meh .top span {
+#grab .top span, #woot .top span, #meh .top span {
 display:none !important;
 }
-#vote .bottom, #woot .bottom , #meh .bottom {
+#grab .bottom, #woot .bottom , #meh .bottom {
     top:57px;
 }
