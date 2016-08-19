@@ -51,24 +51,28 @@
 	background: url("https://vgy.me/SVrffe.png") !important;
 }
 
-#vote  .top:after, #woot .top:after, #meh .top:after {
-    position: relative;
-    display: inline-block;
-    top: -6px;
-}
 #woot .top:after {
 content: "super";
+ position: relative;
+display: inline-block;
+top: -6px;
 }
 
 #vote  .top:after {
 content: "dawaj";
+position: relative;
+display: inline-block;
+top: -6px;
 }
 
 #meh .top:after {
 content: "kiepskie";
+ position: relative;
+display: inline-block;
+top: -6px;
 }
 #vote .top span, #woot .top span, #meh .top span {
-display:none;
+display:none !important;
 }
 #vote .bottom, #woot .bottom , #meh .bottom {
     top:57px;
