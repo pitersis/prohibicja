@@ -8,7 +8,7 @@
 start section - color and others by pitersis
 */
 
-#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right, #waitlist .list .user, .friends {
+#dj-button, #vote .crowd-response, .app-header, #room .app-righ, #vote .crowd-response.disabled .bottom, #footer, #app-menu, #room .app-right, #history-button, #history-button.selected, #toast-notifications .notification .right, #waitlist .list .user, .app-right .friends {
     background: #2b2322;
 }
 #chat .cm:nth-child(2n+1), .header-panel-button.selected, #chat-header, #user-lists .header, #waitlist .header {
