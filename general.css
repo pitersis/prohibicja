@@ -75,5 +75,5 @@ top: -6px;
 display:none !important;
 }
 #grab .bottom, #woot .bottom , #meh .bottom {
-    top:57px;
+   /* top:57px; */
 }
