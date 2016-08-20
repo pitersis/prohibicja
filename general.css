@@ -241,22 +241,18 @@ start section icons
 ::-webkit-scrollbar-corner {
 background: #2b2322 !important;
 } */
-::-webkit-scrollbar,
-::-moz-scrollbar {
+::-webkit-scrollbar {
 	background: #000000;
 	width: 10px;
 	height: 10px;
 }
 
 ::-webkit-scrollbar-track,
-::-webkit-scrollbar-corner,
-::-moz-scrollbar-track,
-::-moz-scrollbar-corner {
+::-webkit-scrollbar-corner {
 	background-color: #000000 !important;
 }
 
-::-webkit-scrollbar-thumb,
-::-moz-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	background-color: #2b2322 !important;
 	border: solid !important;
 	border-width: 1px !important;
