@@ -179,7 +179,9 @@ start section icons
 #user-rollover .actions .mod-dj,
 #user-rollover .actions .mod-mute,
 #user-rollover .actions .mod-staff,
-#user-rollover .actions .skip {
+#user-rollover .actions .skip,
+#playlist-import,
+.media-list .playlist-media .jspScrollable {
 	background: #352a29;
 }
 
@@ -197,8 +199,7 @@ start section icons
 #user-rollover .actions .mod-dj:hover,
 #user-rollover .actions .mod-mute:hover,
 #user-rollover .actions .mod-staff:hover,
-#user-rollover .actions .skip:hover,
-#playlist-import {
+#user-rollover .actions .skip:hover {
 	background: #2b2322;
 }
 
@@ -259,7 +260,8 @@ start section icons
 }
 
 #p3-settings .container .item span,
-#playlist-menu .title {
+#playlist-menu .title,
+#playlist-menu .menu .row .count {
 	color: #E3E3E3;
 }
 
@@ -306,7 +308,7 @@ start section icons
 #app-menu .list .logout:hover {
 	background: #352a29;
 }
-/*.media-list .playlist-media .jspScrollable{
+/*{
 	background: #1F1918;
 } */
 /* end section by Mikey Wazowski */
