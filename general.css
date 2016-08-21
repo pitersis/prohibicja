@@ -109,13 +109,17 @@ start section - color and others by pitersis
 
 	/* top:57px; */
 }
+
 /* start - stopka - przyciski użytkownika  */
 #footer-user .buttons .button:hover {
-background:#ff8100;	
+	background: #ff8100;
 }
-#footer-user .buttons .profile.button:hover, #footer-user .info  {
-background: #2f1a1a;
+
+#footer-user .buttons .profile.button:hover,
+#footer-user .info {
+	background: #2f1a1a;
 }
+
 /* end  stopka - przyciski użytkownika  */
 
 /* end section by pitersis */
@@ -164,7 +168,7 @@ start section icons
 	background: url("https://vgy.me/SVrffe.png") !important;
 }
 
-/*user-rollover*/
+/*user-rollover +playlist*/
 #user-rollover .meta,
 #user-rollover .actions .friend,
 #user-rollover .actions .gift,
@@ -176,7 +180,7 @@ start section icons
 #user-rollover .actions .mod-mute,
 #user-rollover .actions .mod-staff,
 #user-rollover .actions .skip {
-	background: #352a29
+	background: #352a29;
 }
 
 #user-rollover.expand.chat .arrow-down {
@@ -193,8 +197,13 @@ start section icons
 #user-rollover .actions .mod-dj:hover,
 #user-rollover .actions .mod-mute:hover,
 #user-rollover .actions .mod-staff:hover,
-#user-rollover .actions .skip:hover {
+#user-rollover .actions .skip:hover,
+#playlist-import {
 	background: #2b2322;
+}
+
+#playlist-create {
+	background: #211B1A;
 }
 
 /*Waitlist button*/
@@ -207,12 +216,14 @@ start section icons
 	background: linear-gradient(to bottom, #8CB141 0, #A2B141 100%);
 }
 
-/*toggle waitlist + dj cycle buttons + room settings menu */
-#room-settings .general-settings .option button.off {
+/*toggle waitlist + dj cycle buttons + room settings menu + playlistmenu */
+#room-settings .general-settings .option button.off,
+#playlist-create:hover {
 	background: #8CB141;
 }
 
-#room-settings .general-settings .option.enabled>button.on {
+#room-settings .general-settings .option.enabled>button.on,
+#playlist-import:hover {
 	background: #ff8100;
 }
 
@@ -221,13 +232,19 @@ start section icons
 }
 
 #room-settings-menu,
-#footer-user .back,
 #footer-user .signup {
 	background: #352a29;
 }
 
-#room-settings .general-settings {
+#room-settings .general-settings,
+#playlist-menu {
 	background: #2b2322;
+}
+
+#room-settings-menu .item.selected,
+#footer-user .back,
+#playlist-menu .menu .row.selected {
+	background: #1F1918;
 }
 
 /*p3 menu*/
@@ -241,12 +258,13 @@ start section icons
 	background: #0D0A09;
 }
 
-#p3-settings .container .item span {
+#p3-settings .container .item span,
+#playlist-menu .title {
 	color: #E3E3E3;
 }
 
 /*scrollbar
-/* https://codepen.io/GhostRider/pen/GHaFw */
+ https://codepen.io/GhostRider/pen/GHaFw */
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-corner {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
@@ -266,12 +284,14 @@ start section icons
 	background-color: #8cb141;
 	background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
 }
+
 /*borders on focused*/
 .focused {
 	-webkit-box-shadow: inset 0 0 0 1px #8cb141 !important;
 	-moz-box-shadow: inset 0 0 0 1px #8cb141 !important;
 	box-shadow: inset 0 0 0 1px #8cb141 !important
 }
+
 /*app menu*/
 #app-menu,
 #app-menu .list {
@@ -286,5 +306,7 @@ start section icons
 #app-menu .list .logout:hover {
 	background: #352a29;
 }
-
+/*.media-list .playlist-media .jspScrollable{
+	background: #1F1918;
+} */
 /* end section by Mikey Wazowski */
