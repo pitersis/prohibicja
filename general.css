@@ -334,7 +334,8 @@ start section icons
 #media-panel .header,
 .media-list .row,
 .media-list .actions,
-.jspTrack {
+.jspTrack,
+.jspContainer {
 	background: #1C1817;
 }
 
