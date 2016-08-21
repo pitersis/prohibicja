@@ -35,7 +35,7 @@ start section - color and others by pitersis
 #user-lists .list-header .input-background,
 #toast-notifications .notification .left,
 #search-bar,
-#filter-bar  {
+#filter-bar {
 	background: #352a29;
 }
 
@@ -236,7 +236,8 @@ start section icons
 #playlist-shuffle-button:hover {
 	background: #ff8100;
 }
-#playlist-delete-button:hover{
+
+#playlist-delete-button:hover {
 	background: #B0A821;
 }
 
@@ -331,13 +332,15 @@ start section icons
 }
 
 #media-panel .header,
-.media-list .row
-
-{
-background: #1C1817;
+.media-list .row,
+.media-list .actions,
+.jspTrack {
+	background: #1C1817;
 }
- .media-list .row.selected,
- .media-list .selected .actions {
-     background: #0D0C0C;
-} 
+
+.media-list .row.selected,
+.media-list .selected .actions {
+	background: #0D0C0C;
+}
+
 /* end section by Mikey Wazowski */
