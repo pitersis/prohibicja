@@ -35,7 +35,10 @@ start section - color and others by pitersis
 #user-lists .list-header .input-background,
 #toast-notifications .notification .left,
 #search-bar,
-#filter-bar {
+#filter-bar,
+#search-menu li,
+#search-menu ul,
+#search-menu:hover>.selected {
 	background: #352a29;
 }
 
@@ -227,7 +230,8 @@ start section icons
 	background: #8CB141;
 }
 
-#playlist-menu .menu .row .count {
+#playlist-menu .menu .row .count,
+#playlist-activate-button span {
 	color: #8CB141;
 }
 
@@ -327,21 +331,30 @@ start section icons
 	background: #8cb141 !important;
 }
 
-.media-list .playlist-media .jspScrollable {
-	background: #1C1817;
-}
-
 #media-panel .header,
+.media-list .playlist-media .jspScrollable,
 .media-list .row,
 .media-list .actions,
-.jspTrack,
-.jspContainer {
+.jspTrack {
 	background: #1C1817;
 }
 
 .media-list .row.selected,
-.media-list .selected .actions {
+.media-list .selected .actions,
+#playlist-activate-button {
 	background: #0D0C0C;
+}
+
+#playlist-edit-button {
+	background: #524636;
+}
+
+#playlist-shuffle-button {
+	background: #3D3426;
+}
+
+#playlist-delete-button {
+	background: #292116;
 }
 
 /* end section by Mikey Wazowski */
