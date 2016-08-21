@@ -33,7 +33,13 @@ start section - color and others by pitersis
 .input-background,
 .app-right .friends .list-header .input-background,
 #user-lists .list-header .input-background,
-#toast-notifications .notification .left {
+#toast-notifications .notification .left,
+#search-bar,
+
+/*Mikey*/
+#filter-bar,
+
+/*Mikey*/ {
 	background: #352a29;
 }
 
@@ -203,7 +209,8 @@ start section icons
 	background: #2b2322;
 }
 
-#playlist-create {
+#playlist-create,
+#search {
 	background: #211B1A;
 }
 
@@ -222,9 +229,11 @@ start section icons
 #playlist-create:hover {
 	background: #8CB141;
 }
+
 #playlist-menu .menu .row .count {
 	color: #8CB141;
 }
+
 #room-settings .general-settings .option.enabled>button.on,
 #playlist-import:hover {
 	background: #ff8100;
@@ -240,7 +249,8 @@ start section icons
 }
 
 #room-settings .general-settings,
-#playlist-menu {
+#playlist-menu,
+.jspTrack {
 	background: #2b2322;
 }
 
@@ -309,4 +319,14 @@ start section icons
 #app-menu .list .logout:hover {
 	background: #352a29;
 }
+
+.jspDrag {
+	box-shadow: rgb(17, 19, 23) 0px 0px 0px 1px inset;
+	background: #8cb141 !important;
+}
+
+.media-list .playlist-media .jspScrollable {
+	background: #1C1817;
+}
+
 /* end section by Mikey Wazowski */
