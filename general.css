@@ -35,11 +35,7 @@ start section - color and others by pitersis
 #user-lists .list-header .input-background,
 #toast-notifications .notification .left,
 #search-bar,
-
-/*Mikey*/
-#filter-bar,
-
-/*Mikey*/ {
+#filter-bar  {
 	background: #352a29;
 }
 
