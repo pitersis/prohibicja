@@ -1,1 +1,16 @@
+/*Greena*/
+.id-10607990 > .badge-box > i.bdg,
+#chat-messages .fromID-10607990 .bdg {
+  background-image: url("https://i.imgur.com/OIoPki0.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
+#user-rollover.id-10607990 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("https://i.imgur.com/OIoPki0.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
