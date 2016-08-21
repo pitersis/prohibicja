@@ -360,5 +360,13 @@ start section icons
 #playlist-delete-button {
 	background: #292116;
 }
-
+.icon-check-purple {
+    background: url('https://vgy.me/mhSYNQ.png');
+}
+.icon-check-circle {
+    background: url('https://vgy.me/obUghn.png');
+}
+.icon-next-track {
+    background: url('https://vgy.me/21JXlv.png');
+}
 /* end section by Mikey Wazowski */
