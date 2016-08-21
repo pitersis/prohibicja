@@ -33,8 +33,7 @@ start section - color and others by pitersis
 .input-background,
 .app-right .friends .list-header .input-background,
 #user-lists .list-header .input-background,
-#toast-notifications .notification .left,
-#footer-user .info {
+#toast-notifications .notification .left {
 	background: #352a29;
 }
 
@@ -110,9 +109,15 @@ start section - color and others by pitersis
 
 	/* top:57px; */
 }
+/* start - stopka - przyciski użytkownika  */
 #footer-user .buttons .button:hover {
 background:#ff8100;	
 }
+#footer-user .buttons .profile.button:hover, #footer-user .info  {
+background: #2f1a1a;
+}
+/* end  stopka - przyciski użytkownika  */
+
 /* end section by pitersis */
 
 /* 
