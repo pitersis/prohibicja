@@ -33,7 +33,8 @@ start section - color and others by pitersis
 .input-background,
 .app-right .friends .list-header .input-background,
 #user-lists .list-header .input-background,
-#toast-notifications .notification .left {
+#toast-notifications .notification .left,
+#footer-user .info {
 	background: #352a29;
 }
 
@@ -109,7 +110,9 @@ start section - color and others by pitersis
 
 	/* top:57px; */
 }
-
+#footer-user .buttons .button:hover {
+background:#ff8100;	
+}
 /* end section by pitersis */
 
 /* 
