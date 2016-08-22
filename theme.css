@@ -9,9 +9,13 @@
 start section - color and others by pitersis
 */
 /* rozpaliłem ogniska bo zimno */
+#avatars-container {
+    z-index: 1 !important; /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
+}
+
 #avatars-container:before, #avatars-container:after {
     position: absolute;
-    z-index: -10;
+    z-index: -1;
     content: " ";
     display: block;
     background: url(https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif) no-repeat;
