@@ -9,6 +9,14 @@
 start section - color and others by pitersis
 */
 
+/* ustawienia postaci względem tła - bo wychdziły za wysoko :D */
+#audience-canvas {
+    top: 10px;
+	height:185px !important;
+	
+}
+/*konec ustawienia postaci względem tła  */
+
 #dj-button,
 #vote .crowd-response,
 .app-header,
