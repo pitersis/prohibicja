@@ -10,10 +10,10 @@ start section - color and others by pitersis
 */
 
 /* ustawienia postaci względem tła - bo wychdziły za wysoko :D */
-#audience-canvas {
-    top: 10px;
-	height:185px !important;
-	
+#audience {
+    z-index: 1;
+    width: 805px;
+    height: 207px;
 }
 /*konec ustawienia postaci względem tła  */
 
