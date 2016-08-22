@@ -23,7 +23,7 @@ start section - color and others by pitersis
     height: 300px;
 }
 #avatars-container:after {
-    bottom: 40%;
+    bottom: 30%;
     left: -80px;
     background-size: 200px 300px;
 }
