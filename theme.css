@@ -20,7 +20,8 @@ start section - color and others by pitersis
 	}
 #avatars-container:after {
     	position: absolute;
-    	bottom: 50px;
+    	bottom: 10px;
+    	left: -80px;
     	background-size: 200px 300px;
 }
 #avatars-container:before {  
