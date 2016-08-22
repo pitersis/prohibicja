@@ -10,24 +10,23 @@ start section - color and others by pitersis
 */
 /* rozpaliłem ogniska bo zimno */
 #avatars-container:before, #avatars-container:after {
-	position: absolute;
-	z-index: -1;
-	content: " ";
-	display: block;
-	background: url(https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif) no-repeat;
-	width: 300px;
-	height: 400px;
-	}
-#avatars-container:after {
-    	position: absolute;
-    	bottom: 10px;
-    	left: -80px;
-    	background-size: 200px 300px;
+    position: absolute;
+    z-index: -10;
+    content: " ";
+    display: block;
+    background: url(https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif) no-repeat;
+    width: 150px;
+    height: 300px;
 }
-#avatars-container:before {  
-	right: -200px;
-    	bottom: 10px;
-    	background-size: 150px 250px;
+#avatars-container:after {
+    bottom: 40%;
+    left: -80px;
+    background-size: 200px 300px;
+}
+#avatars-container:before {
+    right: -50px;
+    bottom: 30%;
+    background-size: 150px 250px;
 }
 /* KONIEC rozpaliłem ogniska bo zimno */
 /* ustawienia postaci względem tła - bo wychdziły za wysoko :D */
