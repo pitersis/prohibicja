@@ -8,7 +8,28 @@
 /* 
 start section - color and others by pitersis
 */
-
+/* rozpaliłem ogniska bo zimno */
+div#dj-booth:after, div#dj-booth:before {
+content: " ";
+    display: block;
+    background: url(https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif) no-repeat;
+	width: 250px;
+    height: 400px;
+	}
+div#dj-booth:after {
+    position: absolute;
+    left: -280px;
+    bottom: 50px;
+    background-size: 200px 300px;
+}
+div#dj-booth:before {
+    position: absolute;
+    right: -390px;
+    bottom: 10px;
+    background: url(https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif) no-repeat;
+    background-size: 150px 250px
+}
+/* KONIEC rozpaliłem ogniska bo zimno */
 /* ustawienia postaci względem tła - bo wychdziły za wysoko :D */
 #audience {
     z-index: 1;
