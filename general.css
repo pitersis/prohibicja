@@ -13,8 +13,8 @@ start section - color and others by pitersis
 #audience {
     z-index: 1;
     width: 805px;
-    height: 198px;
-    top: 8px;
+    height: 188px; /* chyba ok */
+    top: 18px; /* chyba ok */
     overflow: hidden;
 }
 /*konec ustawienia postaci względem tła  */
