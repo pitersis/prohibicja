@@ -46,3 +46,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*Pi3cix*/
+.id-11787585 > .badge-box > i.bdg,
+#chat-messages .fromID-11787585  .bdg {
+  background-image: url("https://media.giphy.com/media/7kn27lnYSAE9O/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#user-rollover.id-11787585 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("https://media.giphy.com/media/7kn27lnYSAE9O/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
