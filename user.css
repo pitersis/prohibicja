@@ -30,3 +30,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*Amoniak*/
+.id-10542387 > .badge-box > i.bdg,
+#chat-messages .fromID-10542387  .bdg {
+  background-image: url("https://i.imgur.com/xVIbwhq.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#user-rollover.id-10542387 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("https://i.imgur.com/xVIbwhq.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
