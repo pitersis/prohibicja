@@ -78,4 +78,20 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*Vampiree */
+.id-13694300 > .badge-box > i.bdg,
+#chat-messages .fromID-13694300 .bdg {
+  background-image: url("http://4.bp.blogspot.com/-N8dZFPNHzVE/VYCuR58CktI/AAAAAAAAAFE/gYS9ArmRgQs/s1600/225399_xh8qte0l9z2rdia3w1b4ypfm6kojv7nsgu5c.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#user-rollover.id-13694300 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("http://4.bp.blogspot.com/-N8dZFPNHzVE/VYCuR58CktI/AAAAAAAAAFE/gYS9ArmRgQs/s1600/225399_xh8qte0l9z2rdia3w1b4ypfm6kojv7nsgu5c.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
