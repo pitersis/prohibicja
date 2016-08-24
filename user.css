@@ -94,4 +94,20 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*Cebularz2PL */
+.id-16624982 > .badge-box > i.bdg,
+#chat-messages .fromID-16624982 .bdg {
+  background-image: url("http://img.wiocha.pl/images/3/0/30a435a6b0fb90b7b92ca6964b7c0a77.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#user-rollover.id-16624982 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("http://img.wiocha.pl/images/3/0/30a435a6b0fb90b7b92ca6964b7c0a77.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
