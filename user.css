@@ -110,4 +110,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*maczka*/
+.id-13692690 > .badge-box > i.bdg,
+#chat-messages .fromID-13692690 .bdg {
+  background-image: url("https://media.giphy.com/media/SRRQQmNtKf8IM/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
+#user-rollover.id-13692690 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("https://media.giphy.com/media/SRRQQmNtKf8IM/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
