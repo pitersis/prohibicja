@@ -402,5 +402,9 @@ start section icons
 .icon-next-track {
     background: url('https://vgy.me/21JXlv.png');
 }
+/*kasuję ta niebieska ramke bo jest okropna*/
+#playback .background {
+    display: none;
+}
 /* end section by Mikey Wazowsky */
 
