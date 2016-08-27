@@ -126,3 +126,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*YataMen*/
+.id-5184589 > .badge-box > i.bdg,
+#chat-messages .fromID-5184589 .bdg {
+  background-image: url("https://media.giphy.com/media/3CindbMfWGjIs/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#user-rollover.id-5184589 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("https://media.giphy.com/media/3CindbMfWGjIs/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
