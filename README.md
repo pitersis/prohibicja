@@ -1,5 +1,11 @@
 # prohibicja
-Plug DJ Community PROHIBICJA ROOM SETTING
+###Plug DJ Community PROHIBICJA ROOM SETTINGS
 https://plug.dj/prohibicja
 
-rj.json basic on Radiant https://rcs.radiant.dj/ccs
+@rcs=https://rawgit.com/pitersis/prohibicja/v1/rs.json
+
+Help: [Radiant CCS] 
+
+Compatible with plugcubed: https://plugcubed.net
+
+ [Radiant CCS]: <https://rcs.radiant.dj/ccs>
