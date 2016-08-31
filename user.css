@@ -142,3 +142,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/*Szarlottka*/
+.id-14838297 > .badge-box > i.bdg,
+#chat-messages .fromID-14838297 .bdg {
+  background-image: url("http://ak-hdl.buzzfed.com/static/2015-02/25/18/enhanced/webdr01/anigif_enhanced-buzz-31820-1424907354-21.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#user-rollover.id-14838297 .badge-box > i.bdg {
+  border-radius: 6px;
+  background-image: url("http://ak-hdl.buzzfed.com/static/2015-02/25/18/enhanced/webdr01/anigif_enhanced-buzz-31820-1424907354-21.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
