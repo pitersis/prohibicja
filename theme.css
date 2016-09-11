@@ -503,7 +503,8 @@ start section icons
 }
 
 /*user rollover userID*/
-#user-rollover .meta .user-id {
+#user-rollover .meta .user-id, 
+#user-rollover .meta .p3UserID {
     color: #808691;
 }
 /* end section by Mikey Wazowsky */
