@@ -2,7 +2,7 @@
 - file made by pitersis and Mikey Wazowsky -
 - room PROHIBICJA on plug.dj - 
 - url: plug.dj/prohibicja - 
-*/b
+*/
 
 
 /* 
@@ -258,7 +258,7 @@ start section icons
 }
 
 #user-rollover.expand.chat .arrow-down {
-    border-left: 8px solid #352a29;
+    border-left: 8px solid #352a29 !important;
 }
 
 #user-rollover .info,
