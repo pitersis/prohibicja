@@ -225,9 +225,9 @@ Stolen from RCS https://rcs.radiant.dj/
 #user-lists .list.room .is-dj.id-6425281 .name,
 #user-lists .list.room .is-subscriber.id-6425281 .name,
 #user-lists .list.room [class*='role'].id-6425281 .name,
-#chat .msg .text .id-6425281,
+/*#chat .msg .text .id-6425281,
 #chat .msg .text .name.id-6425281,
-#chat .msg .text .name.id-6425281 .name,
+#chat .msg .text .name.id-6425281 .name, */
 #user-rollover.id-6425281 .username,
 #user-rollover.id-6425281 .meta.subscriber .status span,
 #user-rollover.id-6425281.is-staff .info .role span {
