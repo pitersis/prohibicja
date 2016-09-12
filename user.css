@@ -219,7 +219,7 @@ Stolen from RCS https://rcs.radiant.dj/
 }
 
 #chat [data-cid^="6425281-"] span.un.clickable,
-.id-6425281 span.un.clickable,
+/*.id-6425281 span.un.clickable, */
 #user-lists .list.room .id-6425281 .name,
 #user-lists .list.room .is-staff.id-6425281 .name,
 #user-lists .list.room .is-dj.id-6425281 .name,
