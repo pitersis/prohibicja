@@ -2,7 +2,7 @@
 - file made by pitersis and Mikey Wazowsky -
 - room PROHIBICJA on plug.dj - 
 - url: plug.dj/prohibicja - 
-*/
+*/b
 
 
 /* 
@@ -193,7 +193,7 @@ start section - color and others by pitersis
 Author: Mikey Wazowski 
 start section icons
 */
-
+/* tymczasowo wyłączam 
 .icon-chat-host + span {
     color: #FF1200 !important;
 }
@@ -233,7 +233,7 @@ start section icons
 .icon-chat-dj {
     background: url("https://vgy.me/SVrffe.png") !important;
 }
-
+*/
 #chat-messages .from .icon {
     margin-right: 2px;
 }
