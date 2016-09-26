@@ -507,4 +507,24 @@ start section icons
 #user-rollover .meta .p3UserID {
     color: #808691;
 }
+#chat-messages .timestamp {
+    color: #C8CBCC;
+}
+
+#dashboard,
+#rs-skip-button {
+    background: #2b2322;
+}
+
+.communities .grid .cell {
+    background: #1C1817;
+}
+.communities .grid .cell:hover>.meta {
+  background: rgba(28,24,23,0.9);
+}
+.communities .grid .cell .favorite,
+.communities .grid .cell .meta .join {
+    background: #171413;
+}
+
 /* end section by Mikey Wazowsky */
