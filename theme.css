@@ -517,14 +517,14 @@ start section icons
 }
 
 .communities .grid .cell {
-    background: #1C1817;
+    background: #1C1817 !important;
 }
 .communities .grid .cell:hover>.meta {
-  background: rgba(28,24,23,0.9);
+  background: rgba(28,24,23,0.9) !important;
 }
 .communities .grid .cell .favorite,
 .communities .grid .cell .meta .join {
-    background: #171413;
+    background: #171413 !important;
 }
 
 /* end section by Mikey Wazowsky */
