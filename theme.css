@@ -513,7 +513,7 @@ start section icons
 
 #dashboard,
 #rs-skip-button {
-    background: #2b2322;
+    background: #2b2322 !important;
 }
 
 .communities .grid .cell {
@@ -526,5 +526,7 @@ start section icons
 .communities .grid .cell .meta .join {
     background: #171413 !important;
 }
-
+#rcs-progress-container .bar {
+    background-color: #8cb141 !important;
+}
 /* end section by Mikey Wazowsky */
