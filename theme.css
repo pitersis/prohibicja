@@ -516,7 +516,8 @@ start section icons
     background: #2b2322 !important;
 }
 
-.communities .grid .cell {
+.communities .grid .cell,
+.communities .grid .cell .meta {
     background: #1C1817 !important;
 }
 .communities .grid .cell:hover>.meta {
