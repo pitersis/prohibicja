@@ -2,6 +2,7 @@
 - file made by pitersis and Mikey Wazowsky -
 - room PROHIBICJA on plug.dj - 
 - url: plug.dj/prohibicja - 
+ "Porzućcie wszelką nadzieję wy, którzy tu wstępujecie"
 */
 
 
@@ -164,11 +165,11 @@ start section - color and others by pitersis
     display: none !important;
 }
 
-#grab .bottom,
+/*#grab .bottom,
 #woot .bottom,
 #meh .bottom {
-    /* top:57px; */
-}
+     top:57px; 
+}*/
 
 
 /* start - stopka - przyciski użytkownika  */
@@ -276,7 +277,8 @@ start section icons
 }
 
 #playlist-create,
-#search {
+#search,
+.dialog-input-background {
     background: #211B1A;
 }
 
@@ -309,9 +311,11 @@ start section icons
 #room-settings .general-settings .option.enabled>button.on,
 #playlist-import:hover,
 #playlist-shuffle-button:hover {
-    background: #ff8100;
+    background: #ff8100 !important;
 }
-
+.dialog-frame .button.cancel {
+    color: #ffffff !important;
+}
 #playlist-delete-button:hover {
     background: #B0A821;
 }
@@ -355,7 +359,7 @@ start section icons
     color: #E3E3E3;
 }
 #p3-settings {
-    min-height: 530px;
+    min-height: 530px !important;
 }
 
 /*scrollbar
@@ -457,10 +461,6 @@ start section icons
     display: none;
 }
 
-
-/*UWAGA KONIEC CHAOSU ^ to musi byc na nowo napisane bo sam się gubię + jest coś do poprawki :eyes:*/
-
-
 /* import buttons*/
 
 #playlist-import-panel .button:hover {
@@ -526,10 +526,26 @@ start section icons
   background: rgba(28,24,23,0.9) !important;
 }
 .communities .grid .cell .favorite,
-.communities .grid .cell .meta .join {
+.communities .grid .cell .meta .join,
+.media-list,
+.dialog-body {
     background: #171413 !important;
+}
+#rcs-progress-container {
+    background-color: rgba(0,0,0,0.2) !important;
 }
 #rcs-progress-container .bar {
     background-color: #8cb141 !important;
 }
+.button.submit,
+.dialog-frame .button.submit, .rs .button.submit {
+    background: linear-gradient(to bottom,#9ABF4E 0,#90B349 100%) !important;
+}
+.dialog-frame{
+background:  #1F1918 !important;
+}
+.dialog-frame .button.cancel {
+    background: linear-gradient(to bottom,#FA8D1E 0,#ED871F 100%) !important;
+}
+ 
 /* end section by Mikey Wazowsky */
