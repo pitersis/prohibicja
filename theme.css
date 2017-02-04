@@ -354,7 +354,9 @@ start section icons
 #playlist-menu .title {
     color: #E3E3E3;
 }
-
+#p3-settings {
+    min-height: 530px;
+}
 
 /*scrollbar
  https://codepen.io/GhostRider/pen/GHaFw */
