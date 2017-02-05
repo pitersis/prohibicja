@@ -2,7 +2,10 @@
 - file made by pitersis and Mikey Wazowsky -
 - room PROHIBICJA on plug.dj - 
 - url: plug.dj/prohibicja - 
- "Porzućcie wszelką nadzieję wy, którzy tu wstępujecie"
+- Bardzo duży bałagan wszystko dzięki Majkiemu.
+- Także ten... dzięki Majki.
+- "Porzućcie wszelką nadzieję wy, którzy tu wstępujecie"
+- Dance This Mess Around
 */
 
 
@@ -197,11 +200,9 @@ start section - color and others by pitersis
 
 /* 
 Author: Mikey Wazowski 
-start section icons
+start mess section
 */
 
-
-/* tymczasowo wyłączam > dobra już włączyłem */
 
 .icon-chat-host+span {
     color: #FF1200 !important;
@@ -286,7 +287,8 @@ start section icons
 
 #playlist-create,
 #search,
-.dialog-input-background {
+.dialog-input-background,
+#dashboard .search {
     background: #211B1A;
 }
 
@@ -318,7 +320,8 @@ start section icons
 
 #room-settings .general-settings .option.enabled>button.on,
 #playlist-import:hover,
-#playlist-shuffle-button:hover {
+#playlist-shuffle-button:hover,
+#user-friends .list .row .buttons button.negative:hover {
     background: #ff8100 !important;
 }
 
@@ -467,7 +470,7 @@ start section icons
 }
 
 
-/*kasuję tę niebieską ramkę bo jest okropna*/
+/*some mess*/
 
 #playback .background {
     display: none;
@@ -504,7 +507,9 @@ start section icons
 
 /*profile my stuff*/
 
-.tab-menu button.selected {
+.tab-menu button.selected,
+.tab-menu button.selected:hover,
+.user-content.communities button {
     background: #8cb141;
 }
 
@@ -548,12 +553,13 @@ start section icons
 }
 
 #rcs-progress-container {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
 }
 
 #rcs-progress-container .bar,
-#footer-user .info .bar .progress {
-    background-color: #8cb141 !important;
+#footer-user .info .bar .progress,
+#user-friends .list .row .buttons button.positive:hover {
+    background: #8cb141 !important;
 }
 
 .button.submit,
@@ -579,17 +585,10 @@ start section icons
     background: #c6c6c6;
 }
 
-#playlist-panel {
+#playlist-panel,
+#user-view,
+#waitlist .list .sortable-placeholder {
     background: #1C1817;
-}
-
-#playlist-import-panel .button,
-.tab-menu button:hover {
-    background: #524949;
-}
-
-.tab-menu button {
-    background: #363030;
 }
 
 .communities .grid .cell .bar,
@@ -611,5 +610,68 @@ start section icons
     background: #171413 !important;
 }
 
+#room-settings .general-settings .option button,
+#room-settings .general-settings .option.enabled>button.off {
+    background: #363030;
+}
 
+.user-content.profile .notifications .row .timestamp {
+    color: #eee;
+}
+
+.dropdown dd .row {
+    color: #eee;
+    background: #363030;
+    border-bottom: 1px solid;
+    border-color: #1C1817;
+}
+
+.dropdown dd .row:hover {
+    background: #1C1817;
+}
+
+.dropdown {
+    background: #38312F;
+}
+
+#playlist-import-panel .button,
+.tab-menu button:hover {
+    background: #524949;
+}
+
+.tab-menu button,
+.user-content.profile .meta .blurb .box,
+.user-content.profile .meta .blurb input,
+.user-content.profile .notifications .row,
+#user-inventory .badges .grid .cell,
+#user-inventory .history .list .row,
+#user-friends .search,
+#user-friends .list .row,
+.subscribe-button {
+    background: #363030;
+}
+
+#user-inventory .badges .grid .cell:hover,
+#user-inventory .history .list .row .item,
+#user-friends .list .row .buttons button.positive,
+#user-friends .list .row .buttons button.negative,
+.subscribe-button:hover {
+    background: #524949;
+}
+
+#user-inventory .badges .grid .cell.selected {
+    background: #363030;
+    box-shadow: inset 0 0 0 2px #8cb141;
+}
+
+#user-inventory .history .list .row {
+    border-bottom: 1px solid #000000;
+}
+
+.user-content .grid .cell {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
 /* end section by Mikey Wazowsky */
