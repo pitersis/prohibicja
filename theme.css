@@ -81,7 +81,8 @@ start section - color and others by pitersis
 #chat-header,
 #user-lists .header,
 #waitlist .header,
-.app-right .friends.has-requests .header {
+.app-right .friends.has-requests .header,
+ {
     background-color: #352a29;
 }
 
@@ -95,7 +96,8 @@ start section - color and others by pitersis
 #filter-bar,
 #search-menu li,
 #search-menu ul,
-#search-menu:hover>.selected {
+#search-menu:hover>.selected,
+#import-youtube .youtube-input /*trochę mojego*/ {
     background: #352a29;
 }
 
@@ -525,16 +527,11 @@ start section icons
 .communities .grid .cell:hover>.meta {
   background: rgba(28,24,23,0.9) !important;
 }
-.communities .grid .cell .favorite,
-.communities .grid .cell .meta .join,
-.media-list,
-.dialog-body {
-    background: #171413 !important;
-}
 #rcs-progress-container {
     background-color: rgba(0,0,0,0.2) !important;
 }
-#rcs-progress-container .bar {
+#rcs-progress-container .bar,
+#footer-user .info .bar .progress {
     background-color: #8cb141 !important;
 }
 .button.submit,
@@ -547,5 +544,35 @@ background:  #1F1918 !important;
 .dialog-frame .button.cancel {
     background: linear-gradient(to bottom,#FA8D1E 0,#ED871F 100%) !important;
 }
+ #footer-user .bar .value, .rsshow {
+     color: #000000;
+ }
+ #footer-user .info .meta div.bar {
+     background: #c6c6c6;
+ }
+ #playlist-panel{
+     background: #1C1817;
+ }
+ #playlist-import-panel .button,
+ .tab-menu button:hover {
+         background: #524949;
+ }
+ .tab-menu button {
+     background: #363030;
+ }
+ .communities .grid .cell .bar,
+ .communities .grid .cell .favorite /*, .communities .grid .cell .meta .join, .media-list, .dialog-body*/ {
+     background: #1C1817 !important;
+ }
+ .communities .grid .cell .favorite {
+     border-left: 1px solid;
+     border-color: #000000;
+ }
  
+.communities .grid .cell .meta .join,
+.media-list,
+.dialog-body {
+    background: #171413 !important;
+}
 /* end section by Mikey Wazowsky */
+
