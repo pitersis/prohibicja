@@ -203,7 +203,6 @@ Author: Mikey Wazowski
 start mess section
 */
 
-
 .icon-chat-host+span {
     color: #FF1200 !important;
 }
@@ -435,7 +434,8 @@ start mess section
 .media-list .playlist-media .jspScrollable,
 .media-list .row,
 .media-list .actions,
-.jspTrack {
+.jspTrack,
+#media-panel .header .back {
     background: #1C1817;
 }
 
@@ -566,6 +566,7 @@ start mess section
 .dialog-frame .button.submit,
 .rs .button.submit {
     background: linear-gradient(to bottom, #9ABF4E 0, #90B349 100%) !important;
+    color: #eee !important;
 }
 
 .dialog-frame {
@@ -635,7 +636,8 @@ start mess section
 }
 
 #playlist-import-panel .button,
-.tab-menu button:hover {
+.tab-menu button:hover,
+#dialog-media-update .swap:hover {
     background: #524949;
 }
 
@@ -647,7 +649,10 @@ start mess section
 #user-inventory .history .list .row,
 #user-friends .search,
 #user-friends .list .row,
-.subscribe-button {
+.subscribe-button,
+#dialog-media-update .swap,
+#user-lists .list .user:hover,
+.votes-rs {
     background: #363030;
 }
 
@@ -674,4 +679,27 @@ start mess section
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 0px solid #000000;
 }
+
+.media-list .row.now-playing {
+    border-bottom: #000000 0px solid!important;
+    background: #0F0D0C!important;
+}
+
+.media-list .row.now-playing .actions {
+    top: 1px;
+    background: #0F0D0C;
+}
+
+#user-lists .list.bans .user .duration,
+#user-lists .list.bans .user .timestamp,
+#user-lists .list.mutes .user .expires {
+    color: #eee;
+}
+
+#user-lists .list.bans .user .unban,
+#user-lists .list.mutes .user .unmute {
+    color: #8cb141;
+}
+
+
 /* end section by Mikey Wazowsky */
