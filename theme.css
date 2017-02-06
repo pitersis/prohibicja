@@ -320,7 +320,8 @@ start mess section
 #room-settings .general-settings .option.enabled>button.on,
 #playlist-import:hover,
 #playlist-shuffle-button:hover,
-#user-friends .list .row .buttons button.negative:hover {
+#user-friends .list .row .buttons button.negative:hover,
+#chat .delete-button:hover {
     background: #ff8100 !important;
 }
 
@@ -631,7 +632,8 @@ start mess section
     background: #1C1817;
 }
 
-.dropdown {
+.dropdown,
+#chat .delete-button {
     background: #38312F;
 }
 
