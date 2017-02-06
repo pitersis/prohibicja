@@ -130,7 +130,9 @@ start section - color and others by pitersis
 }
 
 #chat .mention.is-dj:nth-child(2n+1),
-#chat .mention.is-staff:nth-child(2n+1) {
+#chat .mention.is-staff:nth-child(2n+1),
+#chat .mention.is-dj,
+#chat .mention.is-staff {
     background: #111317;
     background: -moz-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0, #ff8100), color-stop(13%, #221101), color-stop(100%, #0a0504));
@@ -202,6 +204,9 @@ start section - color and others by pitersis
 Author: Mikey Wazowski 
 start mess section
 */
+
+
+/*chat icons*/
 
 .icon-chat-host+span {
     color: #FF1200 !important;
