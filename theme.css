@@ -708,5 +708,10 @@ start mess section
     color: #8cb141;
 }
 
-
+#search-suggestion li {
+ background: #1C1817;
+}
+#search-suggestion li.selected{
+  background: #524949;
+}
 /* end section by Mikey Wazowsky */
