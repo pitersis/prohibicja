@@ -60,6 +60,45 @@
 #chat #chat-messages :not(.rsshit).id-10103366 .from .icon {
     top: 3px !important;
 }
+
+/*bot badge */
+#user-lists .list .user.id-18030358 .name:after,
+#chat #chat-messages .fromID-18030358 .from .un.clickable:after,
+#chat #chat-messages .cid-18030358 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-18030358 .from .un.clickable:after,
+#user-lists .list .user.id-10764385 .name:after,
+#chat #chat-messages .fromID-10764385 .from .un.clickable:after,
+#chat #chat-messages .cid-10764385 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-10764385 .from .un.clickable:after {
+    content: url("https://vgy.me/fPcwEG.png");
+    top: 3px;
+	Left: 3px;
+    position: relative;
+}
+#user-rollover.id-18030358 .meta .username:after,
+#user-lists .list .user.id-18030358:hover .name:after,
+#chat #chat-messages .cid-18030358 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-18030358 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-18030358 .from .un.clickable:hover:after,
+#user-rollover.id-10764385 .meta .username:after,
+#user-lists .list .user.id-10764385:hover .name:after,
+#chat #chat-messages .cid-10764385 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-10764385 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-10764385 .from .un.clickable:hover:after {
+    content: url("https://vgy.me/9yoqRL.png") !important;
+	top: 3px;
+	Left: 3px;
+    position: relative;
+	 transition: .2s linear;
+}
+#chat-messages .fromID-18030358 .from .icon,
+#chat #chat-messages .cid-18030358 .from .icon,
+#chat #chat-messages :not(.rsshit).id-18030358 .from .icon,
+#chat-messages .fromID-10764385 .from .icon,
+#chat #chat-messages .cid-10764385 .from .icon,
+#chat #chat-messages :not(.rsshit).id-10764385 .from .icon {
+    top: 3px !important;
+}
 /*Greena*/
 
 .id-10607990>.badge-box>i.bdg, #chat-messages .fromID-10607990 .bdg {
