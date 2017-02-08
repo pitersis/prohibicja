@@ -1,0 +1,34 @@
+{
+	"author": "pitersis and Mikey Wazowsky | TFL",
+	"colors": {
+		"chat": {
+			"ambassador": "#90FF00",
+			"host": "#FF4800",
+			"cohost": "#FF4800",
+			"manager": "#EADF27",
+			"bouncer": "#FFE3BC",
+			"residentdj": "#0072FF"
+		}
+	},
+	"css": {
+		"import": ["https://rawgit.com/pitersis/prohibicja/v1/general.css"]
+	},
+	"images": {
+		"background": "https://vgy.me/hI1xVP.png",
+		"icons": {
+			"ambassador": "https://vgy.me/Xj3rym.png",
+			"host": "https://vgy.me/8YJP1j.png",
+			"cohost": "https://vgy.me/6YD72Y.png",
+			"manager": "https://vgy.me/PNxSOl.png",
+			"bouncer": "https://vgy.me/LXfNWS.png",
+			"residentdj": "https://vgy.me/SVrffe.png"
+		}
+	},
+	"rules": {
+		"allowAutojoin": "true",
+		"allowAutorespond": "true",
+		"allowAutowoot": "true",
+		"allowEmotes": "true",
+		"allowShowingMehs": "true"
+	}
+}
