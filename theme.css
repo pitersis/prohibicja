@@ -714,4 +714,17 @@ start mess section
 #search-suggestion li.selected{
   background: #524949;
 }
+.pop-menu .bar {
+ background: #1C1817;
+}
+
+.pop-menu li {
+    background: #363030;
+}
+.pop-menu li:hover {
+    background: #524949;
+}
+.pop-menu li.create:hover {
+    background: #8cb141;
+}
 /* end section by Mikey Wazowsky */
