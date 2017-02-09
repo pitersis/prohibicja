@@ -29,6 +29,6 @@
 		"allowAutorespond": "true",
 		"allowAutowoot": "true",
 		"allowEmotes": "true",
-		"allowShowingMehs": "true"
+		"allowShowingMehs": "false"
 	}
 }
