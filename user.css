@@ -66,10 +66,10 @@
 #chat #chat-messages .fromID-18030358 .from .un.clickable:after,
 #chat #chat-messages .cid-18030358 .from .un.clickable:after,
 #chat #chat-messages :not(.rsshit).id-18030358 .from .un.clickable:after,
-#user-lists .list .user.id-10764385 .name:after,
-#chat #chat-messages .fromID-10764385 .from .un.clickable:after,
-#chat #chat-messages .cid-10764385 .from .un.clickable:after,
-#chat #chat-messages :not(.rsshit).id-10764385 .from .un.clickable:after {
+#user-lists .list .user.id-7049112 .name:after,
+#chat #chat-messages .fromID-7049112 .from .un.clickable:after,
+#chat #chat-messages .cid-7049112 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-7049112 .from .un.clickable:after {
     content: url("https://vgy.me/fPcwEG.png");
     top: 3px;
 	Left: 3px;
@@ -80,11 +80,11 @@
 #chat #chat-messages .cid-18030358 .from .un.clickable:hover:after,
 #chat #chat-messages .fromID-18030358 .from .un.clickable:hover:after,
 #chat #chat-messages :not(.rsshit).id-18030358 .from .un.clickable:hover:after,
-#user-rollover.id-10764385 .meta .username:after,
-#user-lists .list .user.id-10764385:hover .name:after,
-#chat #chat-messages .cid-10764385 .from .un.clickable:hover:after,
-#chat #chat-messages .fromID-10764385 .from .un.clickable:hover:after,
-#chat #chat-messages :not(.rsshit).id-10764385 .from .un.clickable:hover:after {
+#user-rollover.id-7049112 .meta .username:after,
+#user-lists .list .user.id-7049112:hover .name:after,
+#chat #chat-messages .cid-7049112 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-7049112 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-7049112 .from .un.clickable:hover:after {
     content: url("https://vgy.me/9yoqRL.png") !important;
 	top: 3px;
 	Left: 3px;
@@ -94,9 +94,9 @@
 #chat-messages .fromID-18030358 .from .icon,
 #chat #chat-messages .cid-18030358 .from .icon,
 #chat #chat-messages :not(.rsshit).id-18030358 .from .icon,
-#chat-messages .fromID-10764385 .from .icon,
-#chat #chat-messages .cid-10764385 .from .icon,
-#chat #chat-messages :not(.rsshit).id-10764385 .from .icon {
+#chat-messages .fromID-7049112 .from .icon,
+#chat #chat-messages .cid-7049112 .from .icon,
+#chat #chat-messages :not(.rsshit).id-7049112 .from .icon {
     top: 3px !important;
 }
 /*Greena*/
@@ -339,4 +339,3 @@ Stolen from RCS https://rcs.radiant.dj/
 #user-rollover.id-6425281.is-staff .thumb {
   border-color: #42a5dc !important;
 }
-
