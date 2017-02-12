@@ -61,7 +61,7 @@
     top: 3px !important;
 }
 
-/*bot badge */
+/*bot badge 
 #user-lists .list .user.id-18030358 .name:after,
 #chat #chat-messages .fromID-18030358 .from .un.clickable:after,
 #chat #chat-messages .cid-18030358 .from .un.clickable:after,
@@ -98,7 +98,7 @@
 #chat #chat-messages .cid-7049112 .from .icon,
 #chat #chat-messages :not(.rsshit).id-7049112 .from .icon {
     top: 3px !important;
-}
+} */
 /*Greena*/
 
 .id-10607990>.badge-box>i.bdg, #chat-messages .fromID-10607990 .bdg {
