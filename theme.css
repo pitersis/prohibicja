@@ -727,4 +727,7 @@ start mess section
 .pop-menu li.create:hover {
     background: #8cb141;
 }
+.icon-room {
+    background: url(https://i.imgur.com/WMstKEk.gif) center / 140%; /*thanks https://github.com/WiBla */ 
+}
 /* end section by Mikey Wazowsky */
