@@ -1,10 +1,12 @@
 /* 
-- file made by pitersis and Mikey Wazowsky | TFL -
+- file made by pitersis and Mikey Wazowsky | plug³ -
 - room PROHIBICJA on plug.dj - 
 - url: plug.dj/prohibicja - 
 */
 
 /* room setting */
 @import url("https://rawgit.com/pitersis/prohibicja/v1/theme.css");
-/* user setting */
+/* user badges */
 @import url("https://rawgit.com/pitersis/prohibicja/v1/user.css");
+/*room titles*/
+@import url("https://rawgit.com/pitersis/prohibicja/v1/titles.css");
