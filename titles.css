@@ -1,0 +1,101 @@
+/*Css badge by Wlff  https://plug.dj/wlf */
+#user-lists .list .user.id-4412452 .name:after,
+#chat #chat-messages .fromID-4412452 .from .un.clickable:after,
+#chat #chat-messages .cid-4412452 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-4412452 .from .un.clickable:after,
+#user-lists .list .user.id-5311288 .name:after,
+#chat #chat-messages .fromID-5311288 .from .un.clickable:after,
+#chat #chat-messages .cid-5311288 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-5311288 .from .un.clickable:after,
+#user-lists .list .user.id-6425281 .name:after,
+#chat #chat-messages .fromID-6425281 .from .un.clickable:after,
+#chat #chat-messages .cid-6425281 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-6425281 .from .un.clickable:after,
+#user-lists .list .user.id-10103366 .name:after,
+#chat #chat-messages .fromID-10103366 .from .un.clickable:after,
+#chat #chat-messages .cid-10103366 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-10103366 .from .un.clickable:after {
+    content: url("https://dl.dropboxusercontent.com/s/v2lts1dua12bja8/Checkgrey.png");
+    top: 3px;
+	Left: 3px;
+    position: relative;
+}
+#user-rollover.id-4412452 .meta .username:after,
+#user-lists .list .user.id-4412452:hover .name:after,
+#chat #chat-messages .cid-4412452 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-4412452 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-4412452 .from .un.clickable:hover:after,
+#user-rollover.id-5311288 .meta .username:after,
+#user-lists .list .user.id-5311288:hover .name:after,
+#chat #chat-messages .cid-5311288 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-5311288 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-5311288 .from .un.clickable:hover:after,
+#user-rollover.id-6425281 .meta .username:after,
+#user-lists .list .user.id-6425281:hover .name:after,
+#chat #chat-messages .cid-6425281 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-6425281 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-6425281 .from .un.clickable:hover:after,
+#user-rollover.id-10103366 .meta .username:after,
+#user-lists .list .user.id-10103366:hover .name:after,
+#chat #chat-messages .cid-10103366 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-10103366 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-10103366 .from .un.clickable:hover:after  {
+    content: url("https://dl.dropboxusercontent.com/s/wppihrv7ubvr4ak/Check.png") !important;
+	top: 3px;
+	Left: 3px;
+    position: relative;
+	 transition: .2s linear;
+}
+#chat-messages .fromID-4412452 .from .icon,
+#chat #chat-messages .cid-4412452 .from .icon,
+#chat #chat-messages :not(.rsshit).id-4412452 .from .icon,
+#chat-messages .fromID-5311288 .from .icon,
+#chat #chat-messages .cid-5311288 .from .icon,
+#chat #chat-messages :not(.rsshit).id-5311288 .from .icon,
+#chat-messages .fromID-6425281 .from .icon,
+#chat #chat-messages .cid-6425281 .from .icon,
+#chat #chat-messages :not(.rsshit).id-6425281 .from .icon,
+#chat-messages .fromID-10103366 .from .icon,
+#chat #chat-messages .cid-10103366 .from .icon,
+#chat #chat-messages :not(.rsshit).id-10103366 .from .icon {
+    top: 3px !important;
+}
+
+/*bot badge 
+#user-lists .list .user.id-18030358 .name:after,
+#chat #chat-messages .fromID-18030358 .from .un.clickable:after,
+#chat #chat-messages .cid-18030358 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-18030358 .from .un.clickable:after,
+#user-lists .list .user.id-7049112 .name:after,
+#chat #chat-messages .fromID-7049112 .from .un.clickable:after,
+#chat #chat-messages .cid-7049112 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-7049112 .from .un.clickable:after {
+    content: url("https://vgy.me/fPcwEG.png");
+    top: 3px;
+	Left: 3px;
+    position: relative;
+}
+#user-rollover.id-18030358 .meta .username:after,
+#user-lists .list .user.id-18030358:hover .name:after,
+#chat #chat-messages .cid-18030358 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-18030358 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-18030358 .from .un.clickable:hover:after,
+#user-rollover.id-7049112 .meta .username:after,
+#user-lists .list .user.id-7049112:hover .name:after,
+#chat #chat-messages .cid-7049112 .from .un.clickable:hover:after,
+#chat #chat-messages .fromID-7049112 .from .un.clickable:hover:after,
+#chat #chat-messages :not(.rsshit).id-7049112 .from .un.clickable:hover:after {
+    content: url("https://vgy.me/9yoqRL.png") !important;
+	top: 3px;
+	Left: 3px;
+    position: relative;
+	 transition: .2s linear;
+}
+#chat-messages .fromID-18030358 .from .icon,
+#chat #chat-messages .cid-18030358 .from .icon,
+#chat #chat-messages :not(.rsshit).id-18030358 .from .icon,
+#chat-messages .fromID-7049112 .from .icon,
+#chat #chat-messages .cid-7049112 .from .icon,
+#chat #chat-messages :not(.rsshit).id-7049112 .from .icon {
+    top: 3px !important;
+} */
