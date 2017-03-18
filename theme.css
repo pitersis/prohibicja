@@ -1,7 +1,7 @@
-/* 
+/*
 - file made by pitersis and Mikey Wazowsky -
-- room PROHIBICJA on plug.dj - 
-- url: plug.dj/prohibicja - 
+- room PROHIBICJA on plug.dj -
+- url: plug.dj/prohibicja -
 - Bardzo duży bałagan wszystko dzięki Majkiemu.
 - Także ten... dzięki Majki.
 - "Porzućcie wszelką nadzieję wy, którzy tu wstępujecie"
@@ -9,7 +9,7 @@
 */
 
 
-/* 
+/*
 start section - color and others by pitersis
 */
 
@@ -178,7 +178,7 @@ start section - color and others by pitersis
 /*#grab .bottom,
 #woot .bottom,
 #meh .bottom {
-     top:57px; 
+     top:57px;
 }*/
 
 
@@ -200,8 +200,8 @@ start section - color and others by pitersis
 /* end section by pitersis */
 
 
-/* 
-Author: Mikey Wazowski 
+/*
+Author: Mikey Wazowski
 start mess section
 */
 
@@ -241,11 +241,11 @@ start mess section
 }
 
 .icon-chat-dj+span {
-    color: #0072FF !important;
+    color: #F95 !important;
 }
 
 .icon-chat-dj {
-    background: url("https://vgy.me/SVrffe.png") !important;
+    background: url("https://vgy.me/sn3haR.png") !important;
 }
 
 #chat-messages .from .icon {
@@ -728,6 +728,6 @@ start mess section
     background: #8cb141;
 }
 .icon-room {
-    background: url(https://i.imgur.com/WMstKEk.gif) center / 140%; /*thanks https://github.com/WiBla */ 
+    background: url(https://i.imgur.com/WMstKEk.gif) center / 140%; /*thanks https://github.com/WiBla */
 }
 /* end section by Mikey Wazowsky */
