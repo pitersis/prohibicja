@@ -209,7 +209,7 @@ start mess section
 /*chat icons*/
 
 .icon-chat-host+span {
-    color: #00abff !important
+    color: #00abff !important;
 }
 
 .icon-chat-host {
