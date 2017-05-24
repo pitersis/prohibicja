@@ -167,13 +167,12 @@ start section - color and others by pitersis
     display: inline-block;
     top: -6px;
 } */
-i.icon.icon-meh {
-display:none;
-}
+
 #meh .top:after {
     content: "KIEPSKIE";
     position: relative;
     display: inline-block;
+    top: -20px;
     width: 50px;
     height: 100px;
     background: url('https://s-media-cache-ak0.pinimg.com/736x/ac/b1/6f/acb16f864ea5f110b5858d5da4febb78.jpg');
