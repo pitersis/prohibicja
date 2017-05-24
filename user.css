@@ -15,7 +15,10 @@
     background-position: center center;
 }
 
-
+#chat-messages .fromID-10607990  span.un.clickable {
+     color:#7dff7c !important;
+     
+}
 /*Frędzelek*/
 
 .id-11025235>.badge-box>i.bdg, #chat-messages .fromID-11025235 .bdg {
@@ -193,8 +196,7 @@
     background-position: center center;
 }
 /* Krzychowski */
-
-.message.fromID-26066019 span.un {
+#chat-messages .fromID-26066019 span.un.clickable {
   color:#ff00c6 !important; 
 }
 
