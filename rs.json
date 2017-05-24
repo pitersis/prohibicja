@@ -1,9 +1,9 @@
 {
-	"author": "pitersis and Mikey Wazowsky | TFL",
+	"author": "pitersis and Mikey Wazowsky",
 	"colors": {
 		"chat": {
 			"ambassador": "#90FF00",
-			"host": "#FF4800",
+			"host": "#00ABFF",
 			"cohost": "#FF4800",
 			"manager": "#EADF27",
 			"bouncer": "#FFE3BC",
@@ -17,7 +17,7 @@
 		"background": "https://vgy.me/hI1xVP.png",
 		"icons": {
 			"ambassador": "https://vgy.me/Xj3rym.png",
-			"host": "https://vgy.me/8YJP1j.png",
+			"host": "https://vgy.me/0AkMwa.png",
 			"cohost": "https://vgy.me/6YD72Y.png",
 			"manager": "https://vgy.me/PNxSOl.png",
 			"bouncer": "https://vgy.me/LXfNWS.png",
