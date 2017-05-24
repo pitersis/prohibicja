@@ -17,7 +17,7 @@
 
 #chat-messages .fromID-10607990  span.un.clickable {
      color:#7dff7c !important;
-     
+
 }
 /*Frędzelek*/
 
@@ -197,12 +197,25 @@
 }
 /* Krzychowski */
 #chat-messages .fromID-26066019 span.un.clickable {
-  color:#ff00c6 !important; 
+  color:#ff00c6 !important;
 }
-
 /* pitersis */
-#chat-messages .fromID-10103366 span.un.clickable {
-  color:#00abff !important; 
+ #chat-messages .fromID-10103366 span.un.clickable {
+   color:#00abff !important;
+ }
+ /* majk */
+  #chat-messages .fromID-6425281 span.un.clickable {
+    color:#FF4800 !important;
+  }
+/* Serce obok nicku */
+/*GRINA*/
+#user-lists .list .user.id-10607990 .name:after,
+#chat #chat-messages .fromID-10607990 .from .un.clickable:after,
+#chat #chat-messages .cid-10607990 .from .un.clickable:after,
+#chat #chat-messages :not(.rsshit).id-10607990 .from .un.clickable:after
+{
+    content: url("https://i.imgur.com/Ev9MdsC.png");
+    top: 3px;
+	Left: 3px;
+    position: relative;
 }
-
-
