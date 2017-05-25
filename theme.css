@@ -160,20 +160,15 @@ start section - color and others by pitersis
     display: inline-block;
     top: -6px;
 }
-
-
-/* tak dla żartów dodane na chwile */
-/* OLD SETTING */
-   /* #meh .top:after {
+#meh .top:after {
     content: "KIEPSKIE";
     position: relative;
     display: inline-block;
     top: -6px;
-} */
 
-/* KONIEC OLD SETTING */
 
-#meh .top:after {
+/* tak dla żartów dodane na chwile */
+/*  #meh .top:after {
     content: "KIEPSKIE";
     position: relative;
     display: inline-block;
@@ -187,7 +182,7 @@ start section - color and others by pitersis
 
 div#meh {
     background: #faf2cb !important;
-}
+}*/
 /* KONIEC tak dla żartów dodane na chwile */
 
 #grab .top span,
