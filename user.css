@@ -195,6 +195,22 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+/*Piecin*/
+.id-24135929>.badge-box>i.bdg,
+#chat-messages .fromID-24135929 .bdg {
+    background-image: url("http://www.virginemirecords.com/wp-content/uploads/2015/10/DJMUST.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-24135929 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("http://www.virginemirecords.com/wp-content/uploads/2015/10/DJMUST.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /* Krzychowski */
 #chat-messages .fromID-26066019 span.un.clickable {
   color:#ff00c6 !important;
