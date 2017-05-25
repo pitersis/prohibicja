@@ -166,6 +166,19 @@ start section - color and others by pitersis
     display: inline-block;
     top: -6px;
 
+#grab .top span,
+#woot .top span,
+#meh .top span {
+    display: none !important;
+}
+
+/*
+#grab .bottom,
+#woot .bottom,
+#meh .bottom {
+     top:57px;
+}*/
+
 
 /* tak dla żartów dodane na chwile */
 /*  #meh .top:after {
@@ -184,21 +197,7 @@ div#meh {
     background: #faf2cb !important;
 }*/
 /* KONIEC tak dla żartów dodane na chwile */
-
-#grab .top span,
-#woot .top span,
-#meh .top span {
-    display: none !important;
-}
-
-
-#grab .bottom,
-#woot .bottom,
-#meh .bottom {
-     top:57px;
-}
-
-
+    
 /* start - stopka - przyciski użytkownika  */
 
 #footer-user .buttons .button:hover {
