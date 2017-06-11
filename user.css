@@ -1,7 +1,7 @@
 /*Greena*/
 
 .id-10607990>.badge-box>i.bdg, #chat-messages .fromID-10607990 .bdg {
-    background-image: url("https://i.imgur.com/MBEpYld.gif");
+    background-image: url("https://i.imgur.com/ROIQ0hS.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -9,7 +9,7 @@
 
 #user-rollover.id-10607990 .badge-box>i.bdg {
     border-radius: 6px;
-    background-image: url("https://i.imgur.com/MBEpYld.gif");
+    background-image: url("https://i.imgur.com/ROIQ0hS.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -224,14 +224,9 @@
     color:#FF4800 !important;
   }
 /* Serce obok nicku */
-/*GRINA*/
-#user-lists .list .user.id-10607990 .name:after,
-#chat #chat-messages .fromID-10607990 .from .un.clickable:after,
-#chat #chat-messages .cid-10607990 .from .un.clickable:after,
-#chat #chat-messages :not(.rsshit).id-10607990 .from .un.clickable:after
-{
-    content: url("https://i.imgur.com/Ev9MdsC.png");
-    top: 3px;
-	Left: 3px;
-    position: relative;
+.id-6462179 > .msg > .from:before /*- gяєєиα -*/
+{ 
+  content: url("https://i.imgur.com/Ev9MdsC.png") !important;
+  float: left;
+  margin: 0px 3px 0px 0px;
 }
