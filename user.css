@@ -211,6 +211,23 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+/*MajkeldziedulotroN*/
+.id-6405076>.badge-box>i.bdg,
+#chat-messages .fromID-6405076 .bdg {
+    background-image: url("http://68.media.tumblr.com/6ada8c2003d727b0503d4ce0bf5b2508/tumblr_nslvwzpdHg1uvj8pco1_400.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-6405076 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("http://68.media.tumblr.com/6ada8c2003d727b0503d4ce0bf5b2508/tumblr_nslvwzpdHg1uvj8pco1_400.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /* Krzychowski */
 #chat-messages .fromID-26066019 span.un.clickable {
   color:#ff00c6 !important;
