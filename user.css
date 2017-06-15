@@ -256,26 +256,26 @@
 /*Kolory na czacie itp*/
 /*Paula*/
 #chat-messages .fromID-10607990 .icon,
-#chat-messages .id-10607990  .icon  {
+#chat-messages .id-10607990 .icon  {
       background: url("https://vgy.me/v9RgXv.png") !important;
 }
-.id-10607990 span.un.clickable,
+#chat-messages .id-10607990 span.un.clickable,
 #chat-messages .fromID-10607990 span.un.clickable  {
      color:#7dff7c !important;
 }
 
 /*pitersis*/
 #chat-messages .fromID-10103366 .icon,
-#chat-messages .id-10103366  .icon  {
+#chat-messages .id-10103366 .icon  {
       background: url("https://vgy.me/0AkMwa.png") !important;
 }
-.id-10103366 span.un.clickable,
+#chat-messages .id-10103366 span.un.clickable,
 #chat-messages .fromID-10103366 span.un.clickable  {
      color:#00ABFF !important;
 }
 
  /*Mike*/
-.id-6425281 span.un.clickable,
+#chat-messages .id-6425281 span.un.clickable,
 #chat-messages .fromID-6425281 span.un.clickable  {
      color:#FF4800 !important;
 }
@@ -286,6 +286,6 @@
       background: url("https://vgy.me/lmCCXB.png") !important;
 }
 #chat-messages .fromID-26066019 span.un.clickable,
-.id-26066019 span.un.clickable {
+#chat-messages .id-26066019 span.un.clickable {
   color:#ff00c6 !important;
 }
