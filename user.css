@@ -15,10 +15,6 @@
     background-position: center center;
 }
 
-#chat-messages .fromID-10607990  span.un.clickable {
-     color:#7dff7c !important;
-
-}
 /*Frędzelek*/
 
 .id-11025235>.badge-box>i.bdg, #chat-messages .fromID-11025235 .bdg {
@@ -228,18 +224,24 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-/* Krzychowski */
-#chat-messages .fromID-26066019 span.un.clickable {
-  color:#ff00c6 !important;
+
+/*Mycka*/
+.id-6315045>.badge-box>i.bdg,
+#chat-messages .fromID-6405076 .bdg {
+    background-image: url("http://68.media.tumblr.com/6ada8c2003d727b0503d4ce0bf5b2508/tumblr_nslvwzpdHg1uvj8pco1_400.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-/* pitersis */
- #chat-messages .fromID-10103366 span.un.clickable {
-   color:#00abff !important;
- }
- /* majk */
-  #chat-messages .fromID-6425281 span.un.clickable {
-    color:#FF4800 !important;
-  }
+
+#user-rollover.id-6315045 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("http://68.media.tumblr.com/6ada8c2003d727b0503d4ce0bf5b2508/tumblr_nslvwzpdHg1uvj8pco1_400.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Serce obok nicku */
 .fromID-10607990 .from .un.clickable:before,
 .id-6462179 > .msg > .from:before /*- gяєєиα -*/
@@ -247,4 +249,41 @@
   content: url("https://i.imgur.com/Ev9MdsC.png") !important;
   float: left;
   margin: 0px 3px 0px 0px;
+}
+
+/*Kolory na czacie itp*/
+/*Paula*/
+#chat-messages .fromID-10607990 .icon,
+#chat-messages .id-10607990  .icon  {
+      background: url(https://vgy.me/v9RgXv.png) !important;
+}
+.id-10607990 span.un.clickable,
+#chat-messages .fromID-10607990 span.un.clickable  {
+     color:#7dff7c !important;
+}
+
+/*pitersis*/
+#chat-messages .fromID-10103366 .icon,
+#chat-messages .id-10103366  .icon  {
+      background: url(https://vgy.me/0AkMwa.png) !important;
+}
+.id-10103366 span.un.clickable,
+#chat-messages .fromID-10103366 span.un.clickable  {
+     color:#00ABFF !important;
+}
+
+ /*Mike*/
+ #chat-messages .fromID-6425281 .icon,
+ #chat-messages .id-6425281  .icon   {
+      background: url(https://vgy.me/6YD72Y.png) !important;
+}
+.id-6425281 span.un.clickable,
+#chat-messages .fromID-6425281 span.un.clickable  {
+     color:#FF4800 !important;
+}
+
+/* Krzychowski */
+#chat-messages .fromID-26066019 span.un.clickable,
+.id-26066019 span.un.clickable {
+  color:#ff00c6 !important;
 }
