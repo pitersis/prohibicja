@@ -273,10 +273,10 @@
 }
 
  /*Mike*/
- #chat-messages .fromID-6425281 .icon,
- #chat-messages .id-6425281  .icon   {
+ /*#chat-messages .fromID-6425281 .icon,
+   #chat-messages .id-6425281  .icon   {
       background: url(https://vgy.me/6YD72Y.png) !important;
-}
+} */
 .id-6425281 span.un.clickable,
 #chat-messages .fromID-6425281 span.un.clickable  {
      color:#FF4800 !important;
