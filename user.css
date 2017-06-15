@@ -244,7 +244,9 @@
 
 /* Serce obok nicku */
 .fromID-10607990 .from .un.clickable:before,
-.id-6462179 > .msg > .from:before /*- gяєєиα -*/
+.id-10607990 > .msg > .from:before, /*- gяєєиα -*/
+.fromID-6315045 .from .un.clickable:before,
+.id-6315045 > .msg > .from:before, /*- Mycka1337 -*/
 { 
   content: url("https://i.imgur.com/Ev9MdsC.png") !important;
   float: left;
@@ -273,10 +275,6 @@
 }
 
  /*Mike*/
- /*#chat-messages .fromID-6425281 .icon,
-   #chat-messages .id-6425281  .icon   {
-      background: url(https://vgy.me/6YD72Y.png) !important;
-} */
 .id-6425281 span.un.clickable,
 #chat-messages .fromID-6425281 span.un.clickable  {
      color:#FF4800 !important;
