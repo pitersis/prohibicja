@@ -224,7 +224,7 @@ start mess section
 
 
 /*chat icons*/
-
+/*
 .icon-chat-host+span {
     color: #00abff !important;
 }
@@ -239,7 +239,7 @@ start mess section
 
 .icon-chat-cohost {
     background: url("https://vgy.me/6YD72Y.png") !important;
-}
+} */
 
 .icon-chat-manager+span {
     color: #EADF27 !important;
