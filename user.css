@@ -281,6 +281,10 @@
 }
 
 /* Krzychowski */
+#chat-messages .fromID-26066019 .icon,
+#chat-messages .id-26066019  .icon  {
+      background: url(https://vgy.me/lmCCXB.png) !important;
+}
 #chat-messages .fromID-26066019 span.un.clickable,
 .id-26066019 span.un.clickable {
   color:#ff00c6 !important;
