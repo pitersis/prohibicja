@@ -246,7 +246,7 @@
 .fromID-10607990 .from .un.clickable:before,
 .id-10607990 > .msg > .from:before, /*- gяєєиα -*/
 .fromID-6315045 .from .un.clickable:before,
-.id-6315045 > .msg > .from:before, /*- Mycka1337 -*/
+.id-6315045 > .msg > .from:before /*- Mycka1337 -*/
 { 
   content: url("https://i.imgur.com/Ev9MdsC.png") !important;
   float: left;
