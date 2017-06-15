@@ -222,54 +222,6 @@ Author: Mikey Wazowski
 start mess section
 */
 
-
-/*chat icons*/
-/*
-.icon-chat-host+span {
-    color: #00abff !important;
-}
-
-.icon-chat-host {
-    background: url("https://vgy.me/XfOKs7.png") !important;
-}
-
-.icon-chat-cohost+span {
-    color: #FF4800 !important;
-}
-
-.icon-chat-cohost {
-    background: url("https://vgy.me/6YD72Y.png") !important;
-} */
-
-.icon-chat-manager+span {
-    color: #EADF27 !important;
-}
-
-.icon-chat-manager {
-    background: url("https://vgy.me/PNxSOl.png") !important;
-}
-
-.icon-chat-bouncer+span {
-    color: #FFE3BC !important;
-}
-
-.icon-chat-bouncer {
-    background: url("https://vgy.me/LXfNWS.png") !important;
-}
-
-.icon-chat-dj+span {
-    color: #F95 !important;
-}
-
-.icon-chat-dj {
-    background: url("https://vgy.me/sn3haR.png") !important;
-}
-
-#chat-messages .from .icon {
-    margin-right: 2px;
-}
-
-
 /*user-rollover +playlist*/
 
 #user-rollover .meta,
