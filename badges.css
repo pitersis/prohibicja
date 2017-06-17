@@ -68,25 +68,6 @@
     background-position: center center;
 }
 
-
-/*thepolishcake */
-
-.id-11594437>.badge-box>i.bdg, #chat-messages .fromID-11594437 .bdg {
-    background-image: url("https://49.media.tumblr.com/17ed27561568013b1a5819d6f17424a4/tumblr_ntjcztuQha1u9meijo1_500.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-11594437 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://49.media.tumblr.com/17ed27561568013b1a5819d6f17424a4/tumblr_ntjcztuQha1u9meijo1_500.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
 /*Vampiree */
 
 .id-13694300>.badge-box>i.bdg, #chat-messages .fromID-13694300 .bdg {
@@ -104,93 +85,6 @@
     background-position: center center;
 }
 
-
-/*Cebularz2PL */
-
-.id-16624982>.badge-box>i.bdg, #chat-messages .fromID-16624982 .bdg {
-    background-image: url("http://img.wiocha.pl/images/3/0/30a435a6b0fb90b7b92ca6964b7c0a77.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-16624982 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("http://img.wiocha.pl/images/3/0/30a435a6b0fb90b7b92ca6964b7c0a77.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-/*maczka*/
-
-.id-13692690>.badge-box>i.bdg, #chat-messages .fromID-13692690 .bdg {
-    background-image: url("https://media.giphy.com/media/SRRQQmNtKf8IM/giphy.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-13692690 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://media.giphy.com/media/SRRQQmNtKf8IM/giphy.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-/*YataMen*/
-
-.id-5184589>.badge-box>i.bdg, #chat-messages .fromID-5184589 .bdg {
-    background-image: url("https://media.giphy.com/media/3CindbMfWGjIs/giphy.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-5184589 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://media.giphy.com/media/3CindbMfWGjIs/giphy.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-/*Szarlottka*/
-
-.id-14838297>.badge-box>i.bdg, #chat-messages .fromID-14838297 .bdg {
-    background-image: url("http://ak-hdl.buzzfed.com/static/2015-02/25/18/enhanced/webdr01/anigif_enhanced-buzz-31820-1424907354-21.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-14838297 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("http://ak-hdl.buzzfed.com/static/2015-02/25/18/enhanced/webdr01/anigif_enhanced-buzz-31820-1424907354-21.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-/*Matgeusz*/
-.id-24140679>.badge-box>i.bdg,
-#chat-messages .fromID-24140679 .bdg {
-    background-image: url("http://i1.kym-cdn.com/entries/icons/original/000/002/252/me-gusta.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-24140679 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("http://i1.kym-cdn.com/entries/icons/original/000/002/252/me-gusta.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 /*Piecin*/
 .id-24135929>.badge-box>i.bdg,
 #chat-messages .fromID-24135929 .bdg {
@@ -253,39 +147,3 @@
   margin: 0px 3px 0px 0px;
 }
 
-/*Kolory na czacie itp*/
-/*Paula*/
-#chat-messages .fromID-10607990 .icon,
-#chat-messages .id-10607990 .icon  {
-      background: url("https://vgy.me/v9RgXv.png") !important;
-}
-#chat-messages .id-10607990 span.un.clickable,
-#chat-messages .fromID-10607990 span.un.clickable  {
-     color:#7dff7c !important;
-}
-
-/*pitersis*/
-#chat-messages .fromID-10103366 .icon,
-#chat-messages .id-10103366 .icon  {
-      background: url("https://vgy.me/0AkMwa.png") !important;
-}
-#chat-messages .id-10103366 span.un.clickable,
-#chat-messages .fromID-10103366 span.un.clickable  {
-     color:#00ABFF !important;
-}
-
- /*Mike*/
-#chat-messages .id-6425281 span.un.clickable,
-#chat-messages .fromID-6425281 span.un.clickable  {
-     color:#FF4800 !important;
-}
-
-/* Krzychowski */
-#chat-messages .fromID-26066019 .icon,
-#chat-messages .id-26066019  .icon  {
-      background: url("https://vgy.me/lmCCXB.png") !important;
-}
-#chat-messages .fromID-26066019 span.un.clickable,
-#chat-messages .id-26066019 span.un.clickable {
-  color:#ff00c6 !important;
-}
