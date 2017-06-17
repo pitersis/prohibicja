@@ -6,18 +6,21 @@
 #user-lists .list.room .id-6425281 .icon-chat-subscriber,
 #user-rollover.id-6425281 .meta.subscriber .status i {
   background: url("https://vgy.me/M07sWE.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="6425281-"] .msg .from .icon-chat-cohost,
 #user-lists .list.room .id-6425281 .icon-chat-cohost,
 #user-rollover.id-6425281 .info .role i.icon-chat-cohost {
   background: url("https://vgy.me/KhgPJ1.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="6425281-"] .msg .from .icon-chat-host,
 #user-lists .list.room .id-6425281 .icon-chat-host,
 #user-rollover.id-6425281 .info .role i.icon-chat-host {
   background: url("https://vgy.me/KhgPJ1.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 #chat [data-cid^="6425281-"] span.un.clickable,
@@ -46,18 +49,21 @@
 #user-lists .list.room .id-10607990 .icon-chat-subscriber,
 #user-rollover.id-10607990 .meta.subscriber .status i {
   background: url("https://vgy.me/DieOgI.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="10607990-"] .msg .from .icon-chat-cohost,
 #user-lists .list.room .id-10607990 .icon-chat-cohost,
 #user-rollover.id-10607990 .info .role i.icon-chat-cohost {
   background: url("https://vgy.me/v9RgXv.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="10607990-"] .msg .from .icon-chat-host,
 #user-lists .list.room .id-10607990 .icon-chat-host,
 #user-rollover.id-10607990 .info .role i.icon-chat-host {
  background: url("https://vgy.me/v9RgXv.png") !important;
+ background-repeat: no-repeat !important;
 }
 
 #chat [data-cid^="10607990-"] span.un.clickable,
@@ -86,12 +92,14 @@
 #user-lists .list.room .id-10103366 .icon-chat-subscriber,
 #user-rollover.id-10103366 .meta.subscriber .status i {
   background: url("https://vgy.me/a8xwyg.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="10103366-"] .msg .from .icon-chat-host,
 #user-lists .list.room .id-10103366 .icon-chat-host,
 #user-rollover.id-10103366 .info .role i.icon-chat-host {
  background: url("https://vgy.me/0AkMwa.png") !important;
+ background-repeat: no-repeat !important;
 }
 
 #chat [data-cid^="10103366-"] span.un.clickable,
@@ -120,12 +128,14 @@
 #user-lists .list.room .id-26066019 .icon-chat-subscriber,
 #user-rollover.id-26066019 .meta.subscriber .status i {
   background: url("https://vgy.me/HUu7u9.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="26066019-"] .msg .from .icon-chat-manager,
 #user-lists .list.room .id-26066019 .icon-chat-manager,
 #user-rollover.id-26066019 .info .role i.icon-chat-manager  {
     background: url("https://vgy.me/lmCCXB.png") !important;
+    background-repeat: no-repeat !important;
 }
 
 #chat [data-cid^="26066019-"] span.un.clickable,
@@ -154,29 +164,34 @@
 #user-lists .list.room .id-6598771 .icon-chat-subscriber,
 #user-rollover.id-6598771 .meta.subscriber .status i {
   background: url("https://vgy.me/ZZq9aq.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="6598771-"] .msg .from .icon-chat-manager,
 #user-lists .list.room .id-6598771 .icon-chat-manager,
 #user-rollover.id-6598771 .info .role i.icon-chat-manager  {
     background: url("https://vgy.me/BXaHIP.png") !important;
+    background-repeat: no-repeat !important;
 }
 
 [data-cid^="6598771-"] .msg .from .icon-chat-cohost,
 #user-lists .list.room .id-6598771 .icon-chat-cohost,
 #user-rollover.id-6598771 .info .role i.icon-chat-cohost {
   background: url("https://vgy.me/om9SlO.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="6598771-"] .msg .from .icon-chat-host,
 #user-lists .list.room .id-6598771 .icon-chat-host,
 #user-rollover.id-6598771 .info .role i.icon-chat-host {
   background: url("https://vgy.me/om9SlO.png") !important;
+  background-repeat: no-repeat !important;
 }
 
 [data-cid^="6598771-"] .msg .from .icon-chat-ambassador, 
 #user-lists .list.room .id-6598771 .icon-chat-ambassador {
     background: url("https://vgy.me/lqdjRV.png") !important;
+    background-repeat: no-repeat !important;
 }
 
 #chat [data-cid^="6598771-"] span.un.clickable,
