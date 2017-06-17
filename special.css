@@ -1,0 +1,201 @@
+/* https://rcs.radiant.dj/ */
+
+/*KOLORY NA CZACIE*/
+/*Mikey*/
+[data-cid^="6425281-"] .msg .from .icon-chat-subscriber,
+#user-lists .list.room .id-6425281 .icon-chat-subscriber,
+#user-rollover.id-6425281 .meta.subscriber .status i {
+  background: url("https://vgy.me/M07sWE.png") !important;
+}
+
+[data-cid^="6425281-"] .msg .from .icon-chat-cohost,
+#user-lists .list.room .id-6425281 .icon-chat-cohost,
+#user-rollover.id-6425281 .info .role i.icon-chat-cohost {
+  background: url("https://vgy.me/KhgPJ1.png") !important;
+}
+
+[data-cid^="6425281-"] .msg .from .icon-chat-host,
+#user-lists .list.room .id-6425281 .icon-chat-host,
+#user-rollover.id-6425281 .info .role i.icon-chat-host {
+  background: url("https://vgy.me/KhgPJ1.png") !important;
+}
+
+#chat [data-cid^="6425281-"] span.un.clickable,
+/*.id-6425281 span.un.clickable,*/
+#user-lists .list.room .id-6425281 .name,
+#user-lists .list.room .is-staff.id-6425281 .name,
+#user-lists .list.room .is-dj.id-6425281 .name,
+#user-lists .list.room .is-subscriber.id-6425281 .name,
+#user-lists .list.room [class*='role'].id-6425281 .name,
+#chat .msg .text .id-6425281,
+#chat .msg .text .name.id-6425281,
+#chat .msg .text .name.id-6425281 .name,
+#user-rollover.id-6425281 .username,
+#user-rollover.id-6425281 .meta.subscriber .status span,
+#user-rollover.id-6425281.is-staff .info .role span {
+  color: #00FFFF !important;
+}
+
+#user-rollover.id-6425281 .subscriber .thumb,
+#user-rollover.id-6425281.is-staff .thumb {
+  border-color: #00FFFF !important;
+}
+
+/* - gяєєиα -*/
+[data-cid^="10607990-"] .msg .from .icon-chat-subscriber,
+#user-lists .list.room .id-10607990 .icon-chat-subscriber,
+#user-rollover.id-10607990 .meta.subscriber .status i {
+  background: url("https://vgy.me/DieOgI.png") !important;
+}
+
+[data-cid^="10607990-"] .msg .from .icon-chat-cohost,
+#user-lists .list.room .id-10607990 .icon-chat-cohost,
+#user-rollover.id-10607990 .info .role i.icon-chat-cohost {
+  background: url("https://vgy.me/v9RgXv.png") !important;
+}
+
+[data-cid^="10607990-"] .msg .from .icon-chat-host,
+#user-lists .list.room .id-10607990 .icon-chat-host,
+#user-rollover.id-10607990 .info .role i.icon-chat-host {
+ background: url("https://vgy.me/v9RgXv.png") !important;
+}
+
+#chat [data-cid^="10607990-"] span.un.clickable,
+/*.id-10607990 span.un.clickable,*/
+#user-lists .list.room .id-10607990 .name,
+#user-lists .list.room .is-staff.id-10607990 .name,
+#user-lists .list.room .is-dj.id-10607990 .name,
+#user-lists .list.room .is-subscriber.id-10607990 .name,
+#user-lists .list.room [class*='role'].id-10607990 .name,
+#chat .msg .text .id-10607990,
+#chat .msg .text .name.id-10607990,
+#chat .msg .text .name.id-10607990 .name,
+#user-rollover.id-10607990 .username,
+#user-rollover.id-10607990 .meta.subscriber .status span,
+#user-rollover.id-10607990.is-staff .info .role span {
+  color: #7DFF7C !important;
+}
+
+#user-rollover.id-10607990 .subscriber .thumb,
+#user-rollover.id-10607990.is-staff .thumb {
+  border-color: #7DFF7C !important;
+}
+
+/*pitersis*/
+[data-cid^="10103366-"] .msg .from .icon-chat-subscriber,
+#user-lists .list.room .id-10103366 .icon-chat-subscriber,
+#user-rollover.id-10103366 .meta.subscriber .status i {
+  background: url("https://vgy.me/a8xwyg.png") !important;
+}
+
+[data-cid^="10103366-"] .msg .from .icon-chat-host,
+#user-lists .list.room .id-10103366 .icon-chat-host,
+#user-rollover.id-10103366 .info .role i.icon-chat-host {
+ background: url("https://vgy.me/0AkMwa.png") !important;
+}
+
+#chat [data-cid^="10103366-"] span.un.clickable,
+/*.id-10103366 span.un.clickable,*/
+#user-lists .list.room .id-10103366 .name,
+#user-lists .list.room .is-staff.id-10103366 .name,
+#user-lists .list.room .is-dj.id-10103366 .name,
+#user-lists .list.room .is-subscriber.id-10103366 .name,
+#user-lists .list.room [class*='role'].id-10103366 .name,
+#chat .msg .text .id-10103366,
+#chat .msg .text .name.id-10103366,
+#chat .msg .text .name.id-10103366 .name,
+#user-rollover.id-10103366 .username,
+#user-rollover.id-10103366 .meta.subscriber .status span,
+#user-rollover.id-10103366.is-staff .info .role span {
+  color: #00ABFF !important;
+}
+
+#user-rollover.id-10103366 .subscriber .thumb,
+#user-rollover.id-10103366.is-staff .thumb {
+  border-color: #00ABFF !important;
+}
+
+/*krzychowski*/
+[data-cid^="26066019-"] .msg .from .icon-chat-subscriber,
+#user-lists .list.room .id-26066019 .icon-chat-subscriber,
+#user-rollover.id-26066019 .meta.subscriber .status i {
+  background: url("https://vgy.me/HUu7u9.png") !important;
+}
+
+[data-cid^="26066019-"] .msg .from .icon-chat-manager,
+#user-lists .list.room .id-26066019 .icon-chat-manager,
+#user-rollover.id-26066019 .info .role i.icon-chat-manager  {
+    background: url("https://vgy.me/lmCCXB.png") !important;
+}
+
+#chat [data-cid^="26066019-"] span.un.clickable,
+/*.id-26066019 span.un.clickable,*/
+#user-lists .list.room .id-26066019 .name,
+#user-lists .list.room .is-staff.id-26066019 .name,
+#user-lists .list.room .is-dj.id-26066019 .name,
+#user-lists .list.room .is-subscriber.id-26066019 .name,
+#user-lists .list.room [class*='role'].id-26066019 .name,
+#chat .msg .text .id-26066019,
+#chat .msg .text .name.id-26066019,
+#chat .msg .text .name.id-26066019 .name,
+#user-rollover.id-26066019 .username,
+#user-rollover.id-26066019 .meta.subscriber .status span,
+#user-rollover.id-26066019.is-staff .info .role span {
+  color: #FF00C6 !important;
+}
+
+#user-rollover.id-26066019 .subscriber .thumb,
+#user-rollover.id-26066019.is-staff .thumb {
+  border-color: #FF00C6 !important;
+}
+
+/*Tagzz*/
+[data-cid^="6598771-"] .msg .from .icon-chat-subscriber,
+#user-lists .list.room .id-6598771 .icon-chat-subscriber,
+#user-rollover.id-6598771 .meta.subscriber .status i {
+  background: url("https://vgy.me/ZZq9aq.png") !important;
+}
+
+[data-cid^="6598771-"] .msg .from .icon-chat-manager,
+#user-lists .list.room .id-6598771 .icon-chat-manager,
+#user-rollover.id-6598771 .info .role i.icon-chat-manager  {
+    background: url("https://vgy.me/BXaHIP.png") !important;
+}
+
+[data-cid^="6598771-"] .msg .from .icon-chat-cohost,
+#user-lists .list.room .id-6598771 .icon-chat-cohost,
+#user-rollover.id-6598771 .info .role i.icon-chat-cohost {
+  background: url("https://vgy.me/om9SlO.png") !important;
+}
+
+[data-cid^="6598771-"] .msg .from .icon-chat-host,
+#user-lists .list.room .id-6598771 .icon-chat-host,
+#user-rollover.id-6598771 .info .role i.icon-chat-host {
+  background: url("https://vgy.me/om9SlO.png") !important;
+}
+
+[data-cid^="6598771-"] .msg .from .icon-chat-ambassador, 
+#user-lists .list.room .id-6598771 .icon-chat-ambassador {
+    background: url("https://vgy.me/lqdjRV.png") !important;
+}
+
+#chat [data-cid^="6598771-"] span.un.clickable,
+/*.id-6598771 span.un.clickable,*/
+#user-lists .list.room .id-6598771 .name,
+#user-lists .list.room .is-staff.id-6598771 .name,
+#user-lists .list.room .is-dj.id-6598771 .name,
+#user-lists .list.room .is-subscriber.id-6598771 .name,
+#user-lists .list.room [class*='role'].id-6598771 .name,
+#chat .msg .text .id-6598771,
+#chat .msg .text .name.id-6598771,
+#chat .msg .text .name.id-6598771 .name,
+#user-rollover.id-6598771 .username,
+#user-rollover.id-6598771 .meta.subscriber .status span,
+#user-rollover.id-6598771.is-staff .info .role span {
+  color: #90AD2F !important;
+}
+
+#user-rollover.id-6598771 .subscriber .thumb,
+#user-rollover.id-6598771.is-staff .thumb {
+  border-color: #90AD2F !important;
+}
