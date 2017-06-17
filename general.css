@@ -7,6 +7,6 @@
 /* room setting */
 @import url("https://rawgit.com/pitersis/prohibicja/v1/theme.css");
 /* user badges */
-@import url("https://rawgit.com/pitersis/prohibicja/v1/user.css");
-/*room titles*/
-@import url("https://rawgit.com/pitersis/prohibicja/v1/titles.css");
+@import url("https://rawgit.com/pitersis/prohibicja/v1/badges.css");
+/*special*/
+@import url("https://rawgit.com/pitersis/prohibicja/v1/special.css");
