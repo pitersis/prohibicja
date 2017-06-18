@@ -161,6 +161,7 @@
 
 /*Tagzz*/
 [data-cid^="6598771-"] .msg .from .icon-chat-subscriber,
+[data-cid^="6598771-"] .msg .from .icon-chat-silver-subscriber,
 #user-lists .list.room .id-6598771 .icon-chat-subscriber,
 #user-rollover.id-6598771 .meta.subscriber .status i {
   background: url("https://vgy.me/ZZq9aq.png") !important;
