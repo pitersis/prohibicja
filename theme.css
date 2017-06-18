@@ -222,6 +222,13 @@ Author: Mikey Wazowski
 start mess section
 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=latin-ext');
+#chat .emote .text {
+font-family: 'Open Sans', sans-serif;
+font-style: oblique;
+font-size: 105%;
+}
+
 /*user-rollover +playlist*/
 
 #user-rollover .meta,
