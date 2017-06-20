@@ -1,33 +1,29 @@
 /*
 - file made by pitersis and Mikey Wazowsky -
 - room PROHIBICJA on plug.dj -
-- url: plug.dj/prohibicja -
-- Bardzo duży bałagan wszystko dzięki Majkiemu.
-- Także ten... dzięki Majki.
-- "Porzućcie wszelką nadzieję wy, którzy tu wstępujecie"
-- Dance This Mess Around
+- url: plug.dj/prohibicja - 
+- w pliku jest jako taki porządek, spróbuj to zepsuć to zabiję - 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&subset=latin-ext');
 
-/*
-start section - color and others by pitersis
-*/
-
-
-/* rozpaliłem ogniska bo zimno */
-
-#avatars-container {
-    z-index: 1 !important;
-    /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
+@keyframes fadein {
+	from {opacity: 0;}
+	to   {opacity: 1;}
 }
 
+#avatars-container {
+    z-index: 1 !important; /*obniżenie warstwy avatarów aby ogniska nie blokowały funkcji czatu */
+}
+
+/* ogniska */
 #avatars-container:before,
 #avatars-container:after {
     position: absolute;
     z-index: -1;
     content: " ";
     display: block;
-    background: url(https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif) no-repeat;
+    background: url("https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif") no-repeat;
     width: 150px;
     height: 300px;
 }
@@ -44,107 +40,496 @@ start section - color and others by pitersis
     background-size: 150px 250px;
 }
 
-
-/* KONIEC rozpaliłem ogniska bo zimno */
-
-
-/* ustawienia postaci względem tła - bo wychdziły za wysoko :D */
+/* ustawienie postaci względem tła */
 
 #audience {
     z-index: 1;
     width: 805px;
     height: 188px;
-    /* chyba ok */
     top: 18px;
-    /* chyba ok */
     overflow: hidden;
 }
 
-
-/*konec ustawienia postaci względem tła  */
-
-#dj-button,
-#vote .crowd-response,
-.app-header,
-#room .app-righ,
-#vote .crowd-response.disabled .bottom,
-#footer,
-#app-menu,
-#room .app-right,
-#history-button,
-#history-button.selected,
-#toast-notifications .notification .right,
-#waitlist .list .user,
-.app-right .friends {
-    background: #2b2322;
+#search-menu .menu ul i,
+#search-menu-icon {
+	/*Adblock fix*/
+	display: inline !important;
 }
 
-#chat .cm:nth-child(2n+1),
-.header-panel-button.selected,
-#chat-header,
-#user-lists .header,
-#waitlist .header,
-.app-right .friends.has-requests .header {
-    background-color: #352a29;
+#playback .background {
+	visibility: hidden;
 }
 
-#user-lists .list.staff .group,
-#chat-input,
-.input-background,
-.app-right .friends .list-header .input-background,
-#user-lists .list-header .input-background,
-#toast-notifications .notification .left,
-#search-bar,
-#filter-bar,
-#search-menu li,
-#search-menu ul,
-#search-menu:hover>.selected,
-#import-youtube .youtube-input
-/*trochę mojego*/
-
-{
-    background: #352a29;
+#playback-container {
+	border: none !important;
 }
 
-.media-list.history .row.selected {
-    background: rgba(43, 35, 34, .9);
+.video-only #vote {
+	width: auto !important;
+	left: 230px !important;
+	border-radius: 0;
+	box-shadow: none;
 }
 
-#chat .welcome {
-    color: #8cb141;
+.app-header, 
+#app-menu.in-room, 
+#footer, 
+#search, 
+#video-only-dj {
+	 background: #2b2322;
 }
 
-.badge-box {
-    background: #483a20;
+.app-header #history-button {
+	background: #2b2322;
+}
+
+.app-header #header-panel-bar .selected, 
+.app-header #history-button.selected {
+	background: #120F0E;
+}
+
+#footer .chevron:before, 
+#footer .chevron:after {
+	background: #8CB141 !important;
+}
+
+#footer .back {
+	background: #1F1918 !important;
+}
+
+/*animacja "Powrót do społeczności"
+ http://ianlunn.github.io/Hover/ */
+
+ #footer .back {
+  /*display: inline-block;*/
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+#footer .back:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #009cdd;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+#footer .back:hover, 
+#footer .back:focus, 
+#footer .back:active {
+  color: white;
+}
+
+#footer .back:hover:before, 
+#footer .back:focus:before, 
+#footer .back:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+#footer-user .buttons .button:hover, 
+#video-only-dj:hover {
+	background: linear-gradient(hsl(30,100%,40%), hsl(30,100%,35%)) !important;
+}
+
+#footer-user .buttons .button.inventory:hover .thumb, 
+#video-only-dj:hover .thumb {
+	border-color: #8cb141 !important;
+	box-shadow: 0 0 7px #8cb141 !important;
+}
+
+#footer-user .info {
+    background: #120F0E;
+}
+
+#footer-user .info .points .pp {
+	color: #8cb141;
+}
+
+#footer #playlist-meta .bar-button {
+	width: calc(100% - 53px) !important;
+}
+
+.inventory.button .background {
+	visibility: hidden;
 }
 
 #playlist-button {
-    background: #ff8100;
-    background: -moz-linear-gradient(top, #ff8100 0, #e23f0 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff8100), color-stop(100%, #e23f0));
-    background: -webkit-linear-gradient(top, #ff8100 0, #e23f0 100%);
-    background: -o-linear-gradient(top, #ff8100 0, #e23f0 100%);
-    background: -ms-linear-gradient(top, #ff8100 0, #e23f0 100%);
-    background: linear-gradient(to bottom, #ff8100 0, #e23f0 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff8100', endColorstr='#e23f0', GradientType=0);
+	background: #ff8100;
 }
 
-#chat .mention.is-dj:nth-child(2n+1),
-#chat .mention.is-staff:nth-child(2n+1),
-#chat .mention.is-dj,
-#chat .mention.is-staff {
-    background: #111317;
-    background: -moz-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0, #ff8100), color-stop(13%, #221101), color-stop(100%, #0a0504));
-    background: -webkit-linear-gradient(-45deg, #0d0a13 0, #221101 13%, #0a0504 100%);
-    background: -o-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
-    background: -ms-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
-    background: linear-gradient(135deg, #ff8100 0, #221101 13%, #0a0504 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff8100', endColorstr='#0a0504', GradientType=1);
+#playlist-import, 
+#playlist-create {
+	 background: #211B1A;
+}
+
+#playlist-import:hover, 
+#playlist-create:hover {
+	background: #120F0E;
+}
+
+#user-menu, 
+#room-settings-menu, 
+#playlist-menu {
+	background: #352a29;
+}
+
+#user-view, 
+#dashboard, 
+#room-settings, 
+#media-panel, 
+#playlist-panel, 
+#history-panel {
+	background: #2b2322 !important;
+}
+
+#user-menu .item:not(.selected), 
+#room-settings-menu .item:not(.selected) {
+	color: hsl(210,10%,60%);
+}
+
+#user-menu .item:not(.selected):hover, 
+#room-settings-menu .item:not(.selected):hover {
+	color: hsl(210,10%,80%);
+}
+
+#user-menu .item .count, 
+#room-settings-menu .item .count {
+	color: #eee; /* Fix for hover color changing count color by inheritance */
+}
+
+#user-menu .item:hover, 
+#room-settings-menu .item:hover {
+	background: hsla(15,22%,7%,.6);
+	box-shadow: inset 0 0 10px 1px hsla(0,0%,100%,.1);
+}
+
+#user-menu .item:hover i, 
+#room-settings-menu .item:hover i {
+	filter: brightness(200%);
+}
+
+#user-menu .item.selected, 
+#room-settings-menu .item.selected {
+	background: hsl(15,22%,7%);
+	box-shadow: inset 0 0 10px 1px hsla(0,0%,100%,.2);
+}
+
+#room-settings-menu .title {
+	color: #eee;
+}
+
+#room-settings .general-settings button, 
+#room-settings .general-settings .option.enabled button.off {
+	background: hsl(15,22%,10%) !important;
+	box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+
+#room-settings .general-settings button:hover, 
+#room-settings .general-settings .option.enabled button.off:hover {
+	background: hsl(80,63%,20%) !important;
+	box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+
+#room-settings .general-settings button.off, 
+#room-settings .general-settings .option.enabled button.on {
+	background: hsl(80,63%,40%) !important;
+	box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+
+#room-settings .general-settings .description .value {
+	overflow: hidden !important; /*chowa link do room settings, wyłączając scrolla w opisie.*/
+}
+
+#room-settings .general-settings .input-background {
+    background: hsla(22,17%,10%,.7);
+}
+
+#the-user-profile .notifications.section .row {
+	border-radius: 10px;
+	background: #363030;
+}
+
+#the-user-profile .notifications .row .timestamp {
+	color: #eee;
+}
+
+.tab-menu button, 
+#user-settings .container button, .subscribe-button, .dropdown, 
+#dialog-user-role .role-menu {
+	background: hsl(15,22%,10%) !important;
+	box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+
+/*#user-settings .container button:hover {
+	background: linear-gradient(hsl(10,80%,30%), hsl(0,80%,20%));
+}*/
+
+.subscribe-button:hover {
+	background: linear-gradient(hsl(40,70%,30%), hsl(40,70%,20%)) !important;
+}
+
+.tab-menu button:hover, 
+.dropdown:hover {
+	background: hsl(80,63%,20%) !important;
+}
+
+.tab-menu .selected, 
+.dropdown.open {
+	background: hsl(80,63%,35%) !important;
+}
+
+.dropdown dt {
+	box-shadow: inset -39px 0 0 hsla(0,0%,100%,.15) !important;
+}
+
+.dropdown.open, 
+.dropdown.open dt, 
+#dialog-user-role .role-menu:hover {
+	font-weight: normal;
+}
+
+.dropdown dt .level {
+	color: #eee !important;
+}
+
+.dropdown dd span {
+	color: #AAA;
+}
+
+.dropdown dd .row:hover span {
+	color: #FFF;
+}
+
+.dropdown dd, 
+#chat-suggestion, 
+#dialog-user-role .role-menu .menu ul li, 
+#search-suggestion li, 
+#dialog-restricted-media .row.selected {
+	background: hsla(15,22%,10%,.9);
+}
+
+.dropdown dd .row:hover,
+.chat-suggestion-item[style='background: rgb(45, 49, 58);'],
+#search-suggestion .search-suggestion-item.selected,
+#dialog-restricted-media .row.selected,
+#dialog-user-role .role-menu .menu ul li:hover {
+	background: hsla(80,63%,20%, 0.9) !important;
+}
+
+#user-menu .count, 
+.requests .count, 
+.buttons .count, 
+.request-count, 
+.friends .header i {
+	background: #ff8100 !important;
+	box-shadow: inset 0 0 10px hsl(30,100%,50%);
+	text-shadow: 0 0 3px #000;
+    font-weight: bold;
+}
+
+#user-menu .selected .count, .button:hover .count, #friends-button.selected span, #user-friends .requests.selected span, .friends .header:hover i {
+	background: #ff8100 !important;
+	box-shadow: inset 0 0 1px #000;
+	font-weight: bold;
+}
+
+.grid .cell {
+	background: hsl(15,22%,10%) !important;
+	box-shadow: 0 0 10px #000;
+}
+
+.grid .cell .bar, .grid .cell .meta, #user-friends .row {
+	background: linear-gradient(hsl(15,22%,15%), hsl(15,22%,10%)) !important;
+}
+
+.grid .cell .meta .host {
+	text-align: center;
+	top: 6px;
+	color: #eee !important;
+}
+
+.grid .cell .meta .join {
+	background: hsl(80,63%,20%) !important;
+	border: 1px solid hsl(80,63%,30%) !important;
+	box-shadow: 0 0 3px #000;
+	border-radius: 30px;
+}
+
+.grid .cell .bar .favorite {
+    background: linear-gradient(hsl(80,63%,15%), hsl(80,63%,10%)) !important;
+}
+
+.grid .cell .bar .favorite.selected {
+	background: hsl(80,63%,30%) !important;
+}
+
+.grid .cell .bar .favorite.selected .icon-grab {
+	background-position: -35px -280px;
+}
+
+/* Create community cell */
+.grid .cell.cta {
+	height: 210px ;
+}
+
+#user-view #user-communities .grid .cell.cta button {
+	transition: all .15s ease-out;
+	background: hsl(80,63%,30%) !important;
+	opacity: 1;
+}
+
+#user-view #user-communities .grid .cell.cta:hover button {
+	position: absolute;
+	top: 0 !important;
+	height: 300px;
+	background: linear-gradient(hsl(80,63%,30%), hsl(80,63%,20%)) !important;
+	opacity: .8;
+}
+
+#user-friends .row .positive {
+	background: linear-gradient(hsla(80,63%,50%,.3), hsla(80,63%,40%,.3)) !important;
+}
+
+#user-friends .row .positive:hover {
+	background: linear-gradient(hsla(80,63%,50%,.8), hsla(80,63%,40%,.8)) !important;
+}
+
+#user-friends .row .negative {
+	background: linear-gradient(hsla(30,100%,50%,.3), hsla(30,100%,40%,.3)) !important;
+}
+
+#user-friends .row .negative:hover {
+	background: linear-gradient(hsla(30,100%,50%,.8), hsla(30,100%,40%,.8)) !important;
+}
+
+#the-user-profile .blurb .box {
+	background:  hsl(15,22%,15%);
+	box-shadow: inset 0 0 3px 1px hsla(0,0%,100%,.4);
+}
+
+.user-content.profile .meta .blurb .box,
+.user-content.profile .meta .blurb input {
+	background: hsla(22,17%,10%,.7);
+}
+
+#the-user-profile .blurb .arrow-up {
+	border-bottom: none;
+}
+
+#the-user-profile .experience .bar, #footer-user .info .meta .bar {
+	border-radius: 20px;
+	background:  hsl(15,22%,7%) !important;
+}
+
+#the-user-profile .experience .bar .progress, #footer-user .info .meta .bar .progress {
+	border-radius: 20px;
+	background: radial-gradient(at top left, hsla(0,0%,50%,0), hsla(0,0%,100%,.2)), linear-gradient(hsl(80,63%,60%), hsl(80,63%,50%));
+	box-shadow: 0 0 30px hsl(80,63%,50%);
+}
+
+#the-user-profile .experience .bar .value, #footer-user .info .meta .bar .value {
+	text-shadow: 0 0 3px black;
+}
+
+.experience .levels .level {
+	background: linear-gradient(hsl(15,22%,15%), hsl(15,22%,10%));
+}
+
+.experience .levels .level .label i {
+	z-index: 0;
+}
+
+.notification {
+	background: rgba(18,15,14,.7);
+}
+
+#toast-notifications .left {
+	background:rgba(53,42,41,.7) !important;
+}
+
+#toast-notifications .right {
+	background:rgba(43,35,34,.7) !important;
+}
+
+.drag-media-box {
+	margin-top: 2px;
+    margin-left: 2px;
+	background: hsl(80,63%,40%);
+}
+
+.drag-media-corner {
+	top: -2px;
+    left: -2px;
+}
+
+#playlist-menu .title {
+	color: #eee;
+}
+
+#playlist-menu .menu .row.drag-over {
+	background: hsla(80,63%,20%, 0.45);
+}
+
+#playlist-create.drag-over {
+	background: hsl(80,63%,35%);
+}
+
+#playlist-create .drop-zone {
+	margin: 0;
+	padding: 24px 27px;
+}
+
+#dj-button {
+	background: #2b2322;
+}
+
+#dj-button .left {
+	background: linear-gradient(to bottom, #8CB141 0, #A2B141 100%);
+}
+
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+	background: linear-gradient(to bottom, #ff8100 0, #FF9100 100%);
+}
+
+#dj-button.is-locked {cursor: no-drop}
+#dj-button.is-locked .left, #dj-button.is-full .left {
+	background: linear-gradient(to bottom, #FF4000 0, #FF5000 100%);
 }
 
 #vote {
     font-size: 90%;
+}
+
+#vote .crowd-response,
+#vote .crowd-response.disabled .bottom {
+    background: #2b2322;
+}
+
+.votes-rs {
+    background: #363030;
 }
 
 #woot .top:after {
@@ -173,537 +558,733 @@ start section - color and others by pitersis
     display: none !important;
 }
 
-/*
-#grab .bottom,
-#woot .bottom,
-#meh .bottom {
-     top:57px;
-}*/
-
-
-/* tak dla żartów dodane na chwile */
-/*  #meh .top:after {
-    content: "KIEPSKIE";
-    position: relative;
-    display: inline-block;
-    top: -20px;
-    width: 50px;
-    height: 100px;
-    background: url('https://s-media-cache-ak0.pinimg.com/736x/ac/b1/6f/acb16f864ea5f110b5858d5da4febb78.jpg');
-    background-size: contain;
-    background-repeat:no-repeat;
+#user-rollover {
+    background: #352a29;
 }
 
-div#meh {
-    background: #faf2cb !important;
-}*/
-/* KONIEC tak dla żartów dodane na chwile */
-    
-/* start - stopka - przyciski użytkownika  */
-
-#footer-user .buttons .button:hover {
-    background: #ff8100;
+#user-rollover .info {
+	background: #2b2322;
 }
 
-#footer-user .buttons .profile.button:hover,
-#footer-user .info {
-    background: #2f1a1a;
+#user-rollover.expand.can-skip.chat .arrow-down,
+#user-rollover.expand.chat .arrow-down,
+#user-rollover.expand.self.can-skip.chat .arrow-down {
+	border-left-color: #352a29 !important;
 }
 
+#user-rollover .arrow-down,
+#user-rollover.self.can-skip .arrow-down {
+	border-top-color: #2b2322 !important;
+}
 
-/* end  stopka - przyciski użytkownika  */
+#user-rollover.expand .arrow-down,
+#user-rollover.expand.self.can-skip .arrow-down {
+	border-top-color: #2b2322 !important;
+}
 
+#user-rollover .info .badge-box,
+#user-rollover .background,
+#video-only-dj .background,
+#search-suggestion,
+#search-suggestion ul {
+	background: rgba(0,0,0,0);
+}
 
-/* end section by pitersis */
+#user-rollover .action {
+	background: #352a29 !important;
+}
 
+#user-rollover .action:hover {
+	background: #2b2322 !important;
+}
 
-/*
-Author: Mikey Wazowski
-start mess section
-*/
+#user-rollover .actions .giftsub {
+	box-shadow: inset 0 -2px 0 -1px hsla(80, 63%, 40%, .25);
+}
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=latin-ext');
+#user-rollover .actions .friend, 
+#user-rollover .actions .gift, 
+#user-rollover .actions .ignore {
+	box-shadow: inset 2px 0 0 -1px hsla(80, 63%, 40%, .25);
+}
+
+#user-rollover .actions .mod-dj {
+	box-shadow: inset 0 2px 0 -1px hsla(80, 63%, 40%, .25);
+}
+
+#user-rollover .actions .mod-ban, 
+#user-rollover .actions .mod-mute, 
+#user-rollover .actions .mod-staff {
+	box-shadow: inset 1px 1px 0 0 hsla(80, 63%, 40%, .25);
+}
+
+#user-rollover .actions .skip{
+	box-shadow: inset 0 -2px 0 -1px hsla(80, 63%, 40%, .25);
+}
+
+#media-panel #playlist-activate-button {
+	background: hsl(22,17%,7%);
+	border-radius: 30px 0 0 30px;
+}
+
+#media-panel #playlist-activate-button.active {
+	background: hsl(22,17%,7%);
+}
+
+#playlist-activate-button span,
+#media-panel #playlist-activate-button.active span,
+#dialog-user-role .name {
+	color: hsl(80,63%,35%) !important;
+}
+
+#media-panel #playlist-activate-button.active:hover {
+	cursor: no-drop !important;
+}
+
+#media-panel #playlist-edit-button {
+	background: hsl(80,63%,35%)
+}
+
+#media-panel #playlist-edit-button:hover {
+	background: hsl(80,63%,45%)
+}
+
+#media-panel #playlist-shuffle-button {
+	background: hsl(30, 100%,35%);
+}
+
+#media-panel #playlist-shuffle-button:hover {
+	background: hsl(30, 100%,55%);
+}
+
+#media-panel #playlist-delete-button {
+	border-radius: 0 7px 7px 0;
+	background: hsl(19, 100%,35%);
+}
+
+#media-panel #playlist-delete-button:hover {
+	background: hsl(19, 100%,45%);
+}
+
+#playlist-panel #search-menu li,
+#playlist-panel #search-menu ul,
+#playlist-panel #search-menu:hover > .selected  {
+    background: hsl(22,17%,7%);
+}
+
+#playlist-panel #search-menu li:hover,
+#playlist-panel #search-menu ul:hover {
+	background: hsl(22,17%,14%);
+}
+
+#playlist-menu .row:hover {
+	background: hsla(80,63%,25%,.5) !important;
+}
+
+#playlist-menu .row.selected {
+	background: hsl(80,63%,25%) !important;
+	box-shadow: 0 0 2px 1px hsl(80,63%,30%);
+}
+
+#playlist-menu .count,
+#playlist-menu .menu .row.drag-over .name {
+	color: #eee !important;
+}
+
+#playlist-menu .menu .row .activate-button .icon {
+	background-position: -70px -140px;
+}
+
+#media-panel .media-list .playlist-media-first-item.selected {
+	background: linear-gradient(to right, hsl(80,63%,30%), hsl(80,63%,40%)) !important;
+	box-shadow: inset 0 0 2px 1px hsl(80,63%,50%);
+	border-radius: 7px;
+}
+
+#media-panel .media-list .playlist-media-first-item.now-playing {
+	box-shadow: inset 0 0 10px 1px hsl(80,63%,30%);
+	background: linear-gradient(hsl(80,63%,30%), hsl(80,63%,40%)) !important;
+	border-radius: 7px;
+	border-bottom: none !important;
+}
+
+#media-panel .media-list .playlist-media-item.in-history,
+#media-panel .media-list .playlist-media-last-item.in-history {
+	color: hsl(20,80%,55%);
+	background: hsla(30,100%,30%,.1);
+	box-shadow: inset 0 1px 0 hsl(30,80%,20%);
+}
+
+#media-panel .media-list .playlist-media-first-item .actions,
+#media-panel .media-list .playlist-media-last-item .actions,
+.playlist-media-item .actions {
+	background: #2B2322 !important;
+}
+
+#media-panel .media-list .playlist-media-first-item .actions .action:hover,
+#media-panel .media-list .playlist-media-first-item.now-playing .actions .action:hover,
+#media-panel .media-list .playlist-media-last-item .actions .action:hover,
+.playlist-media-item .actions .action:hover {
+	background: radial-gradient(hsl(80,63%,50%), hsl(80,63%,20%)) !important;
+}
+
+#media-panel .media-list .playlist-media-item.selected,
+#media-panel .media-list .playlist-media-last-item.selected {
+	background: hsl(80,63%,20%);
+	box-shadow: inset 0 0 1px 1px hsl(80,63%,30%);
+}
+
+#media-panel .media-list .playlist-media-item.in-history.selected,
+#media-panel .media-list .playlist-media-last-item.in-history.selected {
+	color: hsl(20,100%,60%);
+	background: hsl(20,80%,30%);
+	box-shadow: inset 0 0 1px 1px hsl(20,80%,40%);
+}
+
+#media-panel .media-list.playlist-media .meta {
+	border-color: hsl(22,17%,7%);
+}
+
+.media-list.history .row.selected,
+.media-list .row.selected {
+	background: hsl(22,17%,7%) !important;
+}
+
+.media-list .meta {
+	border-bottom: hsl(80,63%,20%) 1px solid;
+}
+
+.pop-menu,
+.pop-menu ul {
+    background: hsl(22,17%,14%);
+    color: #eee
+}
+
+.pop-menu li:hover {
+	background: hsla(80, 63%, 40%, .4)
+}
+
+.pop-menu li.create:hover {
+	background: hsla(80, 63%, 40%, .9)
+}
+
+.pop-menu .bar {
+	background: hsl(22,17%,7%);
+}
+
+.pop-menu .bar .bar-divider {
+    background: hsla(80, 63%, 40%, .4)
+}
+
+#chat-header {
+	background: #352a29;
+}
+
+#chat-messages {
+	border-color: #352a29;
+}
+
+#chat-messages::-webkit-scrollbar-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.jspDrag, .jspDrag:hover, .jspDrag:focus, .jspDrag:active {
+	background: #8cb141; 
+}
+
+.jspTrack,
+#dashboard .search,
+#search-bar,
+#filter-bar,
+#user-friends .search,
+.app-right .friends .list-header .input-background {
+	background: hsla(22,17%,7%,.7);
+}
+
+.app-right #chat-input {
+	background: hsla(22,17%,15%,.7);
+}
+
+.focused {
+	color: #EEE !important;
+	-webkit-box-shadow: inset 0 0 0 1px #8cb141 !important;
+    -moz-box-shadow: inset 0 0 0 1px #8cb141 !important;
+    box-shadow: inset 0 0 0 1px #8cb141 !important;
+	/*nie działa z rcs bo oni też dali sobie !important*/
+}
+
+#room .app-right {
+	background: #120F0E !important;
+}
+
+#chat .mention.is-dj:nth-child(odd),
+#chat .mention.is-staff:nth-child(odd),
+#chat .mention.is-dj,
+#chat .mention.is-staff {
+    background: #111317;
+    background: -moz-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0, #ff8100), color-stop(13%, #221101), color-stop(100%, #0a0504));
+    background: -webkit-linear-gradient(-45deg, #0d0a13 0, #221101 13%, #0a0504 100%);
+    background: -o-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
+    background: -ms-linear-gradient(-45deg, #ff8100 0, #221101 13%, #0a0504 100%);
+    background: linear-gradient(135deg, #ff8100 0, #221101 13%, #0a0504 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff8100', endColorstr='#0a0504', GradientType=1);
+}
+
+#chat-input-field {
+	color: #888 !important;
+	font-weight: bold;
+}
+
+#chat-input.focused #chat-input-field{
+	color: #EEE !important;
+}
+
+#chat .cm,
+chat .cm.message {
+	background: hsl(7,21%,14%);
+	animation: fadein .5s;
+}
+
+#chat .cm.message:nth-child(odd) {
+	background: hsl(7,21%,10%);
+}
+
+#chat .cm.message .timestamp,
+#chat .emote .timestamp {
+	color: #eee;
+}
+
 #chat .emote .text {
 font-family: 'Open Sans', sans-serif;
-font-style: oblique;
+font-style: oblique !important;
 font-size: 105%;
 }
 
-/*user-rollover +playlist*/
-
-#user-rollover .meta,
-#user-rollover .actions .friend,
-#user-rollover .actions .gift,
-#user-rollover .actions .giftsub,
-#user-rollover .actions .ignore,
-#user-rollover .actions .mention,
-#user-rollover .actions .mod-ban,
-#user-rollover .actions .mod-dj,
-#user-rollover .actions .mod-mute,
-#user-rollover .actions .mod-staff,
-#user-rollover .actions .skip,
-#playlist-import,
-.media-list .playlist-media .jspScrollable {
-    background: #352a29;
+#chat .emote {
+    /*background-color: rgba(76, 93, 119, 0.22) !important;*/
+	background-color: hsla(80, 63%, 40%, .2) !important;
+	border: 2px solid hsla(80, 63%, 40%, .8) !important;;
 }
 
-#user-rollover.expand.chat .arrow-down {
-    border-left: 8px solid #352a29 !important;
+#chat .cm .badge-box {
+	background: transparent !important;
 }
 
-#user-rollover .info,
-#user-rollover .actions .friend:hover,
-#user-rollover .actions .gift:hover,
-#user-rollover .actions .giftsub:hover,
-#user-rollover .actions .ignore:hover,
-#user-rollover .actions .mention:hover,
-#user-rollover .actions .mod-ban:hover,
-#user-rollover .actions .mod-dj:hover,
-#user-rollover .actions .mod-mute:hover,
-#user-rollover .actions .mod-staff:hover,
-#user-rollover .actions .skip:hover {
-    background: #2b2322;
+#chat .cm .delete-button::selection {
+	background: transparent;
 }
 
-#playlist-create,
-#search,
-.dialog-input-background,
-#dashboard .search {
-    background: #211B1A;
+#chat .cm .delete-button {
+	background: hsl(27,17%,7%);
+	transition: all linear .25s;
 }
 
-
-/*Waitlist button*/
-
-#dj-button.is-leave .left,
-#dj-button.is-quit .left {
-    background: linear-gradient(to bottom, #ff8100 0, #FF9100 100%);
+#chat .cm .delete-button:hover {
+	background: #ff8100 !important;
 }
 
-#dj-button .left {
-    background: linear-gradient(to bottom, #8CB141 0, #A2B141 100%);
+#chat .disconnect {
+	background: rgb(0,0,0) !important;
+	opacity: .6 !important;
 }
 
-
-/*toggle waitlist + dj cycle buttons + room settings menu + playlistmenu */
-
-#room-settings .general-settings .option button.off,
-#playlist-create:hover,
-#playlist-edit-button:hover {
-    background: #8CB141;
+#user-lists .group {
+	background: hsl(5,23%,10%)!important;
 }
 
-#playlist-menu .menu .row .count,
-#playlist-activate-button span {
-    color: #8CB141;
+#user-lists .user:hover {
+	background: hsla(80,63%,20%,0.75) !important;
 }
 
-#room-settings .general-settings .option.enabled>button.on,
-#playlist-import:hover,
-#playlist-shuffle-button:hover,
-#user-friends .list .row .buttons button.negative:hover,
-#chat .delete-button:hover {
-    background: #ff8100 !important;
+#user-lists .list.staff .user:hover .name {
+	color: #EEE !important;
 }
 
-.dialog-frame .button.cancel {
-    color: #ffffff !important;
+#user-lists .bans .user .name,
+#user-lists .mutes .user .name {
+	color: #FF4000;
 }
 
-#playlist-delete-button:hover {
-    background: #B0A821;
+#user-lists .bans .user .label,
+#user-lists .mutes .user .label {
+	color: hsl(0,100%,70%) !important;
 }
 
-#room-settings .general-settings .option.enabled>button.off {
-    background: #282c35;
+#user-lists .bans .user .timestamp,
+#user-lists .mutes .user .timestamp {
+	color: #eee !important;
 }
 
-#room-settings-menu,
-#footer-user .signup {
-    background: #352a29;
+#user-lists .bans .user .duration,
+#user-lists .bans .user .duration {
+	color: #eee !important;
 }
 
-#room-settings .general-settings,
-#playlist-menu,
-.jspTrack {
-    background: #2b2322;
+#user-lists .bans .user .moderator,
+#user-lists .mutes .user .moderator {
+	color: hsl(15,100%,70%) !important;
 }
 
-#room-settings-menu .item.selected,
-#footer-user .back,
-#playlist-menu .menu .row.selected {
-    background: #1F1918;
+#user-lists .bans .user:hover,
+#user-lists .mutes .user:hover {
+	background: linear-gradient(to right, hsla(0,70%,20%,.5), hsla(20,70%,40%,.5)) !important;
 }
 
-
-/*p3 menu*/
-
-#plugcubed,
-#p3-settings {
-    background: #2b2322;
-    color: #EDEDED;
+#user-lists .bans .user:hover .unban,
+#user-lists .mutes .user:hover .unban {
+	color: #FF4000 !important;
 }
 
-#p3-settings .header {
-    background: #0D0A09;
+#user-lists .header {
+	height: 42px;
 }
 
-#p3-settings .container .item span,
-#playlist-menu .title {
-    color: #E3E3E3;
+#user-lists .list-header {
+	top: 44px;
 }
 
-#p3-settings {
-    min-height: 530px !important;
+#user-lists .header .button {
+	top: 0px;
 }
 
+#chat .cm.welcome {
+	color: hsl(80,63%,40%);
+	box-shadow: inset 0 0 0 1px hsl(80,63%,15%);
+}
 
-/*scrollbar
- https://codepen.io/GhostRider/pen/GHaFw */
+#chat .log {
+	background: hsla(80, 63%, 40%, .2) !important;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid hsla(22,17%,7%,.7);
+}
+
+.cm strong {color: #fff !important;}
+.cm em {color: #999 !important;}
+
+#chat .cm.moderation {
+	background: hsla(22,17%,7%,.7) !important;
+	box-shadow: inset 0 0 0 1px hsl(260,50%,50%);
+	border: none !important;
+}
+#chat .cm.moderation .timestamp {
+	color: hsl(260,70%,70%);
+}
+
+#chat .badge-box .icon-locked-grey {background-position: -105px -140px;}
+#chat .badge-box .icon-unlocked-grey {background-position: -140px -140px;}
+
+#chat .cm.user-action {
+	background: hsla(60,100%,20%,.5) !important;
+	box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.1);
+}
+#chat .cm.user-action .msg .from .un,
+#chat .cm.user-action .timestamp {
+	color: hsl(60,90%,70%) !important;
+}
+
+#user-lists .header,
+#waitlist .header,
+.app-right .friends .list-header {
+	background: #120F0E;
+}
+
+#waitlist .list .user,
+.app-right .friends {
+    background: #120F0E;
+}
+
+#room .friends.has-requests .header {
+	background: hsla(22,17%,18%,.7);
+}
+
+#room-bar .icon-room {
+	background: url("https://i.imgur.com/WMstKEk.gif") center / 140% !important; /*thanks https://github.com/WiBla */
+}
+
+#app-menu .list {
+	background: hsla(22,17%,7%,.7);
+}
+
+#app-menu .list .item {
+	box-shadow: inset 0 -1px 0 0 hsla(80,63%,40%, .55) !important;
+	color: #eee;
+}
+
+#app-menu .list .item:hover {
+	box-shadow: inset 0 0 7px 0px hsla(0,0%,100%,.5);
+	background: hsl(80,63%,20%);
+}
+
+#app-menu .list .item.community i {background-position: -140px -210px;}
+#app-menu .list .item.events i {background-position: -175px -315px;}
+#app-menu .list .item.support i {background-position: -175px -175px;}
+#app-menu .list .item.blog i {background-position: -70px -245px;}
+#app-menu .list .item.about i {background-position: -105px -525px;}
+#app-menu .list .logout i {background-position: -175px -525px;}
+
+#app-menu .list .logout {
+	background: #120F0E;
+	border: 1px solid hsl(0,100%,70%);
+	color: #eee;
+}
+
+#app-menu .list .logout:hover {
+	background: hsla(15, 100%, 40%, 0.5);
+	border: 1px solid #FF4000;
+}
+
+#app-menu .android-badge,
+#app-menu .iphone-badge {
+	display: none; /*triggowało mnie to, było brzydkie i nieprzemyślane. Teraz przynajmniej tego nie widać*/
+}
+
+#search-suggestion {
+	top: 48px;
+}
+
+#user-inventory .history .row {background: hsl(22,17%,7%) !important;}
+#user-inventory .history .row .item {background: hsl(22,17%,17%) !important;}
+#user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(80,63%,40%) !important;}
+#user-inventory .history .jspPane .row {border-color: hsl(80,63%,40%);}
+#user-inventory .history .legend {color: #eee;}
+
+ .dialog {
+	background: #2b2322;
+}
+
+.dialog .dialog-body {
+	background: hsla(22,17%,7%,.7) !important;
+}
+
+.dialog .cancel {
+	background: linear-gradient(hsla(30,100%,50%,.75), hsla(30,100%,40%,.75)) !important;
+}
+
+.dialog-frame .button span {
+	color: #EEE;
+}
+
+.dialog .submit {
+	background: linear-gradient(hsla(80,63%,40%,.5), hsla(80,63%,30%,.5)) !important;
+}
+
+#dialog-level-up {
+	background: #2b2322;
+}
+
+#dialog-level-up .dialog-body {
+	background: hsla(22,17%,7%,.7) !important;
+}
+
+#dialog-preview .submit {
+	background: linear-gradient(hsla(80,63%,40%,.5), hsla(80,63%,30%,.5)) !important;
+}
+
+.dialog.no-submit .button.submit {
+	background: linear-gradient(hsla(80,63%,40%,.15), hsla(80,63%,30%,.15)) !important;
+	cursor: no-drop !important;
+}
+
+#dialog-user-role .dialog-body .divider,
+.dialog.choice .divider {
+	background: hsl(80,63%,20%) !important;
+}
+
+#dialog-ban-user .duration .toggle,
+#dialog-mute-user .duration .toggle {
+	background: hsl(15,22%,10%) !important
+}
+
+.dialog.choice li .radio {
+	background: hsl(15,22%,5%) !important
+}
+
+.dialog.choice li i {
+	left: 0 !important; 
+}
+
+#dialog-ban-user .duration .toggle:hover,
+#dialog-mute-user .duration .toggle:hover {
+	background: hsl(80,63%,20%) !important;
+}
+
+#dialog-ban-user .duration .toggle.selected,
+#dialog-mute-user .duration .toggle.selected {
+	 background: hsl(80,63%,30%) !important;
+ }
+
+ #dialog-ban-user .duration, 
+ #dialog-mute-user .duration {
+	border-bottom: 1px hsl(80,63%,20%) solid !important;
+ }
+
+ #dialog-ban-user .duration .toggle.day, 
+ #dialog-ban-user .duration .toggle.forever, 
+ #dialog-mute-user .duration .toggle.long, 
+ #dialog-mute-user .duration .toggle.medium {
+	 box-shadow: inset 1px 0 0 hsl(80,63%,20%) !important;
+ }
+
+ .dialog.choice li:hover {
+    background: hsla(7,12%,15%,.7);
+}
+
+.dialog.choice li.selected {
+	background: hsla(7,12%,25%,.7);
+}
+
+#dialog-purchase.username .left {
+	background: hsla(22,17%,3%,.7);
+}
+
+#dialog-purchase .username-box input {
+	background: hsla(22,17%,15%,.7);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
 
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-corner {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
-    border: 10px;
-    background-color: #444444;
-}
-
-::-webkit-scrollbar,
-#chat-messages::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
-    background-color: #F5F5F5;
+    background: #15110f;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #8cb141;
-    background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+    background: #8cb141; 
 }
 
+.icon {
+	background-image: url('https://vgy.me/qZKiGh.png');
+} /*Pokolorować  ^*/
 
-/*borders on focused*/
+/*
++-----------------------+
+|                       |
+|   ==[ROZSZERZENIA]==  |
+|                       |
++-----------------------+
+*/
 
-.focused {
-    -webkit-box-shadow: inset 0 0 0 1px #8cb141 !important;
-    -moz-box-shadow: inset 0 0 0 1px #8cb141 !important;
-    box-shadow: inset 0 0 0 1px #8cb141 !important
+/*--[RCS]--*/
+
+#chat .cm.rsshit.message {
+	border: none !important;
 }
 
-
-/*app menu*/
-
-#app-menu,
-#app-menu .list {
-    background: #2b2322;
+#rcs-menu-container .container .group {
+	border-color: hsl(80,63%,20%) !important;
+	background: hsla(80,63%,10%,.8) !important;
+}
+.rcs.item.selected span {
+	color: hsl(80,63%,40%) !important;
 }
 
-#app-menu .list span {
-    color: #E3E3E3;
+#rs-skip-button {
+	background: #2b2322 !important;
 }
 
-#app-menu .list .item:hover,
-#app-menu .list .logout:hover {
-    background: #352a29;
+#rcs-progress-container .bar {
+	background-color: hsl(80,63%,40%) !important;
 }
 
-.jspDrag {
-    box-shadow: rgb(17, 19, 23) 0px 0px 0px 1px inset;
-    background: #8cb141 !important;
+#app-menu .list .rcsunload {
+	background: #120F0E !important;
+	border: 1px solid hsl(0,100%,70%) !important;
+	color: #eee !important;
 }
 
-#media-panel .header,
-.media-list .playlist-media .jspScrollable,
-.media-list .row,
-.media-list .actions,
-.jspTrack,
-#media-panel .header .back {
-    background: #1C1817;
+#app-menu .list .rcsunload:hover {
+	background: hsla(15, 100%, 40%, 0.5) !important;
+	border: 1px solid #FF5000 !important;
 }
 
-.media-list .row.selected,
-.media-list .selected .actions,
-#playlist-activate-button {
-    background: #2b2322;
-}
-
-#playlist-edit-button {
-    background: #524636;
-}
-
-#playlist-shuffle-button {
-    background: #3D3426;
-}
-
-#playlist-delete-button {
-    background: #292116;
-}
-
-.icon-check-purple {
-    background: url('https://vgy.me/mhSYNQ.png');
-}
-
-.icon-check-circle {
-    background: url('https://vgy.me/obUghn.png');
-}
-
-.icon-next-track {
-    background: url('https://vgy.me/21JXlv.png');
-}
-
-
-/*some mess*/
-
-#playback .background {
-    display: none;
-}
-
-
-/* import buttons*/
-
-#playlist-import-panel .button:hover {
-    background: #8cb141;
-}
-
-
-/*wyszukiwanie etc*/
-
-#search-menu li:hover,
-#search-menu ul:hover {
-    background: #2b2322;
-}
-
-
-/*profile menu*/
-
-#user-menu .item.selected {
-    background: #1F1918;
-    cursor: default
-}
-
-#user-menu .item,
-#user-menu {
-    background: #352a29;
-}
-
-
-/*profile my stuff*/
-
-.tab-menu button.selected,
-.tab-menu button.selected:hover,
-.user-content.communities button {
-    background: #8cb141;
-}
-
-
-/*profile my profile*/
-
-.experience .xp .bar .progress {
-    background: #8cb141;
-}
-
-.user-content.profile .meta .blurb input {
-    -webkit-box-shadow: inset 0 0 0 1px #8cb141;
-    -moz-box-shadow: inset 0 0 0 1px #8cb141;
-    box-shadow: inset 0 0 0 1px #8cb141;
-}
-
-
-/*user rollover userID*/
+/*--[PlugCubed]--*/
 
 #user-rollover .meta .user-id,
 #user-rollover .meta .p3UserID {
     color: #808691;
 }
 
-#chat-messages .timestamp {
-    color: #C8CBCC;
+#plugcubed {
+    background: #2b2322;
 }
 
-#dashboard,
-#rs-skip-button {
-    background: #2b2322 !important;
+/*#p3-settings-custom-colors .container, 
+#p3-settings .container,*/
+#p3-settings,
+ #p3-settings-custom-colors {
+	background: #120F0E !important;
 }
 
-.communities .grid .cell,
-.communities .grid .cell .meta {
-    background: #1C1817 !important;
+#p3-settings { 
+	min-height: 530px !important;
 }
 
-.communities .grid .cell:hover>.meta {
-    background: rgba(28, 24, 23, 0.9) !important;
+#p3-settings .container .item input,
+#p3-settings-custom-colors .container .item input {
+	background: hsla(22,17%,15%,.7);
+	border: none !important;
+    height: 30px;
+	font-weight: bold;
+	text-align: center;
 }
 
-#rcs-progress-container {
-    background: rgba(0, 0, 0, 0.2) !important;
+#p3-settings-custom-colors .header, 
+#p3-settings .header {
+	background: hsla(22,17%,15%,.7);
 }
 
-#rcs-progress-container .bar,
-#footer-user .info .bar .progress,
-#user-friends .list .row .buttons button.positive:hover {
-    background: #8cb141 !important;
+#p3-settings-custom-colors .container .item input, 
+#p3-settings-custom-colors .container .item span, 
+#p3-settings .container .item input, 
+#p3-settings .container .item span,
+#p3-settings .header .title span.version {
+	color: #ededed;
 }
 
-.button.submit,
-.dialog-frame .button.submit,
-.rs .button.submit {
-    background: linear-gradient(to bottom, #9ABF4E 0, #90B349 100%) !important;
-    color: #eee !important;
+#p3-settings-custom-colors .container .divider,
+#p3-settings .container .divider {
+	background: hsl(80,63%,40%) !important;
 }
 
-.dialog-frame {
-    background: #1F1918 !important;
+#p3-control-panel-top {
+	background: hsl(22,17%,15%);
 }
 
-.dialog-frame .button.cancel {
-    background: linear-gradient(to bottom, #FA8D1E 0, #ED871F 100%) !important;
+#p3-control-panel {
+	background: hsl(15, 13%, 10%);
 }
 
-#footer-user .bar .value,
-.rsshow {
-    color: #000000;
+#p3-control-panel-menu {
+	background: hsl(15, 13%, 5%);
 }
 
-#footer-user .info .meta div.bar {
-    background: #c6c6c6;
+#p3-control-panel-close {
+	background: #ff8100;
 }
 
-#playlist-panel,
-#user-view,
-#waitlist .list .sortable-placeholder {
-    background: #1C1817;
+#p3-control-panel-current > div > div > div > table > tbody > tr > td > strong {
+	color: hsl(80,63%,40%);
 }
 
-.communities .grid .cell .bar,
-.communities .grid .cell .favorite
-/*, .communities .grid .cell .meta .join, .media-list, .dialog-body*/
-
-{
-    background: #1C1817 !important;
+.p3-control-panel-menu-tab {
+	background: hsla(80,63%,10%,.1);
+	color: #eee;
+	border-top: 1px solid hsl(80,63%,20%);
 }
 
-.communities .grid .cell .favorite {
-    border-left: 1px solid;
-    border-color: #000000;
+.p3-control-panel-menu-tab:first-child {
+	border-top: none;
 }
 
-.communities .grid .cell .meta .join,
-.media-list,
-.dialog-body {
-    background: #171413 !important;
+.p3-control-panel-menu-tab.current {
+	background: hsla(80,63%,30%,.8);
 }
 
-#room-settings .general-settings .option button,
-#room-settings .general-settings .option.enabled>button.off {
-    background: #363030;
+#p3-control-panel-current .p3-textarea {
+	background: #1e1815 !important;
 }
-
-.user-content.profile .notifications .row .timestamp {
-    color: #eee;
-}
-
-.dropdown dd .row {
-    color: #eee;
-    background: #363030;
-    border-bottom: 1px solid;
-    border-color: #1C1817;
-}
-
-.dropdown dd .row:hover {
-    background: #1C1817;
-}
-
-.dropdown,
-#chat .delete-button {
-    background: #38312F;
-}
-
-#playlist-import-panel .button,
-.tab-menu button:hover,
-#dialog-media-update .swap:hover {
-    background: #524949;
-}
-
-.tab-menu button,
-.user-content.profile .meta .blurb .box,
-.user-content.profile .meta .blurb input,
-.user-content.profile .notifications .row,
-#user-inventory .badges .grid .cell,
-#user-inventory .history .list .row,
-#user-friends .search,
-#user-friends .list .row,
-.subscribe-button,
-#dialog-media-update .swap,
-#user-lists .list .user:hover,
-.votes-rs {
-    background: #363030;
-}
-
-#user-inventory .badges .grid .cell:hover,
-#user-inventory .history .list .row .item,
-#user-friends .list .row .buttons button.positive,
-#user-friends .list .row .buttons button.negative,
-.subscribe-button:hover {
-    background: #524949;
-}
-
-#user-inventory .badges .grid .cell.selected {
-    background: #363030;
-    box-shadow: inset 0 0 0 2px #8cb141;
-}
-
-#user-inventory .history .list .row {
-    border-bottom: 1px solid #000000;
-}
-
-.user-content .grid .cell {
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 0px solid #000000;
-}
-
-.media-list .row.now-playing {
-    border-bottom: #000000 0px solid!important;
-    background: #0F0D0C!important;
-}
-
-.media-list .row.now-playing .actions {
-    top: 1px;
-    background: #0F0D0C;
-}
-
-#user-lists .list.bans .user .duration,
-#user-lists .list.bans .user .timestamp,
-#user-lists .list.mutes .user .expires {
-    color: #eee;
-}
-
-#user-lists .list.bans .user .unban,
-#user-lists .list.mutes .user .unmute {
-    color: #8cb141;
-}
-
-#search-suggestion li {
- background: #1C1817;
-}
-#search-suggestion li.selected{
-  background: #524949;
-}
-.pop-menu .bar {
- background: #1C1817;
-}
-
-.pop-menu li {
-    background: #363030;
-}
-.pop-menu li:hover {
-    background: #524949;
-}
-.pop-menu li.create:hover {
-    background: #8cb141;
-}
-.icon-room {
-    background: url(https://i.imgur.com/WMstKEk.gif) center / 140%; /*thanks https://github.com/WiBla */
-}
-/* end section by Mikey Wazowsky */

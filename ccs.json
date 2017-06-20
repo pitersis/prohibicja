@@ -1,7 +1,7 @@
 {
     "room": "[PL] Prohibicja.xyz ANY GENRE",
     "author": "pitersis and Mikey Wazowsky",
-    "icon": null,
+    "icon": "https://i.imgur.com/WMstKEk.gif",
     "css": "https://rawgit.com/pitersis/prohibicja/v1/general.css",
     "rules": {
         "allowAutorespond": true,

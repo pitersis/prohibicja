@@ -3,12 +3,16 @@
 
 https://plug.dj/prohibicja
 
-Thanks to w0lf for css badge. 
+Thanks to Wibla and xBytez.
 
-@p3=https://rawgit.com/pitersis/prohibicja/v1/rs.json
+@rcs=https://rawgit.com/pitersis/prohibicja/v1/ccs.json
 
-### Help: [plug³ Room Settings] 
+ [plug³ Room Settings] 
+ [Custom Community Settings]
 
-# Requires p3 or rcs to work.  
+# Requires [p3] or [rcs] to work.  
 
  [plug³ Room Settings]: <https://plugcubed.net/roomsettings>
+ [Custom Community Settings]: <https://rcs.radiant.dj/ccs>
+ [p3]: <https://plugcubed.net/>
+ [rcs]: <https://rcs.radiant.dj/>
