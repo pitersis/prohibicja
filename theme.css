@@ -23,7 +23,7 @@
     z-index: -1;
     content: " ";
     display: block;
-    background: url("https://media.giphy.com/media/RcW4tCntkBIgU/giphy.gif") no-repeat;
+    background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/campfire.gif") no-repeat;
     width: 150px;
     height: 300px;
 }
@@ -428,6 +428,10 @@
 #the-user-profile .blurb .box {
 	background:  hsl(15,22%,15%);
 	box-shadow: inset 0 0 3px 1px hsla(0,0%,100%,.4);
+}
+
+.user-content.profile .meta .blurb input {
+	box-shadow: inset 0 0 0 1px #8cb141;
 }
 
 .user-content.profile .meta .blurb .box,
@@ -1001,7 +1005,7 @@ font-size: 105%;
 }
 
 #room-bar .icon-room {
-	background: url("https://i.imgur.com/WMstKEk.gif") center / 140% !important; /*thanks https://github.com/WiBla */
+	background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/room-icon.gif") center / 140% !important;
 }
 
 #app-menu .list {
@@ -1158,8 +1162,8 @@ font-size: 105%;
 }
 
 .icon {
-	background-image: url('https://vgy.me/qZKiGh.png');
-} /*Pokolorować  ^*/
+	background-image: url('https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/icons.png');
+} 
 
 /*
 +-----------------------+

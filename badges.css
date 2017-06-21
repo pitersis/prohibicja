@@ -1,7 +1,6 @@
 /*Greena*/
-
 .id-10607990>.badge-box>i.bdg, #chat-messages .fromID-10607990 .bdg {
-    background-image: url("https://i.imgur.com/ROIQ0hS.gif");
+    background-image: url("https://vgy.me/jyXpCU.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -9,77 +8,7 @@
 
 #user-rollover.id-10607990 .badge-box>i.bdg {
     border-radius: 6px;
-    background-image: url("https://i.imgur.com/ROIQ0hS.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-/*Frędzelek*/
-
-.id-11025235>.badge-box>i.bdg, #chat-messages .fromID-11025235 .bdg {
-    background-image: url("https://vgy.me/fbvnZb.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-11025235 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://vgy.me/fbvnZb.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-/*Amoniak*/
-
-.id-10542387>.badge-box>i.bdg, #chat-messages .fromID-10542387 .bdg {
-    background-image: url("https://i.imgur.com/xVIbwhq.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-10542387 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://i.imgur.com/xVIbwhq.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-/*Pi3cix*/
-
-.id-11787585>.badge-box>i.bdg, #chat-messages .fromID-11787585 .bdg {
-    background-image: url("https://67.media.tumblr.com/tumblr_m9nfybjiFT1rbemx0o3_250.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-11787585 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://67.media.tumblr.com/tumblr_m9nfybjiFT1rbemx0o3_250.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-/*Vampiree */
-
-.id-13694300>.badge-box>i.bdg, #chat-messages .fromID-13694300 .bdg {
-    background-image: url("http://4.bp.blogspot.com/-N8dZFPNHzVE/VYCuR58CktI/AAAAAAAAAFE/gYS9ArmRgQs/s1600/225399_xh8qte0l9z2rdia3w1b4ypfm6kojv7nsgu5c.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-13694300 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("http://4.bp.blogspot.com/-N8dZFPNHzVE/VYCuR58CktI/AAAAAAAAAFE/gYS9ArmRgQs/s1600/225399_xh8qte0l9z2rdia3w1b4ypfm6kojv7nsgu5c.gif");
+    background-image: url("https://vgy.me/jyXpCU.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -88,7 +17,7 @@
 /*Piecin*/
 .id-24135929>.badge-box>i.bdg,
 #chat-messages .fromID-24135929 .bdg {
-    background-image: url("http://www.virginemirecords.com/wp-content/uploads/2015/10/DJMUST.jpg");
+    background-image: url("https://vgy.me/hupY4B.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -96,7 +25,7 @@
 
 #user-rollover.id-24135929 .badge-box>i.bdg {
     border-radius: 6px;
-    background-image: url("http://www.virginemirecords.com/wp-content/uploads/2015/10/DJMUST.jpg");
+    background-image: url("https://vgy.me/hupY4B.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -105,7 +34,7 @@
 /*MajkeldziedulotroN*/
 .id-6405076>.badge-box>i.bdg,
 #chat-messages .fromID-6405076 .bdg {
-    background-image: url("http://68.media.tumblr.com/6ada8c2003d727b0503d4ce0bf5b2508/tumblr_nslvwzpdHg1uvj8pco1_400.gif");
+    background-image: url("https://vgy.me/o4ZWwF.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -113,7 +42,7 @@
 
 #user-rollover.id-6405076 .badge-box>i.bdg {
     border-radius: 6px;
-    background-image: url("http://68.media.tumblr.com/6ada8c2003d727b0503d4ce0bf5b2508/tumblr_nslvwzpdHg1uvj8pco1_400.gif");
+    background-image: url("https://vgy.me/o4ZWwF.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -142,7 +71,7 @@
 .fromID-6315045 .from .un.clickable:before,
 .id-6315045 > .msg > .from:before /*- Mycka1337 -*/
 { 
-  content: url("https://i.imgur.com/Ev9MdsC.png") !important;
+  content: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/heart.png") !important;
   float: left;
   margin: 0px 3px 0px 0px;
 }

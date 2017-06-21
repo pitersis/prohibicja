@@ -3,11 +3,12 @@
 
 https://plug.dj/prohibicja
 
-Thanks to Wibla and xBytez.
+Thanks to WiBla and xBytez.
 
 @rcs=https://rawgit.com/pitersis/prohibicja/v1/ccs.json
 
  [plug³ Room Settings] 
+ 
  [Custom Community Settings]
 
 # Requires [p3] or [rcs] to work.  
