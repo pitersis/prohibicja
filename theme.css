@@ -45,8 +45,8 @@
 #audience {
     z-index: 1;
     width: 805px;
-    height: 188px;
-    top: 18px;
+    height: 180px;
+    top: 25px;
     overflow: hidden;
 }
 
@@ -261,6 +261,10 @@
 
 #room-settings .general-settings .description .value {
 	overflow: hidden !important; /*chowa link do room settings, wyłączając scrolla w opisie.*/
+}
+
+#room-settings .general-settings .description .value a:last-of-type {
+    display: none !important; /*chowa ostatni link w opisie XD*/
 }
 
 #room-settings .general-settings .input-background {
@@ -564,6 +568,9 @@
 
 #user-rollover {
     background: #352a29;
+}
+
+#user-rollover .meta .joined {
 }
 
 #user-rollover .info {

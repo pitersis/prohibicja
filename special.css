@@ -215,3 +215,62 @@
 #user-rollover.id-6598771.is-staff .thumb {
   border-color: #90AD2F !important;
 }
+
+/*Room Settings Authors*/
+
+#user-rollover.id-6425281 .meta .p3UserID,
+#user-rollover.id-10103366 .meta .p3UserID,
+#user-rollover.id-4613422 .meta .p3UserID {
+    display: none !important;
+}
+
+#user-rollover.id-6425281 span.showID,
+#user-rollover.id-10103366 span.showID,
+#user-rollover.id-4613422 span.showID {
+    display: none !important;
+}
+
+#user-rollover.id-6425281 .meta .joined:after,
+#user-rollover.id-10103366 .meta .joined:after,
+#user-rollover.id-4613422 .meta .joined:after {
+    content: "< /> Room Settings Author" !important;
+    position: relative;
+    display: inline-block;
+    top: 2px;
+}
+
+/*Wszyscy kochamy Adama 10607990*/
+
+#user-rollover.id-6598771 .meta .p3UserID {
+    display: none !important;
+}
+
+#user-rollover.id-6598771 span.showID {
+    display: none !important;
+}
+
+#user-rollover.id-6598771 .meta .joined:after {
+    content: "\A Best BA Ever ❤" !important;
+    white-space: pre;
+    position: relative;
+    display: inline;
+    top: 2px;
+}
+
+/*Paulę też ...prawie wszyscy */
+
+#user-rollover.id-10607990 .meta .p3UserID {
+    display: none !important;
+}
+
+#user-rollover.id-10607990 span.showID {
+    display: none !important;
+}
+
+#user-rollover.id-10607990 .meta .joined:after {
+    content: "\A ❤ Najsuper ❤" !important;
+    white-space: pre;
+    position: relative;
+    display: inline;
+    top: 2px;
+}
