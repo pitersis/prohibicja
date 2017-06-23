@@ -571,6 +571,7 @@
 }
 
 #user-rollover .meta .joined {
+    top: 64px !important;
 }
 
 #user-rollover .info {
