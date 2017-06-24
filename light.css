@@ -63,10 +63,10 @@ body::before {
     transform: skewX(0deg);
   }
   25% {
-    transform: skewX(-5eg);
+    transform: skewX(-5deg);
   }
     50% {
-    transform: skewX(5eg);
+    transform: skewX(5deg);
   }
 }
 /* pitersis ADD END*/
