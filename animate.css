@@ -1,3 +1,10 @@
+/* 
+- file made by pitersis and Mikey Wazowsky -
+- Special thanks to Wibla and xBytez -
+- url: plug.dj/prohibicja - 
+*/
+
+/* pitersis ADD - jak sie nie podoba wykasować :D */
 #room::before {
     content: ' ';
     width: 100%;
@@ -27,6 +34,6 @@
   }  
  100% {
     background-color:rgba(33, 0, 7, 0.54);
-  }  
-    
+  }      
 }
+/* pitersis ADD */
