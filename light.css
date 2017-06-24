@@ -21,19 +21,19 @@ body::before {
          background-color:rgba(33, 0, 7, 0);
   }
   20% {
-    background-color: rgba(254, 255, 0, 0.5);
+    background-color: rgba(254, 255, 0, 0.05);
   }
    30% {
-    background-color: rgba(0, 255, 99, 0.5);
+    background-color: rgba(0, 255, 99, 0.05);
   }  
    70% {
-    background-color: rgba(0, 93, 255, 0.5);
+    background-color: rgba(0, 93, 255, 0.05);
   }      
   85% {
-    background-color:rgba(255, 0, 227, 0.5);
+    background-color:rgba(255, 0, 227, 0.05);
   }  
  100% {   
-     background-color: rgba(255, 25, 0, 0.5);
+     background-color: rgba(255, 25, 0, 0.05);
   }      
 }
 #room:before, #room:after {
