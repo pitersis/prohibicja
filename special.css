@@ -239,7 +239,25 @@
     top: 2px;
 }
 
-/*Wszyscy kochamy Adama 10607990*/
+/*Prehibicja  -  bot*/
+
+#user-rollover.id-7049112 .meta .p3UserID {
+    display: none !important;
+}
+
+#user-rollover.id-7049112 span.showID {
+    display: none !important;
+}
+
+#user-rollover.id-7049112 .meta .joined:after {
+    content: "\A ♪ Community BOT ♪" !important;
+    white-space: pre;
+    position: relative;
+    display: inline;
+    top: 2px;
+}
+
+/*Wszyscy kochamy Adama*/
 
 #user-rollover.id-6598771 .meta .p3UserID {
     display: none !important;
