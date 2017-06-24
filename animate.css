@@ -11,14 +11,14 @@
     height: 100%;    
     z-index: 2;
     position: fixed;
-    background-color: rgba(255, 25, 0, 0.18);
+     background-color:rgba(33, 0, 7, 0);
     animation: color 20s ease infinite alternate;
     pointer-events: none;
 }
 
 @keyframes color {
   0% {
-        background-color: rgba(255, 25, 0, 0.18);
+         background-color:rgba(33, 0, 7, 0);
   }
   20% {
     background-color: rgba(254, 255, 0, 0.18);
@@ -32,8 +32,8 @@
   80% {
     background-color:rgba(255, 0, 227, 0.18);
   }  
- 100% {
-    background-color:rgba(33, 0, 7, 0);
+ 100% {   
+     background-color: rgba(255, 25, 0, 0.18);
   }      
 }
 /* pitersis ADD END*/
