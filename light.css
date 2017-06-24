@@ -49,10 +49,10 @@ body::before {
 
 #room:after {
     z-index: 0;
-    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light.png);
+    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-r.png);
 }
 #room:before {
     z-index: 2; 
-    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2.png);
+    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
 }
 /* pitersis ADD END*/
