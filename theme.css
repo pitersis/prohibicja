@@ -1304,3 +1304,7 @@ font-size: 105%;
 #p3-control-panel-current .p3-textarea {
 	background: #1e1815 !important;
 }
+
+#chat-messages table strong {
+	color: hsl(80,63%,40%) !important;
+} /*p3 whois*/

@@ -5,7 +5,7 @@
 */
 
 /* pitersis ADD - jak sie nie podoba wykasować :D - wstępny pomysł  */
-body::before {
+/*body::before {
     content: ' ';
     width: 100%;
     height: 100%;    
@@ -47,7 +47,7 @@ body::before {
     pointer-events: none;
      animation: light 5s infinite;
     transform: skewX(0deg);
-}
+}*/
 
 #room:after {
     z-index: 0;
