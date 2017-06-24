@@ -45,6 +45,8 @@ body::before {
     background-repeat: no-repeat;
     background-position: top center;
     pointer-events: none;
+     animation: light 3s infinite;
+    transform: skewX(0deg);
 }
 
 #room:after {
@@ -55,4 +57,17 @@ body::before {
     z-index: 2; 
     background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
 }
+
+@keyframes light {
+  0%, 100% {
+    transform: skewX(0deg);
+  }
+  25% {
+    transform: skewX(-5eg);
+  }
+    50% {
+    transform: skewX(5eg);
+  }
+}
 /* pitersis ADD END*/
+
