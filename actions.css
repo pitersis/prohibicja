@@ -17,7 +17,11 @@
     background-position: top center;
     pointer-events: none;
      animation: light 5s infinite;
-    transform: skewX(0deg);
+   transform: skewX(0deg);
+   -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
 }
 
 #grab.active:after {
