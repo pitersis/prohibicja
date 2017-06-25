@@ -1,3 +1,40 @@
 
 /* Pitersis napisał: tutaj wrzucam testowe akcje - po wykonaniu jakiejś czynności przez użytkownika */
 /* proponowane rodzaje akcji: użytkownik dołączył do Dj, ktoś wcisnoł Super, Dawaj lub Kiepskie */
+
+/* test na GRAP */
+#grab.active.selected:before, #grab.active.selected:after {
+    content: ' ';
+    position:fixed;
+    width: 325px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 325px);
+    background-repeat: no-repeat;
+    background-position: top center;
+    pointer-events: none;
+     animation: light 5s infinite;
+    transform: skewX(0deg);
+}
+
+#grab.active.selected:after {
+    z-index: 0;
+    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-r.png);
+}
+#grab.active.selected:before {
+    z-index: 2; 
+    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
+}
+
+@keyframes light {
+  0%, 10%, 100% {
+    transform: skewX(0deg);
+  }
+  25%, 35% {
+    transform: skewX(-5deg);
+  }
+    50%, 60% {
+    transform: skewX(5deg);
+  }
+}
