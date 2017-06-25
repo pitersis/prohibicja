@@ -36,7 +36,7 @@
     background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
 }
 
-@keyframes light, @-webkit-keyframes light, @-moz-keyframes light, @-o-keyframes light {
+@-o-keyframes light {
   0%, 10%, 100% {
    transform: skewX(0deg);
    -webkit-transform: skewX(0deg);
@@ -59,3 +59,75 @@
   -o-transform:skewX(5deg);   
   }
 }
+@-moz-keyframes light {
+  0%, 10%, 100% {
+   transform: skewX(0deg);
+   -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  }
+  25%, 35% {
+   transform: skewX(-5deg);
+   -webkit-transform:skewX(-5deg);
+  -moz-transform:skewX(-5deg);
+  -ms-transform:skewX(-5deg);
+  -o-transform:skewX(-5deg);   
+  }
+    50%, 60% {
+   transform: skewX(5deg);
+   -webkit-transform:skewX(5deg);
+  -moz-transform:skewX(5deg);
+  -ms-transform:skewX(5deg);
+  -o-transform:skewX(5deg);   
+  }
+}
+
+@-webkit-keyframes light {
+  0%, 10%, 100% {
+   transform: skewX(0deg);
+   -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  }
+  25%, 35% {
+   transform: skewX(-5deg);
+   -webkit-transform:skewX(-5deg);
+  -moz-transform:skewX(-5deg);
+  -ms-transform:skewX(-5deg);
+  -o-transform:skewX(-5deg);   
+  }
+    50%, 60% {
+   transform: skewX(5deg);
+   -webkit-transform:skewX(5deg);
+  -moz-transform:skewX(5deg);
+  -ms-transform:skewX(5deg);
+  -o-transform:skewX(5deg);   
+  }
+}
+
+@keyframes light {
+  0%, 10%, 100% {
+   transform: skewX(0deg);
+   -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  }
+  25%, 35% {
+   transform: skewX(-5deg);
+   -webkit-transform:skewX(-5deg);
+  -moz-transform:skewX(-5deg);
+  -ms-transform:skewX(-5deg);
+  -o-transform:skewX(-5deg);   
+  }
+    50%, 60% {
+   transform: skewX(5deg);
+   -webkit-transform:skewX(5deg);
+  -moz-transform:skewX(5deg);
+  -ms-transform:skewX(5deg);
+  -o-transform:skewX(5deg);   
+  }
+}
+
