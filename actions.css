@@ -36,7 +36,7 @@
     background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
 }
 
-@keyframes light {
+@keyframes light, @-webkit-keyframes light, @-moz-keyframes light, @-o-keyframes light {
   0%, 10%, 100% {
    transform: skewX(0deg);
    -webkit-transform: skewX(0deg);
