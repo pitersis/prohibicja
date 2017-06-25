@@ -3,7 +3,9 @@
 /* proponowane rodzaje akcji: użytkownik dołączył do Dj, ktoś wcisnoł Super, Dawaj lub Kiepskie */
 
 /* test na GRAP - trzeba dostosowac zmiane warstw postaci itp. przy takim ukladzie */
-#grab.active.selected:before, #grab.active.selected:after {
+/* jak jest #grab.active.selected - wyswietla sie u osoby ktora dała grab */
+/* jak jest #grab.active - powinno sie wyświetlić u wszystkich - testuje  */
+#grab.active:before, #grab.active:after {
     content: ' ';
     position:fixed;
     width: 325px;
@@ -18,11 +20,11 @@
     transform: skewX(0deg);
 }
 
-#grab.active.selected:after {
+#grab.active:after {
     z-index: 0;
     background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-r.png);
 }
-#grab.active.selected:before {
+#grab.active:before {
     z-index: 2; 
     background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
 }
