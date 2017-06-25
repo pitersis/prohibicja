@@ -2,7 +2,7 @@
 /* Pitersis napisał: tutaj wrzucam testowe akcje - po wykonaniu jakiejś czynności przez użytkownika */
 /* proponowane rodzaje akcji: użytkownik dołączył do Dj, ktoś wcisnoł Super, Dawaj lub Kiepskie */
 
-/* test na GRAP */
+/* test na GRAP - trzeba dostosowac zmiane warstw postaci itp. przy takim ukladzie */
 #grab.active.selected:before, #grab.active.selected:after {
     content: ' ';
     position:fixed;
