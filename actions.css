@@ -15,13 +15,16 @@
     left: calc(50% - 325px);
     background-repeat: no-repeat;
     background-position: top center;
-    pointer-events: none;
-     animation: light 5s infinite;
+    pointer-events: none;     
+   -webkit-animation: light 5s infinite;  
+   -moz-animation: light 5s infinite;  
+   -o-animation: light 5s infinite;  
+   animation: light 5s infinite;    
    transform: skewX(0deg);
    -webkit-transform: skewX(0deg);
-  -moz-transform: skewX(0deg);
-  -ms-transform: skewX(0deg);
-  -o-transform: skewX(0deg);
+   -moz-transform: skewX(0deg);
+   -ms-transform: skewX(0deg);
+   -o-transform: skewX(0deg);
 }
 
 #grab.active:after {
