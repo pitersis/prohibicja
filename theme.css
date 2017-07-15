@@ -1170,8 +1170,32 @@ font-size: 105%;
 }
 
 .icon {
-	background-image: url('https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/icons.png');
+	background-image: url('https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/icons_wlban.png');
 } 
+/*testowo ikony*/
+.icon-chat-manager+span {
+    color: #EADF27 !important;
+}
+
+.icon-chat-manager {
+    background: url("https://vgy.me/PNxSOl.png") !important;
+}
+
+.icon-chat-bouncer+span {
+    color: #FFE3BC !important;
+}
+
+.icon-chat-bouncer {
+    background: url("https://vgy.me/LXfNWS.png") !important;
+}
+
+.icon-chat-dj+span {
+    color: #F95 !important;
+}
+
+.icon-chat-dj {
+    background: url("https://vgy.me/sn3haR.png") !important;
+}
 
 /*
 +-----------------------+
