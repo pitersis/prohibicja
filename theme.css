@@ -624,7 +624,8 @@
 	box-shadow: inset 0 2px 0 -1px hsla(80, 63%, 40%, .25);
 }
 
-#user-rollover .actions .mod-ban, 
+#user-rollover .actions .mod-ban,
+#user-rollover .actions .mod-waitlist-ban,
 #user-rollover .actions .mod-mute, 
 #user-rollover .actions .mod-staff {
 	box-shadow: inset 1px 1px 0 0 hsla(80, 63%, 40%, .25);
