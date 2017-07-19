@@ -41,5 +41,14 @@
     },
     "emotes": {
         "emote_name": null
+    },
+    "autocomplete" : {
+            "!ping": 0,
+            "!p3": 0,
+            "!rcs": 0,
+            "!uptime": 0,
+            "!discord": 0,
+            "!ls": 2,
+            "!clearchat":3 
     }
 }
