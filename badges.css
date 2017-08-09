@@ -105,6 +105,22 @@
     background-position: center center;
 }
 
+/*JustJustMe*/
+.id-16498004>.badge-box>i.bdg,
+#chat-messages .fromID-16498004 .bdg {
+    background-image: url("https://vgy.me/J7lvml.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-16498004 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://vgy.me/J7lvml.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 /* Serce obok nicku */
 .fromID-10607990 .from .un.clickable:before,
