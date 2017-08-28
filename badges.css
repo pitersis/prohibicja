@@ -145,7 +145,7 @@
 .fromID-6315045 .from .un.clickable:before,
 .id-6315045 > .msg > .from:before /*- Mycka1337 -*/
 { 
-  content: url("https://rawgit.com/pitersis/prohibicja/v1/img/heart.png") !important;
+  content: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/heart.png") !important;
   float: left;
   margin: 0px 3px 0px 0px;
 }
