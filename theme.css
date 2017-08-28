@@ -23,7 +23,7 @@
     z-index: -1;
     content: " ";
     display: block;
-    background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/campfire.gif") no-repeat;
+    background: url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/campfire.gif") no-repeat;
     width: 150px;
     height: 300px;
 }
@@ -1014,7 +1014,7 @@ font-size: 105%;
 }
 
 #room-bar .icon-room {
-	background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/room-icon.gif") center / 140% !important;
+	background: url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/room-icon.gif") center / 140% !important;
 }
 
 #app-menu .list {
@@ -1107,7 +1107,8 @@ font-size: 105%;
 }
 
 #dialog-ban-user .duration .toggle,
-#dialog-mute-user .duration .toggle {
+#dialog-mute-user .duration .toggle,
+#dialog-waitlist-ban-user .duration .toggle {
 	background: hsl(15,22%,10%) !important
 }
 
@@ -1120,24 +1121,30 @@ font-size: 105%;
 }
 
 #dialog-ban-user .duration .toggle:hover,
-#dialog-mute-user .duration .toggle:hover {
+#dialog-mute-user .duration .toggle:hover,
+#dialog-waitlist-ban-user .duration .toggle:hover {
 	background: hsl(80,63%,20%) !important;
 }
 
 #dialog-ban-user .duration .toggle.selected,
-#dialog-mute-user .duration .toggle.selected {
+#dialog-mute-user .duration .toggle.selected,
+#dialog-waitlist-ban-user .duration .toggle.selected {
 	 background: hsl(80,63%,30%) !important;
  }
 
  #dialog-ban-user .duration, 
- #dialog-mute-user .duration {
+ #dialog-mute-user .duration,
+ #dialog-waitlist-ban-user .duration {
 	border-bottom: 1px hsl(80,63%,20%) solid !important;
  }
 
  #dialog-ban-user .duration .toggle.day, 
  #dialog-ban-user .duration .toggle.forever, 
  #dialog-mute-user .duration .toggle.long, 
- #dialog-mute-user .duration .toggle.medium {
+ #dialog-mute-user .duration .toggle.medium,
+ #dialog-waitlist-ban-user > div.dialog-body > div.duration > div.toggle.hour,
+ #dialog-waitlist-ban-user > div.dialog-body > div.duration > div.toggle.day,
+ #dialog-waitlist-ban-user > div.dialog-body > div.duration > div.toggle.forever {
 	 box-shadow: inset 1px 0 0 hsl(80,63%,20%) !important;
  }
 
@@ -1157,6 +1164,12 @@ font-size: 105%;
 	background: hsla(22,17%,15%,.7);
 }
 
+#dialog-waitlist-ban-user .duration {
+	border-bottom: 1px hsl(80,63%,20%) solid !important;
+	box-shadow: inset 1px 0 0 hsl(80,63%,20%) !important;
+}
+
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1171,7 +1184,7 @@ font-size: 105%;
 }
 
 .icon {
-	background-image: url('https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/icons_wlban.png');
+	background-image: url('https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/icons_wlban.png');
 } 
 /*testowo ikony*/
 .icon-chat-manager+span {
@@ -1248,6 +1261,12 @@ font-size: 105%;
 #user-rollover .meta .user-id,
 #user-rollover .meta .p3UserID {
     color: #808691;
+}
+
+#user-rollover > div.actions > div.action.p3-qban,
+#user-rollover > div.actions > div.action.p3-qmute,
+#user-rollover > div.actions > div.action.p3-qinfo {
+	box-shadow: inset 1px 1px 0 0 hsla(80, 63%, 40%, .25);
 }
 
 #plugcubed {

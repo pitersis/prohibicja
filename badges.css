@@ -122,13 +122,30 @@
     background-position: center center;
 }
 
+/*MysticJump*/
+.id-28366137>.badge-box>i.bdg,
+#chat-messages .fromID-28366137 .bdg {
+    background-image: url("https://i.imgur.com/NoWltA5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-28366137 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://i.imgur.com/NoWltA5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Serce obok nicku */
 .fromID-10607990 .from .un.clickable:before,
 .id-10607990 > .msg > .from:before, /*- gяєєиα -*/
 .fromID-6315045 .from .un.clickable:before,
 .id-6315045 > .msg > .from:before /*- Mycka1337 -*/
 { 
-  content: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/heart.png") !important;
+  content: url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/heart.png") !important;
   float: left;
   margin: 0px 3px 0px 0px;
 }

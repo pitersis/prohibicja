@@ -1,8 +1,8 @@
 {
     "room": "[PL] Prohibicja.xyz ANY GENRE",
     "author": "pitersis and Mikey Wazowsky",
-    "icon": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/room-icon.gif",
-    "css": "https://rawgit.com/pitersis/prohibicja/v1/general.css",
+    "icon": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/room-icon.gif",
+    "css": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/general.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
@@ -27,15 +27,15 @@
         "user": null
     },
     "images": {
-        "background": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/prohibicja-greena-k.gif",
+        "background": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/prohibicja-greena-k.gif",
         "playback": null,
         "admin": null,
-        "ambassador": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/ba.png",
-        "host": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/host.png",
-        "cohost": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/cohost.png",
-        "manager": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/manager.png",
-        "bouncer": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/bouncer.png",
-        "rdj": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/rdj.png",
+        "ambassador": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/ranks/ba.png",
+        "host": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/ranks/host.png",
+        "cohost": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/ranks/cohost.png",
+        "manager": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/ranks/manager.png",
+        "bouncer": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/ranks/bouncer.png",
+        "rdj": "https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/ranks/rdj.png",
         "subscriber": null,
         "silversubscriber": null
     },

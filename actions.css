@@ -2,7 +2,7 @@
 /* Pitersis napisał: tutaj wrzucam testowe akcje - po wykonaniu jakiejś czynności przez użytkownika */
 /* proponowane rodzaje akcji: użytkownik dołączył do Dj, ktoś wcisnoł Super, Dawaj lub Kiepskie */
 
-/* test na GRAP - trzeba dostosowac zmiane warstw postaci itp. przy takim ukladzie */
+/* test na GRAB - trzeba dostosowac zmiane warstw postaci itp. przy takim ukladzie */
 /* jak jest #grab.active.selected - wyswietla sie u osoby ktora dała grab */
 /* jak jest #grab.active - powinno sie wyświetlić u wszystkich - testuje  */
 #grab.active:before, #grab.active:after {
@@ -29,11 +29,11 @@
 
 #grab.active:after {
     z-index: 0;
-    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-r.png);
+    background-image: url(https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/light-r.png);
 }
 #grab.active:before {
     z-index: 2; 
-    background-image: url(https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/light-2-r.png);
+    background-image: url(https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/light-2-r.png);
 }
 
 @-o-keyframes light {
