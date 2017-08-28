@@ -5,7 +5,7 @@ https://plug.dj/prohibicja
 
 Thanks to WiBla and xBytez.
 
-@rcs=https://gitcdn.xyz/repo/pitersis/prohibicja/v1/ccs.json
+@rcs=https://rawgit.com/pitersis/prohibicja/v1/ccs.json
 
  [plug³ Room Settings] 
  

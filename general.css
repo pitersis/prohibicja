@@ -5,12 +5,12 @@
 */
 
 /* room setting */
-@import url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/theme.css");
+@import url("https://rawgit.com/pitersis/prohibicja/v1/theme.css");
 /* user badges */
-@import url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/badges.css");
+@import url("https://rawgit.com/pitersis/prohibicja/v1/badges.css");
 /*special*/
-@import url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/special.css");
+@import url("https://rawgit.com/pitersis/prohibicja/v1/special.css");
 
-@import url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/actions.css");
+@import url("https://rawgit.com/pitersis/prohibicja/v1/actions.css");
 /* używajmy tego tylko na eventy kod zaimplementowany do actions
-@import url("https://gitcdn.xyz/repo/pitersis/prohibicja/v1/light.css");*/
+@import url("https://rawgit.com/pitersis/prohibicja/v1/light.css");*/

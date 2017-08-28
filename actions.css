@@ -29,11 +29,11 @@
 
 #grab.active:after {
     z-index: 0;
-    background-image: url(https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/light-r.png);
+    background-image: url(https://rawgit.com/pitersis/prohibicja/v1/img/light-r.png);
 }
 #grab.active:before {
     z-index: 2; 
-    background-image: url(https://gitcdn.xyz/repo/pitersis/prohibicja/v1/img/light-2-r.png);
+    background-image: url(https://rawgit.com/pitersis/prohibicja/v1/img/light-2-r.png);
 }
 
 @-o-keyframes light {
