@@ -1352,3 +1352,8 @@ font-size: 105%;
 #chat-messages table strong {
 	color: hsl(80,63%,40%) !important;
 } /*p3 whois*/
+
+/* ==[FIXES]== */
+#signupbtn-menu > a > button {
+	display: none;
+}
