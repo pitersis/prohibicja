@@ -263,10 +263,6 @@
 	overflow: hidden !important; /*chowa link do room settings, wyłączając scrolla w opisie.*/
 }
 
-#room-settings .general-settings .description .value a:last-of-type {
-    display: none !important; /*chowa ostatni link w opisie XD*/
-}
-
 #room-settings .general-settings .input-background {
     background: hsla(22,17%,10%,.7);
 }

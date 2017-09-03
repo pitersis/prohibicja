@@ -2,7 +2,7 @@
     "room": "[PL] Prohibicja.xyz ANY GENRE",
     "author": "pitersis and Mikey Wazowsky",
     "icon": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/room-icon.gif",
-    "css": "https://rawgit.com/pitersis/prohibicja/v1/general.css",
+    "css": "https://rawgit.com/pitersis/prohibicja/v1/general-rcs.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
@@ -49,6 +49,7 @@
             "!uptime": 0,
             "!discord": 0,
             "!pogoda": 0,
+            "!gif": 0,
             "!skip": 2,
             "!mute": 2,
             "!ban": 2,

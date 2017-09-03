@@ -1,0 +1,36 @@
+{
+    "author": "pitersis and Mikey Wazowsky",
+    "colors": {
+        "chat": {
+            "ambassador": "#90FF00",
+            "host": "#00ABFF",
+            "cohost": "#FF4800",
+            "manager": "#EADF27",
+            "bouncer": "#FFE3BC",
+            "residentdj": "#F95"
+        }
+    },
+    "css": {
+        "import": [
+            "https://rawgit.com/pitersis/prohibicja/v1/general-p3.css"
+        ]
+    },
+    "images": {
+        "background": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/prohibicja-greena-k.gif",
+        "icons": {
+            "ambassador": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/ba.png",
+            "host": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/host.png",
+            "cohost": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/cohost.png",
+            "manager": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/manager.png",
+            "bouncer": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/bouncer.png",
+            "residentdj": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/rdj.png"
+        }
+    },
+    "rules": {
+        "allowAutojoin": "true",
+        "allowAutorespond": "true",
+        "allowAutowoot": "true",
+        "allowEmotes": "true",
+        "allowShowingMehs": "false"
+    }
+}
