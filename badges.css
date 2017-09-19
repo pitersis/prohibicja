@@ -139,6 +139,23 @@
     background-position: center center;
 }
 
+/*The Guardian of Goatdom*/
+.id-3779855>.badge-box>i.bdg,
+#chat-messages .fromID-28366137 .bdg {
+    background-image: url("https://i.imgur.com/4HYCFTj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-3779855 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://i.imgur.com/4HYCFTj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Serce obok nicku */
 .fromID-10607990 .from .un.clickable:before,
 .id-10607990 > .msg > .from:before, /*- gяєєиα -*/
