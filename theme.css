@@ -2,10 +2,9 @@
 - file made by pitersis and Mikey Wazowsky -
 - room PROHIBICJA on plug.dj -
 - url: plug.dj/prohibicja - 
-- w pliku jest jako taki porządek, spróbuj to zepsuć to zabiję - 
+- w pliku jest jako taki porządek, spróbuj to zepsuć to zabiję -
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&subset=latin-ext');
 
 @keyframes fadein {
 	from {opacity: 0;}
@@ -861,21 +860,18 @@ chat .cm.message {
 	background: hsl(7,21%,10%);
 }
 
-#chat .cm.message .timestamp,
-#chat .emote .timestamp {
+#chat .cm.message .timestamp {
 	color: #eee;
 }
 
 #chat .emote .text {
-font-family: 'Open Sans', sans-serif;
-font-style: oblique !important;
+font-style: italic;
 font-size: 105%;
+color: #8cb141;
 }
 
-#chat .emote {
-    /*background-color: rgba(76, 93, 119, 0.22) !important;*/
-	background-color: hsla(80, 63%, 40%, .2) !important;
-	border: 2px solid hsla(80, 63%, 40%, .8) !important;;
+#chat .emote .timestamp {
+	color: #8cb141;
 }
 
 #chat .cm .badge-box {
@@ -966,7 +962,6 @@ font-size: 105%;
 
 #chat .log {
 	background: hsla(80, 63%, 40%, .2) !important;
-	font-family: 'Open Sans', sans-serif;
 	border-bottom: 2px solid hsla(22,17%,7%,.7);
 }
 
@@ -975,8 +970,6 @@ font-size: 105%;
 
 #chat .cm.moderation {
 	background: hsla(22,17%,7%,.7) !important;
-	box-shadow: inset 0 0 0 1px hsl(260,50%,50%);
-	border: none !important;
 }
 #chat .cm.moderation .timestamp {
 	color: hsl(260,70%,70%);
@@ -1188,7 +1181,7 @@ font-size: 105%;
 }
 
 .icon-chat-manager {
-    background: url("https://vgy.me/PNxSOl.png") !important;
+    background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/manager.png") !important;
 }
 
 .icon-chat-bouncer+span {
@@ -1196,7 +1189,7 @@ font-size: 105%;
 }
 
 .icon-chat-bouncer {
-    background: url("https://vgy.me/LXfNWS.png") !important;
+    background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/bouncer.png") !important;
 }
 
 .icon-chat-dj+span {
@@ -1204,7 +1197,7 @@ font-size: 105%;
 }
 
 .icon-chat-dj {
-    background: url("https://vgy.me/sn3haR.png") !important;
+    background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/rdj.png") !important;
 }
 
 /*
@@ -1257,6 +1250,10 @@ font-size: 105%;
 #user-rollover .meta .user-id,
 #user-rollover .meta .p3UserID {
     color: #808691;
+}
+
+.p3-user-id, .p3-user-info {
+	color: #eee;
 }
 
 #user-rollover > div.actions > div.action.p3-qban,
