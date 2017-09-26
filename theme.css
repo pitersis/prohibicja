@@ -870,6 +870,14 @@ font-size: 105%;
 color: #8cb141;
 }
 
+#chat .emote {
+	background-color: hsla(80, 63%, 40%, .2) !important;
+}
+
+#chat .emote .icon {
+	display: none;
+}
+
 #chat .emote .timestamp {
 	color: #8cb141;
 }
