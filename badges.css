@@ -173,6 +173,23 @@
     background-position: center center;
 }
 
+/*- иєνєямσяє -*/
+.id-8920721>.badge-box>i.bdg,
+#chat-messages .fromID-8920721 .bdg {
+    background-image: url("https://vgy.me/sWDRev.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-8920721 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://vgy.me/sWDRev.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Serce obok nicku */
 .fromID-10607990 .from .un.clickable:before,
 .id-10607990 > .msg > .from:before, /*- gяєєиα -*/
