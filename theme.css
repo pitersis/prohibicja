@@ -1168,7 +1168,8 @@ color: #8cb141;
 
 
 ::-webkit-scrollbar {
-    width: 10px;
+	width: 10px;
+	height: 10px;
 }
 
 ::-webkit-scrollbar-track,
@@ -1181,7 +1182,7 @@ color: #8cb141;
 }
 
 .icon {
-	background-image: url('https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/icons_wlban.png');
+	background-image: url('https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/icons.png');
 } 
 /*testowo ikony*/
 .icon-chat-manager+span {

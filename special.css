@@ -11,11 +11,7 @@
 
 [data-cid^="6425281-"] .msg .from .icon-chat-cohost,
 #user-lists .list.room .id-6425281 .icon-chat-cohost,
-#user-rollover.id-6425281 .info .role i.icon-chat-cohost {
-  background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks-special/Mikey/cohost.png") !important;
-  background-repeat: no-repeat !important;
-}
-
+#user-rollover.id-6425281 .info .role i.icon-chat-cohost,
 [data-cid^="6425281-"] .msg .from .icon-chat-host,
 #user-lists .list.room .id-6425281 .icon-chat-host,
 #user-rollover.id-6425281 .info .role i.icon-chat-host {
@@ -36,12 +32,12 @@
 #user-rollover.id-6425281 .username,
 #user-rollover.id-6425281 .meta.subscriber .status span,
 #user-rollover.id-6425281.is-staff .info .role span {
-  color: #00FFFF !important;
+  color: #e67e22 !important;
 }
 
 #user-rollover.id-6425281 .subscriber .thumb,
 #user-rollover.id-6425281.is-staff .thumb {
-  border-color: #00FFFF !important;
+  border-color: #e67e22 !important;
 }
 
 /* - gяєєиα -*/
