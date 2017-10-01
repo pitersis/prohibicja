@@ -50,16 +50,31 @@
 
 [data-cid^="10607990-"] .msg .from .icon-chat-cohost,
 #user-lists .list.room .id-10607990 .icon-chat-cohost,
-#user-rollover.id-10607990 .info .role i.icon-chat-cohost {
+#user-rollover.id-10607990 .info .role i.icon-chat-cohost,
+[data-cid^="10607990-"] .msg .from .icon-chat-host,
+#user-lists .list.room .id-10607990 .icon-chat-host,
+#user-rollover.id-10607990 .info .role i.icon-chat-host {
   background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks-special/Greena/cohost.png") !important;
   background-repeat: no-repeat !important;
 }
 
-[data-cid^="10607990-"] .msg .from .icon-chat-host,
-#user-lists .list.room .id-10607990 .icon-chat-host,
-#user-rollover.id-10607990 .info .role i.icon-chat-host {
- background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks-special/Greena/cohost.png") !important;
- background-repeat: no-repeat !important;
+[data-cid^="10607990-"] .msg .from .icon-chat-promoter,
+#user-lists .list.room .id-10607990 .icon-chat-promoter,
+#user-rollover.id-10607990 .info .role i.icon-chat-promoter {
+  background: url("https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks-special/Greena/promotor.png") !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-cid^="10607990-"] .msg .from .icon-chat-promoter + span,
+#user-lists .list.room .id-10607990 .icon-chat-promoter + span,
+#user-rollover.id-10607990 .info .role i.icon-chat-promoter + span,
+[data-cid^="10607990-"] .msg .from .icon-chat-host + span,
+#user-lists .list.room .id-10607990 .icon-chat-host + span,
+#user-rollover.id-10607990 .info .role i.icon-chat-host + span,
+[data-cid^="10607990-"] .msg .from .icon-chat-cohost + span,
+#user-lists .list.room .id-10607990 .icon-chat-cohost + span,
+#user-rollover.id-10607990 .info .role i.icon-chat-cohost + span {
+  color: #7DFF7C !important;
 }
 
 #chat [data-cid^="10607990-"] span.un.clickable,
@@ -235,24 +250,6 @@
     top: 2px;
 }
 
-/*Prehibicja  -  bot*/
-
-#user-rollover.id-7049112 .meta .p3UserID {
-    display: none !important;
-}
-
-#user-rollover.id-7049112 span.showID {
-    display: none !important;
-}
-
-#user-rollover.id-7049112 .meta .joined:after {
-    content: "\A ♪ Community BOT ♪" !important;
-    white-space: pre;
-    position: relative;
-    display: inline;
-    top: 2px;
-}
-
 /*Wszyscy kochamy Adama*/
 
 #user-rollover.id-6598771 .meta .p3UserID {
@@ -271,7 +268,7 @@
     top: 2px;
 }
 
-/*Paulę też ...prawie wszyscy */
+/*Ale Paulę to jednak kocham najbardziej ❤ */
 
 #user-rollover.id-10607990 .meta .p3UserID {
     display: none !important;

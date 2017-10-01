@@ -45,3 +45,21 @@
 #chat [data-cid^="7049112-"] .icon {
     display: none !important;
 }
+
+/*tytłu w rollover*/
+
+#user-rollover.id-7049112 .meta .p3UserID {
+  display: none !important;
+}
+
+#user-rollover.id-7049112 span.showID {
+  display: none !important;
+}
+
+#user-rollover.id-7049112 .meta .joined:after {
+  content: "\A ♪ Community BOT ♪" !important;
+  white-space: pre;
+  position: relative;
+  display: inline;
+  top: 2px;
+}
