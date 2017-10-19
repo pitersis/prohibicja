@@ -15,7 +15,7 @@
     z-index: 1 !important; /*obniżenie warstwy avatarów aby ogniska nie blokowały funkcji czatu */
 }
 
-/* ogniska */
+/* ogniska - wyłączone na halloween
 #avatars-container:before,
 #avatars-container:after {
     position: absolute;
@@ -26,7 +26,7 @@
     width: 150px;
     height: 300px;
 }
-
+ */
 #avatars-container:after {
     bottom: 30%;
     left: -80px;
