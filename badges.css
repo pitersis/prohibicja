@@ -156,6 +156,22 @@
     background-position: center center;
 }
 
+/*PoProstuWiktor*/
+.id-28366137>.badge-box>i.bdg,
+#chat-messages .fromID-14870863 .bdg {
+    background-image: url("https://vgy.me/sxH9Oh.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-14870863 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://vgy.me/sxH9Oh.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /*puvtxr*/
 .id-4872358>.badge-box>i.bdg,
 #chat-messages .fromID-4872358 .bdg {
