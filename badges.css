@@ -1,9 +1,23 @@
 /*pitersis*/
 .fromID-10103366 .bdg, .self.id-10103366 .avi {
     background-size: contain !important;
-    background: url(http://33.media.tumblr.com/bac32a21080104317c3483ab25a70794/tumblr_inline_ni5js7X84K1smxto4.gif);
+    background: url("https://33.media.tumblr.com/bac32a21080104317c3483ab25a70794/tumblr_inline_ni5js7X84K1smxto4.gif");
+}
+.id-10103366>.badge-box>i.bdg,
+#chat-messages .fromID-14870863 .bdg {
+    background-image: url("https://33.media.tumblr.com/bac32a21080104317c3483ab25a70794/tumblr_inline_ni5js7X84K1smxto4.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
+#user-rollover.id-10103366 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("https://33.media.tumblr.com/bac32a21080104317c3483ab25a70794/tumblr_inline_ni5js7X84K1smxto4.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /*Greena*/
 .id-10607990>.badge-box>i.bdg, #chat-messages .fromID-10607990 .bdg {
     background-image: url("https://i.imgur.com/nKJHMRK.gif");
