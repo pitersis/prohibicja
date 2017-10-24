@@ -6,7 +6,7 @@
 */
 /*bat */
 */
-div#avatars-container:after {
+#avatars-container:before {
     content: "";
     background: url(https://media.giphy.com/media/z0JBfYdgNQSuQ/200.gif);
     width: 100px;
