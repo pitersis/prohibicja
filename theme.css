@@ -5,15 +5,33 @@
 - w pliku jest jako taki porządek, spróbuj to zepsuć to zabiję -
 */
 /*bat */
+*/
+div#avatars-container:after {
+    content: "";
+    background: url(https://media.giphy.com/media/z0JBfYdgNQSuQ/200.gif);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 20vh;
+    background-size: cover;
+    left: 0;
+    z-index: 1;
+    animation: bat 40s infinite;
+}
 
 @-webkit-keyframes bat {
        0%   {left: -50vw;}
-    100 {left:100vw;}
+       40%   {left: 10vw;}
+       45%   {left: 10vw;}
+    100% {left:100vw;}
 
 } 
 @keyframes bat {
-    0%   {left: -50vw;}
-    100 {left:100vw;}
+     0%   {left: -50vw;}
+       40%   {left: 10vw;}
+       45%   {left: 10vw;}
+    100% {left:100vw;}
+
 
 }
 
