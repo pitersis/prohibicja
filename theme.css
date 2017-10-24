@@ -4,8 +4,20 @@
 - url: plug.dj/prohibicja - 
 - w pliku jest jako taki porządek, spróbuj to zepsuć to zabiję -
 */
+/*bat */
 
+@-webkit-keyframes bat {
+       0%   {left: -50vw;}
+    100 {left:100vw;}
 
+} 
+@keyframes bat {
+    0%   {left: -50vw;}
+    100 {left:100vw;}
+
+}
+
+/*bat end */
 @keyframes fadein {
 	from {opacity: 0;}
 	to   {opacity: 1;}
