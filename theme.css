@@ -10,7 +10,7 @@
 #avatars-container:before {
     content: " ";
     display: block;	
-    background: url(https://media.giphy.com/media/z0JBfYdgNQSuQ/200.gif);
+    background: url(https://media.giphy.com/media/z0JBfYdgNQSuQ/100.gif);
    background-size: cover;
     background-repeat: no-repeat;	
     width: 100px;
