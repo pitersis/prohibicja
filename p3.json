@@ -10,6 +10,11 @@
             "residentdj": "#F95"
         }
     },
+      "js": {
+        "import": [
+            "https://rawgit.com/pitersis/prohibicja/v1/test.js"
+        ]
+    },
     "css": {
         "import": [
             "https://rawgit.com/pitersis/prohibicja/v1/general-p3.css"
