@@ -51,23 +51,6 @@
     background-position: center center;
 }
 
-/*MajkeldziedulotroN*/
-.id-6405076>.badge-box>i.bdg,
-#chat-messages .fromID-6405076 .bdg {
-    background-image: url("https://vgy.me/o4ZWwF.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-6405076 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://vgy.me/o4ZWwF.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
 /*Mycka*/
 .id-6315045>.badge-box>i.bdg,
 #chat-messages .fromID-6315045 .bdg {
@@ -97,23 +80,6 @@
 #user-rollover.id-11594437 .badge-box>i.bdg {
     border-radius: 6px;
     background-image: url("https://vgy.me/jv5zmq.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-/*Corrup.t*/
-.id-14657092>.badge-box>i.bdg,
-#chat-messages .fromID-14657092 .bdg {
-    background-image: url("https://vgy.me/7ffc92.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#user-rollover.id-14657092 .badge-box>i.bdg {
-    border-radius: 6px;
-    background-image: url("https://vgy.me/7ffc92.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -171,7 +137,7 @@
 }
 
 /*PoProstuWiktor*/
-.id-28366137>.badge-box>i.bdg,
+.id-14870863>.badge-box>i.bdg,
 #chat-messages .fromID-14870863 .bdg {
     background-image: url("https://vgy.me/sxH9Oh.png");
     background-size: cover;
@@ -203,18 +169,18 @@
     background-position: center center;
 }
 
-/*- иєνєямσяє -*/
-.id-8920721>.badge-box>i.bdg,
-#chat-messages .fromID-8920721 .bdg {
+/*- JarychO -*/
+.id-10191773>.badge-box>i.bdg,
+#chat-messages .fromID-10191773 .bdg {
     background-image: url("https://vgy.me/sWDRev.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#user-rollover.id-8920721 .badge-box>i.bdg {
+#user-rollover.id-10191773 .badge-box>i.bdg {
     border-radius: 6px;
-    background-image: url("https://vgy.me/sWDRev.jpg");
+    background-image: url("https://vgy.me/sTPVec.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

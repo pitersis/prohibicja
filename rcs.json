@@ -27,7 +27,7 @@
         "user": null
     },
     "images": {
-        "background": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/prohibicja-halloween.gif",
+        "background": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/prohibicja-greena-k.gif",
         "playback": null,
         "admin": null,
         "ambassador": "https://raw.githubusercontent.com/pitersis/prohibicja/v1/img/ranks/ba.png",
@@ -42,18 +42,21 @@
     "emotes": {
         "emote_name": null
     },
-    "autocomplete" : {
-            "!ping": 0,
-            "!p3": 0,
-            "!rcs": 0,
-            "!uptime": 0,
-            "!discord": 0,
-            "!weather": 0,
-            "!gif": 0,
-            "!skip": 2,
-            "!mute": 2,
-            "!ban": 2,
-            "!ls": 2,
-            "!clearchat":3 
+    "autocomplete": {
+        "!ping": 0,
+        "!p3": 0,
+        "!rcs": 0,
+        "!uptime": 0,
+        "!discord": 0,
+        "!weather": 0,
+        "!gif": 0,
+        "!hug": 0,
+        "!cookie": 0,
+        "!8ball": 0,
+        "!leave": 0,
+        "!join": 0,
+        "!ls": 2,
+        "!clearchat": 3,
+        "!roulette": 4
     }
 }
