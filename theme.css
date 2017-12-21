@@ -854,6 +854,10 @@
 	border-color: #352a29;
 }
 
+#onesignal-bell-container {
+	display: none; /*usuwa ten jebany dzwonek*/
+}
+
 #chat-messages::-webkit-scrollbar-thumb,
 .dropdown dd::-webkit-scrollbar-thumb,
 #woot-rs-list::-webkit-scrollbar-thumb,
